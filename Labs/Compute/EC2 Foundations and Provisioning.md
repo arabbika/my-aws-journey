@@ -1,4 +1,4 @@
-# ◈ EC2 Foundations and Provisioning
+# ◈ EC2 Foundation
 **Course ID**: `11-[CF]-Lab`
 
 ## 🎯 Architectural Objective
