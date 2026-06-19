@@ -8,7 +8,7 @@ Welcome to my Cloud Engineering Portfolio. This repository serves as the definit
 
 ---
 
-## 🚀 About Me
+![About Me](https://img.shields.io/badge/◈-About_Me-blue?style=for-the-badge&logo=aboutdotme)
 
 I am a technical builder, analytics specialist, and data architect with a proven track record of engineering impact. 
 
@@ -16,7 +16,8 @@ I am a technical builder, analytics specialist, and data architect with a proven
 * **AI & Product Founder:** Lead Engineer of live, self-funded AI ventures including **CV Architect™** and **HiRiseAboveBot** (a production WhatsApp-native, cloud-optimized AI tutoring platform built using Flask and custom Python environments)[cite: 1].
 * **Cloud Strategy:** AWS-focused professional specializing in robust cloud infrastructure, containerized ecosystems, and automated systems architecture[cite: 2].
 
-## 💼 Operational Excellence & Leadership
+![Leadership](https://img.shields.io/badge/🏗️-Operational_Excellence-orange?style=for-the-badge&logo=opsgenie)
+
 I integrate AWS Leadership Principles and professional methodologies into my technical workflows:
 
 * **Customer Obsession:** I build solutions focused on high-volume, performance-driven outcomes[cite: 1].
@@ -25,8 +26,7 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 
 ---
 
-## 🏆 AWS Training & Certification
-I have successfully completed multiple AWS Skill Builder modules, validating my foundational and intermediate knowledge of cloud infrastructure[cite: 4].
+![Certifications](https://img.shields.io/badge/🏆-AWS_Certifications-red?style=for-the-badge&logo=awslambda)
 
 | Certification | Date Completed |
 | :--- | :--- |
@@ -38,23 +38,25 @@ I have successfully completed multiple AWS Skill Builder modules, validating my 
 
 ---
 
-## 🧪 Laboratory & Technical Domains
-*I have curated my lab work into thematic domains that mirror the AWS Well-Architected Framework and core systems engineering pillars.*
+![Technical Labs](https://img.shields.io/badge/⚙️-Technical_Simulations-black?style=for-the-badge&logo=github)
 
-* **[Compute](./Labs/Compute/)**: Instance provisioning, sizing, and management.
-* **[Networking](./Labs/Networking/)**: VPC configuration, subnets, and routing.
-* **[Security](./Labs/Security/)**: IAM policies, network hardening, and data protection.
-* **[Databases](./Labs/Databases/)**: RDS, Aurora, and DynamoDB operations.
-* **[DevOps & Automation](./Labs/DevOps%20&%20Automation/)**: Infrastructure as Code (CloudFormation) and script-based task automation.
-* **[Linux & Systems](./Labs/Linux%20&%20Systems/)**: OS-level administration, shell scripting, and process management.
-* **[Storage and Archiving](./Labs/Storage%20and%20Archiving/)**: S3, EBS, and EFS lifecycle management.
-* **[Serverless & Containers](./Labs/Serverless%20&%20Containers/)**: Lambda, containerized deployments, and APIs.
-* **[Monitoring](./Labs/Monitoring/)**: Infrastructure observability and CloudWatch integration.
-* **[Machine Learning And Generative AI](./Labs/Machine%20Learning%20And%20Generative%20AI/)**: Foundations of ML, Bedrock, and AI-driven solutions.
+*I have curated my lab work into thematic domains that mirror the AWS Well-Architected Framework.*
+
+* **Compute**: Instance provisioning, sizing, and management.
+* **Networking**: VPC configuration, subnets, and routing.
+* **Security**: IAM policies, network hardening, and data protection.
+* **Databases**: RDS, Aurora, and DynamoDB operations.
+* **DevOps & Automation**: Infrastructure as Code (CloudFormation) and script-based task automation.
+* **Linux & Systems**: OS-level administration, shell scripting, and process management.
+* **Storage and Archiving**: S3, EBS, and EFS lifecycle management.
+* **Serverless & Containers**: Lambda, containerized deployments, and APIs.
+* **Monitoring**: Infrastructure observability and CloudWatch integration.
+* **Machine Learning And Generative AI**: Foundations of ML, Bedrock, and AI-driven solutions.
 
 ---
 
-## 🎓 Program Validation & Milestones
+![Validation](https://img.shields.io/badge/🛡️-Program_Validation-green?style=for-the-badge&logo=securityscorecard)
+
 Professional-in-training in the AWS re/Start program, this repository contains the validated technical evidence of my core competencies[cite: 2].
 
 * **Total Knowledge Check Score:** 1,908 / 1,908 (100%)[cite: 2].
@@ -63,7 +65,7 @@ Professional-in-training in the AWS re/Start program, this repository contains t
 
 ---
 
-## 🗂️ Repository Architecture
+![Architecture](https://img.shields.io/badge/🗂️-Repository_Architecture-lightgrey?style=for-the-badge&logo=files)
 
 ```text
 📂 my-aws-journey/
