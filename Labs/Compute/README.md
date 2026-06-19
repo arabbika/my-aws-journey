@@ -1,18 +1,19 @@
-# ◈ EC2 Foundations and Provisioning
-**Course ID**: `11-[CF]-Lab`
+# ◈ Compute Infrastructure Simulations
 
-## 🎯 Architectural Objective
-Establishing a foundational compute environment to understand resource provisioning, state management, and the impact of instance sizing on infrastructure performance.
+This folder contains validated simulations and challenge labs focused on **Compute** architectures within the AWS ecosystem.
 
-## ⚙️ Technical Implementation
-* **Compute:** Provisioned a `t3.micro` Linux-based instance using the Amazon Linux AMI, selected for its balance of performance and cost-efficiency.
-* **Network:** Configured network integration by assigning the compute resource to a specific VPC subnet, ensuring proper connectivity within the isolated lab environment.
-* **Lifecycle Management:** Executed instance state transitions (Stop/Start operations) to perform infrastructure modifications, transitioning the instance type from a `t3.micro` to an `m4.large` to demonstrate vertical scaling.
+## 🛠️ Laboratory Modules
 
-## 🛠️ Operational Intelligence (Troubleshooting)
-* **Real-World Challenge:** Encountered a configuration dependency where the instance type modification was restricted while the resource was in a "Running" state.
-* **Engineering Resolution:** Identified the requirement for a clean shutdown; performed a controlled stop of the instance to modify the configuration, then successfully verified the new instance type (`m4.large`) in the EC2 dashboard.
-* **"What If" Scenario:** In a production environment, I would utilize **AWS Auto Scaling Groups (ASG)** to manage instance types and fleet capacity dynamically based on load, preventing the need for manual state transitions and associated service downtime.
+| Lab Title | Course Reference |
+| :--- | :--- |
+| [EC2 Foundations and Provisioning](./EC2_Foundations.md) | `11-[CF]-Lab` |
+| [Advanced EC2 Instance Management](./EC2_Instance_Management.md) | `171-[JAWS]-Lab` |
+| [EC2 Infrastructure Challenge](./EC2_Infrastructure_Challenge.md) | `172-[JAWS]-Lab` |
+| [Troubleshooting Compute Deployments](./Compute_Troubleshooting.md) | `173-[JAWS]-Activity` |
 
-## 📊 Technical Competence
-* **Demonstrated Skills:** Infrastructure Provisioning, Lifecycle State Management, Vertical Scaling, and Resource Configuration.
+---
+## 🏗️ Technical Competence
+* **Core Skill**: Demonstrated proficiency in EC2 instance lifecycle, security group configuration, and instance type selection.
+* **Impact**: Successfully completed [4] challenge-based modules focused on real-world instance provisioning and troubleshooting.
+
+---
