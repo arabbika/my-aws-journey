@@ -55,7 +55,7 @@ I have successfully completed multiple AWS Skill Builder modules, validating my 
 ---
 
 ## 🎓 Program Validation & Milestones
-Having successfully graduated from the AWS re/Start program, this repository contains the validated technical evidence of my core competencies[cite: 2].
+Professional-in-training in the AWS re/Start program, this repository contains the validated technical evidence of my core competencies[cite: 2].
 
 * **Total Knowledge Check Score:** 1,908 / 1,908 (100%)[cite: 2].
 * **Lab Completion Rate:** 100%[cite: 2].
