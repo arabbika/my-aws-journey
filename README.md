@@ -16,7 +16,7 @@ I am a technical builder, analytics specialist, and data architect with a proven
 
 * **Enterprise Operations SME:** Top Performer at Amazon Virtual Customer Service (VCS), maintaining elite delivery metrics (FCR, ACHT, Quality) in high-volume environments[cite: 1]. Engineered automated team performance dashboards widely adopted across VCS teams[cite: 1].
 * **AI & Product Founder:** Lead Engineer of live, self-funded AI ventures including **CV Architect™** and **HiRiseAboveBot** (a production WhatsApp-native, cloud-optimized AI tutoring platform built using Flask and custom Python environments)[cite: 1].
-* **Cloud Strategy:** AWS-certified professional specializing in robust cloud infrastructure, containerized ecosystems, and automated systems architecture[cite: 2].
+* **Cloud Strategy:** AWS-certified professional-in-training specializing in robust cloud infrastructure, containerized ecosystems, and automated systems architecture[cite: 2].
 
 ---
 
