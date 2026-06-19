@@ -4,9 +4,7 @@
 ![Linux](https://img.shields.io/badge/Linux-System%20Administration-black?style=for-the-badge&logo=linux)
 ![Python](https://img.shields.io/badge/Python-Automation-blue?style=for-the-badge&logo=python)
 
-Welcome to my Cloud Engineering Portfolio! This repository serves as the definitive record of my technical mastery and successful graduation from the AWS re/Start program[cite: 2]. It highlights hands-on proficiency in systems administration, network architecture, security engineering, automation, and core cloud operations[cite: 2].
-
-Beyond standard lab criteria, this portfolio mirrors my design philosophy—blending operational excellence, deep technical documentation, and performance-driven solutions.
+Welcome to my Cloud Engineering Portfolio. This repository serves as the definitive record of my technical mastery and progression through the AWS re/Start program[cite: 2, 4]. It highlights hands-on proficiency in systems administration, network architecture, security engineering, automation, and core cloud operations[cite: 2, 4].
 
 ---
 
@@ -14,14 +12,21 @@ Beyond standard lab criteria, this portfolio mirrors my design philosophy—blen
 
 I am a technical builder, analytics specialist, and data architect with a proven track record of engineering impact. 
 
-* **Enterprise Operations SME:** Top Performer at Amazon Virtual Customer Service (VCS), maintaining elite delivery metrics (FCR, ACHT, Quality) in high-volume environments[cite: 1]. Engineered automated team performance dashboards widely adopted across VCS teams[cite: 1].
+* **Enterprise Operations SME:** Top Performer at Amazon Virtual Customer Service (VCS), maintaining elite delivery metrics in high-volume environments[cite: 1]. Engineered automated team performance dashboards widely adopted across VCS teams[cite: 1].
 * **AI & Product Founder:** Lead Engineer of live, self-funded AI ventures including **CV Architect™** and **HiRiseAboveBot** (a production WhatsApp-native, cloud-optimized AI tutoring platform built using Flask and custom Python environments)[cite: 1].
-* **Cloud Strategy:** AWS-certified professional-in-training specializing in robust cloud infrastructure, containerized ecosystems, and automated systems architecture[cite: 2].
+* **Cloud Strategy:** AWS-focused professional specializing in robust cloud infrastructure, containerized ecosystems, and automated systems architecture[cite: 2].
+
+## 💼 Operational Excellence & Leadership
+I integrate AWS Leadership Principles and professional methodologies into my technical workflows:
+
+* **Customer Obsession:** I build solutions focused on high-volume, performance-driven outcomes[cite: 1].
+* **Technical Rigor:** I utilize the STAR methodology and collaborative team processes to resolve complex infrastructure challenges[cite: 1, 4].
+* **Continuous Improvement:** I maintain a "Learn and Be Curious" mindset, currently bridging the gap between foundational cloud administration and generative AI application development[cite: 1].
 
 ---
 
 ## 🏆 AWS Training & Certification
-I have successfully completed multiple AWS Skill Builder modules, validating my foundational and intermediate knowledge of cloud infrastructure[cite: 4, 5, 6, 7, 8].
+I have successfully completed multiple AWS Skill Builder modules, validating my foundational and intermediate knowledge of cloud infrastructure[cite: 4].
 
 | Certification | Date Completed |
 | :--- | :--- |
@@ -33,24 +38,19 @@ I have successfully completed multiple AWS Skill Builder modules, validating my 
 
 ---
 
-## 🧪 Capstone Laboratory Highlights
-*I have curated four foundational labs that demonstrate my progression from OS-level administration to advanced automated cloud infrastructure.*
+## 🧪 Laboratory & Technical Domains
+*I have curated my lab work into thematic domains that mirror the AWS Well-Architected Framework and core systems engineering pillars.*
 
-1. **[Amazon EC2 Provisioning](./Labs/Compute%20Infrastructure/ec2-intro.md)**: 
-   * *Core Task:* Launched and configured a virtual server instance within the AWS environment. 
-   * *Learning Outcome:* Gained proficiency in instance sizing, security group management, and connectivity verification.
-
-2. **[Linux Systems Administration](./Labs/Linux%20&%20Systems/file-system-lab.md)**: 
-   * *Core Task:* Navigated and manipulated complex Linux file systems, permissions, and directory structures. 
-   * *Learning Outcome:* Developed the command-line rigor necessary for troubleshooting cloud-based virtual machines.
-
-3. **[Identity & Access Management (IAM)](./Labs/Security/iam-intro.md)**: 
-   * *Core Task:* Implemented least-privilege access policies to secure AWS resource access. 
-   * *Learning Outcome:* Mastered the critical "Security First" pillar of cloud architecture by restricting operational access.
-
-4. **[Automating Deployments (CloudFormation)](./Labs/DevOps%20&%20Automation/cfn-lab.md)**: 
-   * *Core Task:* Transitioned from manual provisioning to Infrastructure as Code (IaC) to create repeatable, scalable deployments. 
-   * *Learning Outcome:* Demonstrated advanced operational efficiency by eliminating manual configuration errors.
+* **[Compute](./Labs/Compute/)**: Instance provisioning, sizing, and management.
+* **[Networking](./Labs/Networking/)**: VPC configuration, subnets, and routing.
+* **[Security](./Labs/Security/)**: IAM policies, network hardening, and data protection.
+* **[Databases](./Labs/Databases/)**: RDS, Aurora, and DynamoDB operations.
+* **[DevOps & Automation](./Labs/DevOps%20&%20Automation/)**: Infrastructure as Code (CloudFormation) and script-based task automation.
+* **[Linux & Systems](./Labs/Linux%20&%20Systems/)**: OS-level administration, shell scripting, and process management.
+* **[Storage and Archiving](./Labs/Storage%20and%20Archiving/)**: S3, EBS, and EFS lifecycle management.
+* **[Serverless & Containers](./Labs/Serverless%20&%20Containers/)**: Lambda, containerized deployments, and APIs.
+* **[Monitoring](./Labs/Monitoring/)**: Infrastructure observability and CloudWatch integration.
+* **[Machine Learning And Generative AI](./Labs/Machine%20Learning%20And%20Generative%20AI/)**: Foundations of ML, Bedrock, and AI-driven solutions.
 
 ---
 
@@ -68,7 +68,7 @@ Professional-in-training in the AWS re/Start program, this repository contains t
 ```text
 📂 my-aws-journey/
 │
-├── 📁 [Certifications/](./Certifications) ── # Validated Skill Builder Certificates
-├── 📁 [Labs/](./Labs) ────────────────────── # Validated Engineering Simulations
-├── 📁 [Projects/](./Projects) ────────────── # Architectural Frameworks
-└── 📄 [README_2.md](./README_2.md) ───────── # Master Portfolio Profile
+├── 📁 Certifications/ ── # Validated Skill Builder Certificates
+├── 📁 Labs/ ──────────── # Validated Engineering Simulations (Domain-grouped)
+├── 📁 Projects/ ──────── # Architectural Frameworks & AI Ventures
+└── 📄 README_2.md ────── # Master Portfolio Profile
