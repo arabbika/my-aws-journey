@@ -20,6 +20,19 @@ I am a technical builder, analytics specialist, and data architect with a proven
 
 ---
 
+## 🏆 AWS Training & Certification
+I have successfully completed multiple AWS Skill Builder modules, validating my foundational and intermediate knowledge of cloud infrastructure[cite: 4, 5, 6, 7, 8].
+
+| Certification | Date Completed |
+| :--- | :--- |
+| [AWS SimuLearn: Cloud First Steps](./Certifications/Cloud%20First%20Steps.png) | June 02, 2026 |
+| [AWS SimuLearn: Cloud Computing Essentials](./Certifications/Cloud%20Computing%20Essentials.png) | June 02, 2026 |
+| [AWS SimuLearn: Cloud Economics](./Certifications/Cloud%20Economics.png) | June 02, 2026 |
+| [AWS SimuLearn: Highly Available Web Applications](./Certifications/Highly%20Available%20Web%20Applications.png) | June 04, 2026 |
+| [AWS SimuLearn: Computing Solutions](./Certifications/Computing%20Solutions.png) | June 11, 2026 |
+
+---
+
 ## 🧪 Capstone Laboratory Highlights
 *I have curated four foundational labs that demonstrate my progression from OS-level administration to advanced automated cloud infrastructure.*
 
@@ -55,6 +68,7 @@ Having successfully graduated from the AWS re/Start program, this repository con
 ```text
 📂 my-aws-journey/
 │
-├── 📁 [Labs/](./Labs) ────────── # Validated Engineering Simulations
-├── 📁 [Projects/](./Projects) ── # Architectural Frameworks
-└── 📄 [README_2.md](./README_2.md) ── # Master Portfolio Profile
+├── 📁 [Certifications/](./Certifications) ── # Validated Skill Builder Certificates
+├── 📁 [Labs/](./Labs) ────────────────────── # Validated Engineering Simulations
+├── 📁 [Projects/](./Projects) ────────────── # Architectural Frameworks
+└── 📄 [README_2.md](./README_2.md) ───────── # Master Portfolio Profile
