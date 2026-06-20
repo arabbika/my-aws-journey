@@ -1,18 +1,20 @@
-# ◈ EC2 Foundations
+# ◈ EC2 Foundations and Provisioning
 **Course ID**: `11-[CF]-Lab`
 
 ## 🎯 Architectural Objective
-Establishing a foundational compute environment to understand resource provisioning, state management, and the impact of instance sizing on infrastructure performance.
+Establishing a foundational compute environment to master instance lifecycle management, security group orchestration, and vertical scaling (compute/storage) within AWS.
 
 ## ⚙️ Technical Implementation
-* **Compute:** Provisioned a `t3.micro` Linux-based instance using the Amazon Linux AMI, selected for its balance of performance and cost-efficiency.
-* **Network:** Configured network integration by assigning the compute resource to a specific VPC subnet, ensuring proper connectivity within the isolated lab environment.
-* **Lifecycle Management:** Executed instance state transitions (Stop/Start operations) to perform infrastructure modifications, transitioning the instance type from a `t3.micro` to an `m4.large` to demonstrate vertical scaling.
+* **Compute:** Provisioned a `t3.micro` instance using Amazon Linux 2023 AMI, initialized with a User Data script to automate the deployment of an Apache web server.
+* **Network & Security:** Implemented a "Least Privilege" security model by explicitly configuring an Inbound Rule to permit HTTP traffic (Port 80) only after validating that the initial web request failed due to lack of permission.
+* **Lifecycle & Scaling:** * Performed vertical scaling by transitioning the instance type from `t3.micro` to `t3.small`.
+    * Executed storage expansion by modifying the EBS root volume from `8 GiB` to `10 GiB` to accommodate increased resource needs.
+    * Configured **Termination Protection** to prevent accidental resource deletion.
 
 ## 🛠️ Operational Intelligence (Troubleshooting)
-* **Real-World Challenge:** Encountered a configuration dependency where the instance type modification was restricted while the resource was in a "Running" state.
-* **Engineering Resolution:** Identified the requirement for a clean shutdown; performed a controlled stop of the instance to modify the configuration, then successfully verified the new instance type (`m4.large`) in the EC2 dashboard.
-* **"What If" Scenario:** In a production environment, I would utilize **AWS Auto Scaling Groups (ASG)** to manage instance types and fleet capacity dynamically based on load, preventing the need for manual state transitions and associated service downtime.
+* **Real-World Challenge:** Encountered a `Connection Refused/Timeout` error when attempting to access the web server post-launch.
+* **Engineering Resolution:** Identified that the security group lacked an explicit inbound rule for Port 80. Remedied this by updating the Security Group Inbound Rules to allow HTTP traffic, enabling successful web server access.
+* **"What If" Scenario:** If this were a production workload, rather than manually updating rules, I would define the security group as **Infrastructure as Code (IaC)** using Terraform or CloudFormation to ensure consistent, repeatable network security configurations across environments.
 
 ## 📊 Technical Competence
-* **Demonstrated Skills:** Infrastructure Provisioning, Lifecycle State Management, Vertical Scaling, and Resource Configuration.
+* **Demonstrated Skills:** Security Group Management, Instance Lifecycle Control, Vertical Scaling (EBS & Compute), and Automated Provisioning via User Data.
