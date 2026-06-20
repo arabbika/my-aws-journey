@@ -15,8 +15,8 @@ Establishing a foundational compute environment to master instance lifecycle man
 | Task | Description | Evidence |
 | :--- | :--- | :--- |
 | **1** | Instance Launch & Status | ![Launch](./images/11CF_Task1_InstanceLaunch_RunningStatus.png) |
-| **3** | Security Group Hardening | ![Security](./images/11CF_Task3_SecurityGroup_HTTP_Enabled.png) |
-| **4** | Vertical Scaling (Compute/Storage) | ![Scaling](./images/11CF_Task4_Resize_ComputeAndVolume.png) |
+| **4** | Vertical Scaling (Compute) | ![Compute](./images/11CF_Task4_Resize_InstanceType.png) |
+| **4** | Vertical Scaling (Storage) | ![Storage](./images/11CF_Task4_Resize_VolumeSize.png) |
 | **5** | Resource Governance Test | ![Governance](./images/11CF_Task5_TerminationProtection_Error.png) |
 
 ## 🛠️ Operational Intelligence (Troubleshooting)
