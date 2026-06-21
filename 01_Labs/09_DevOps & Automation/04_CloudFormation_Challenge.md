@@ -2,24 +2,23 @@
 **Course ID**: `192-[JAWS]-Lab`
 
 ## 🎯 Architectural Objective
-A comprehensive challenge task in designing and deploying a multi-tier architecture using fully automated Infrastructure as Code templates.
+This project represents the pinnacle of infrastructure automation. The objective is to design, engineer, and deploy a full-stack, multi-tier cloud environment (VPC, Compute, Storage, and Security) entirely through a single CloudFormation stack, proving proficiency in complex IaC orchestration.
 
-## ⚙️ Technical Implementation
-* **[Service Category 1]:** [Describe the primary action taken, e.g., "Configured VPC route tables to isolate the application tier."]
-* **[Service Category 2]:** [Describe the secondary action, e.g., "Implemented IAM policies to enforce least-privilege access."]
-* **[Service Category 3]:** [Describe the final configuration, e.g., "Validated end-to-end connectivity via internal Load Balancer."]
+## ⚙️ Automated Architecture Logic
+* **Environment Provisioning:** [E.g., "Orchestrated a highly available multi-tier architecture, including VPC, public/private subnets, Route Tables, and NAT Gateways, using nested stacks for modularity."]
+* **Integrated Resource Orchestration:** [E.g., "Implemented cross-resource references (`Fn::ImportValue` and `Ref`) to ensure seamless connectivity between EC2 instances, RDS databases, and S3 storage buckets upon stack creation."]
 
 ## 📷 Lab Evidence
-| Task | Description | Evidence |
+| Task | Architectural Milestone | Evidence |
 | :--- | :--- | :--- |
-| **1** | [Task Name] | [Link to Image/Path] |
-| **2** | [Task Name] | [Link to Image/Path] |
-| **3** | [Task Name] | [Link to Image/Path] |
+| **1** | Multi-Tier Network Stack Deployment | ![Network_Stack](./images/192_CF_Network.png) |
+| **2** | Automated Security & IAM Policy Provisioning | ![Security_Stack](./images/192_CF_Security.png) |
+| **3** | Full-Stack Validation & Connectivity | ![Final_Stack](./images/192_CF_Full.png) |
 
-## 🛠️ Operational Intelligence (Troubleshooting)
-* **Real-World Challenge:** [What specific technical error or roadblock did you hit?]
-* **Engineering Resolution:** [How did you fix it? Describe your thought process.]
-* **"What If" Scenario:** [If this were a production system, how would you automate or optimize this differently?]
+## 🛠️ Operational Intelligence
+* **Challenge:** [E.g., "The application tier failed to connect to the database tier because the Security Group references were not propagating correctly in the automated sequence."]
+* **Engineering Resolution:** [How you fixed it: e.g., "Utilized CloudFormation 'Outputs' and 'Exports' to dynamically inject the Database Security Group ID into the Application stack, ensuring real-time configuration synchronization."]
+* **"What If" Scenario:** [In a production system, I would implement AWS CloudFormation StackSets to deploy this entire architecture across multiple AWS accounts and regions simultaneously, ensuring global infrastructure standardization.]
 
 ## 📊 Technical Competence
-* **Demonstrated Skills:** [List 3-4 key skills, e.g., Security Group Management, IAM Policy Creation, CLI Troubleshooting]
+* **Demonstrated Skills:** Full-Stack IaC Orchestration, Modular Template Design (Nested Stacks), Dynamic Cross-Stack Referencing, Production-Ready Environment Automation.
