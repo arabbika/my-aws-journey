@@ -1,25 +1,24 @@
 # ◈ Linux User, Group, and Process Management
 **Course ID**: `229/239-[LX]-Lab`
 
-## 🎯 Architectural Objective
-A practical exercise in managing system users, controlling group access, and monitoring background processes to maintain system health.
+## 🎯 System Objective
+This lab focuses on identity management and system monitoring. The objective is to implement secure user/group access controls and demonstrate the ability to identify, monitor, and manage system processes to ensure optimal operational health.
 
-## ⚙️ Technical Implementation
-* **[Service Category 1]:** [Describe the primary action taken, e.g., "Configured VPC route tables to isolate the application tier."]
-* **[Service Category 2]:** [Describe the secondary action, e.g., "Implemented IAM policies to enforce least-privilege access."]
-* **[Service Category 3]:** [Describe the final configuration, e.g., "Validated end-to-end connectivity via internal Load Balancer."]
+## ⚙️ Execution & Scripting
+* **Identity Management:** [E.g., "Created and configured system users and groups, applying Principle of Least Privilege for group-based access controls."]
+* **Process Oversight:** [E.g., "Utilized monitoring utilities (`top`, `ps`, `htop`) to identify resource-intensive processes and demonstrated graceful termination (`kill`, `pkill`) of background services."]
 
 ## 📷 Lab Evidence
-| Task | Description | Evidence |
+| Task | CLI Output | Evidence |
 | :--- | :--- | :--- |
-| **1** | [Task Name] | [Link to Image/Path] |
-| **2** | [Task Name] | [Link to Image/Path] |
-| **3** | [Task Name] | [Link to Image/Path] |
+| **1** | User & Group Creation Audit | ![Identity_Audit](./images/229_239_User_Group.png) |
+| **2** | Process Monitoring Snapshot | ![Process_Monitor](./images/229_239_Process_Top.png) |
+| **3** | Process Termination Verification | ![Kill_Process](./images/229_239_Kill_Command.png) |
 
-## 🛠️ Operational Intelligence (Troubleshooting)
-* **Real-World Challenge:** [What specific technical error or roadblock did you hit?]
-* **Engineering Resolution:** [How did you fix it? Describe your thought process.]
-* **"What If" Scenario:** [If this were a production system, how would you automate or optimize this differently?]
+## 🛠️ Operational Intelligence
+* **Challenge:** [E.g., "Identified a runaway process consuming excessive CPU, causing system instability."]
+* **Engineering Resolution:** [How you fixed it: e.g., "Analyzed the PID using `ps aux`, investigated the source, and safely terminated the process to restore system performance."]
+* **Efficiency Gains:** [Why is this approach better? e.g., "Real-time process monitoring enables proactive identification of performance bottlenecks before they impact production uptime."]
 
 ## 📊 Technical Competence
-* **Demonstrated Skills:** [List 3-4 key skills, e.g., Security Group Management, IAM Policy Creation, CLI Troubleshooting]
+* **Demonstrated Skills:** User/Group Lifecycle Management, Linux Identity Security, Resource Monitoring (CLI), Process State Analysis & Control.
