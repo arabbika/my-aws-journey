@@ -1,25 +1,27 @@
-# ◈ Troubleshooting EC2 Instances
+# ◈ Troubleshooting EC2 Instance Provisioning
 **Course ID**: `173-[JAWS]-Activity`
 
 ## 🎯 Architectural Objective
-Diagnose and resolve common configuration failures during the automated provisioning of Amazon EC2 instances, ensuring correct service initialization and operational readiness.
+This activity centers on the automated deployment of a LAMP stack (Linux, Apache, MySQL, PHP) via AWS CLI and shell scripts. The objective is to apply diagnostic methodologies—using logs and network scanning tools—to identify and remediate configuration failures in automated infrastructure.
 
-## ⚙️ Technical Implementation
-* **Diagnostic Analysis:** Analyzed system logs, including `/var/log/cloud-init-output.log`, to pinpoint specific failure points during the instance initialization phase.
-* **Remediation:** Corrected user data scripts and configuration parameters, ensuring essential services (e.g., Apache, MariaDB) successfully initialize upon launch.
-* **Service Validation:** Verified process status and end-to-end connectivity following the troubleshooting and configuration remediation.
+
+
+## ⚙️ Execution & Debugging Logic
+* **Automated Deployment:** Executed CLI-based `run-instances` commands to provision EC2 instances, leveraging user data for automated application stack configuration.
+* **Diagnostic Workflow:** Utilized `nmap` for port verification and `cloud-init` logs (`/var/log/cloud-init-output.log`) to debug service failures and verify the successful deployment of the Café Web Application.
 
 ## 📷 Lab Evidence
-| Task | Description | Evidence |
+| Task | Debugging Milestone | Evidence |
 | :--- | :--- | :--- |
-| **1** | Deployment Error Analysis | ![Log_Analysis](./images/173_Troubleshoot_Logs.png) |
-| **2** | User Data Script Correction | ![Script_Fix](./images/173_Script_Fix.png) |
-| **3** | Service Verification | ![Service_Check](./images/173_Success.png) |
+| **1** | AWS CLI Troubleshooting & Fix | ![CLI_Fix](./images/173_CLI_Debug.png) |
+| **2** | Network Scanning (nmap) Results | ![Nmap_Scan](./images/173_Nmap_Results.png) |
+| **3** | Successful LAMP Stack Validation | ![Web_Validation](./images/173_Cafe_App.png) |
 
 ## 🛠️ Operational Intelligence
-* **Real-World Challenge:** Instances failed to initialize required web services despite successfully reaching the `running` state.
-* **Engineering Resolution:** Investigated the logs to find script execution errors; identified syntax errors in the bash initialization commands, corrected them, and re-triggered the instance launch to restore functionality.
-* **"What If" Scenario:** In a production system, I would implement `cfn-init` and `cfn-signal` with Auto Scaling groups to ensure instances only join the load balancer if the software configuration is 100% successful, preventing "zombie" instances from serving traffic.
+* **Real-World Challenge:** Encountered `InvalidAMIID.NotFound` errors during initial script execution and subsequent connectivity issues where port 80 was closed despite the service being installed.
+* **Engineering Resolution:** 1. **AMI Issue:** Updated the shell script to reference the correct AMI ID compatible with the lab's current region.
+    2. **Connectivity Issue:** Used `nmap` to confirm TCP port 80 was unreachable. Investigated Security Group ingress rules, corrected the port mapping, and verified service status using `systemctl status httpd`.
+* **"What If" Scenario:** If this were a production system, I would use **AWS CloudFormation or Terraform** to manage the infrastructure state declaratively, which prevents the manual "configuration drift" often associated with shell-script-based deployments.
 
 ## 📊 Technical Competence
-* **Demonstrated Skills:** Cloud-init Log Analysis, Linux Service Management, User Data Debugging, Automated Provisioning Troubleshooting.
+* **Demonstrated Skills:** AWS CLI Administration, Linux System Administration (LAMP stack), Network Troubleshooting (`nmap`), Log-based Diagnostic Analysis (`cloud-init`), Security Group Remediation.
