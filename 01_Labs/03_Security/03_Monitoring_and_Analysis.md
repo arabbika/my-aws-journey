@@ -1,25 +1,24 @@
 # ◈ Security Monitoring and Data Analysis
 **Course ID**: `280/281-[SF]-Lab`
 
-## 🎯 Architectural Objective
-This project utilizes CloudTrail and CloudWatch to detect anomalies, perform malware scanning, and analyze security logs.
+## 🎯 Security Objective
+This lab focuses on establishing persistent visibility across the cloud environment. The objective is to leverage AWS monitoring tools to detect security anomalies, analyze access logs, and respond effectively to potential malware or unauthorized activity.
 
-## ⚙️ Technical Implementation
-* **[Service Category 1]:** [Describe the primary action taken, e.g., "Configured VPC route tables to isolate the application tier."]
-* **[Service Category 2]:** [Describe the secondary action, e.g., "Implemented IAM policies to enforce least-privilege access."]
-* **[Service Category 3]:** [Describe the final configuration, e.g., "Validated end-to-end connectivity via internal Load Balancer."]
+## 🛡️ Governance & Access Logic
+* **Detection & Logging:** [E.g., "Enabled CloudTrail to track all API activity and configured CloudWatch alarms to notify of unauthorized attempts or suspicious patterns."]
+* **Analysis & Response:** [E.g., "Utilized monitoring dashboards to analyze resource metrics and security logs, enabling rapid identification and isolation of security events."]
 
 ## 📷 Lab Evidence
-| Task | Description | Evidence |
+| Task | Diagnostic Output | Evidence |
 | :--- | :--- | :--- |
-| **1** | [Task Name] | [Link to Image/Path] |
-| **2** | [Task Name] | [Link to Image/Path] |
-| **3** | [Task Name] | [Link to Image/Path] |
+| **1** | CloudTrail API Event Tracking | ![Trail_Log](./images/280_281_CloudTrail.png) |
+| **2** | CloudWatch Alarm/Metric Config | ![Alarm_Config](./images/280_281_CloudWatch.png) |
+| **3** | Security Event Log Analysis | ![Log_Audit](./images/280_281_Event_Analysis.png) |
 
-## 🛠️ Operational Intelligence (Troubleshooting)
-* **Real-World Challenge:** [What specific technical error or roadblock did you hit?]
-* **Engineering Resolution:** [How did you fix it? Describe your thought process.]
-* **"What If" Scenario:** [If this were a production system, how would you automate or optimize this differently?]
+## 🛠️ Operational Intelligence
+* **Challenge:** [E.g., "Received an excessive number of 'False Positive' alerts from CloudWatch, obscuring genuine security threats."]
+* **Engineering Resolution:** [How you fixed it: e.g., "Refined alarm thresholds and implemented metric filters to focus on high-fidelity security events (e.g., failed console logins or root account usage)."]
+* **"What If" Scenario:** [In a production environment, I would integrate these logs with Amazon GuardDuty for automated, intelligent threat detection and use Lambda to trigger automatic remediation of security misconfigurations.]
 
 ## 📊 Technical Competence
-* **Demonstrated Skills:** [List 3-4 key skills, e.g., Security Group Management, IAM Policy Creation, CLI Troubleshooting]
+* **Demonstrated Skills:** CloudTrail Governance, CloudWatch Monitoring & Alerting, Log Analysis, Security Event Response, Proactive Threat Detection.
