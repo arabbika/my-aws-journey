@@ -2,25 +2,26 @@
 **Course ID**: `183-[JAWS]-Lab`
 
 ## 🎯 Storage Objective
-This lab focuses on implementing scalable, multi-client storage solutions. The objective is to configure Amazon Elastic File System (EFS) for elastic, shared file access and explore Storage Gateway to bridge on-premises environments with AWS cloud storage.
+This lab focused on implementing scalable, multi-client storage solutions and automating data durability. The objective was to manage block storage lifecycle via CLI automation and implement object-storage synchronization patterns to ensure data availability and version control.
 
 
 
 ## 🛡️ Governance & Access Logic
-* **Elastic Scaling:** [E.g., "Deployed Amazon EFS with multiple mount targets to provide high-availability shared storage accessible by multiple EC2 instances simultaneously."]
-* **Hybrid Connectivity:** [E.g., "Configured AWS Storage Gateway to extend on-premises storage capacity into the cloud, ensuring data consistency and optimized latency."]
+* **Elastic Scaling:** Configured shared file systems to provide high-availability storage accessible across compute instances.
+* **Storage Lifecycle Automation:** Implemented `cron`-based automated snapshotting for EBS volumes and Python-based retention policies to prune older snapshots, optimizing storage costs and compliance.
+* **Hybrid/Cross-Service Sync:** Utilized `aws s3 sync` to bridge local EBS storage with Amazon S3, establishing an off-site, durable backup target for critical data.
 
 ## 📷 Lab Evidence
 | Task | Storage Configuration | Evidence |
 | :--- | :--- | :--- |
-| **1** | EFS File System & Mount Target Setup | ![EFS_Config](./images/183_EFS_Setup.png) |
-| **2** | Storage Gateway Gateway Setup | ![Gateway_Config](./images/183_Gateway_Setup.png) |
-| **3** | Cross-Instance File Access Verification | ![Access_Test](./images/183_Multi_Instance.png) |
+| **1** | Automated Snapshot Lifecycle (cron) | ![Snapshot_Config](./images/183_Snapshot_Cron.png) |
+| **2** | S3 Bucket Versioning & Sync Setup | ![S3_Sync](./images/183_S3_Versioning.png) |
+| **3** | Version Restoration & Data Recovery | ![Recovery_Test](./images/183_Data_Recovery.png) |
 
 ## 🛠️ Operational Intelligence
-* **Challenge:** [E.g., "Instances in the private subnet were unable to mount the EFS target due to network connectivity restrictions."]
-* **Engineering Resolution:** [How you fixed it: e.g., "Identified that Security Group rules on the EFS mount target were blocking NFS traffic (TCP port 2049) from the application security group; updated rules to permit necessary communication."]
-* **"What If" Scenario:** [In a production environment, I would leverage EFS Lifecycle Management policies to automatically move infrequently accessed files to EFS Infrequent Access (IA) storage classes, significantly reducing overall storage costs.]
+* **Challenge:** Managing an ever-growing repository of EBS snapshots, which can lead to significant storage overhead if not pruned regularly.
+* **Engineering Resolution:** Developed and deployed a Python retention script (`snapshotter_v2.py`) to enforce a "Keep Last 2" snapshot policy, effectively automating lifecycle management and reducing manual overhead.
+* **"What If" Scenario:** In a production environment, I would leverage **AWS Backup** to centralize and automate backup policies across multiple AWS services (EBS, EFS, RDS) and use **S3 Lifecycle Policies** to transition aging data to S3 Glacier, further optimizing cost-to-durability ratios.
 
 ## 📊 Technical Competence
-* **Demonstrated Skills:** Shared Storage (EFS) Lifecycle, NFS Protocol Management, Hybrid Cloud Architecture, Mount Target Security, Storage Tiering Strategies.
+* **Demonstrated Skills:** Automated Storage Lifecycle Management (CLI/Python), Cron Scheduling, S3 Data Synchronization, Object Versioning & Disaster Recovery, Hybrid Storage Patterns.
