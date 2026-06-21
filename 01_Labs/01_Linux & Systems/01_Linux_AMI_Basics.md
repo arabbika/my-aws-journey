@@ -1,25 +1,24 @@
 # ◈ Amazon Linux AMI Fundamentals
 **Course ID**: `225-[LX]-Lab`
 
-## 🎯 Architectural Objective
-This project covers the deployment and initial configuration of the Amazon Linux environment, serving as the foundation for cloud-based system administration.
+## 🎯 System Objective
+This lab establishes the baseline for cloud-based system administration. The objective is to deploy an Amazon Linux environment and perform initial system hardening and configuration to prepare it for production workloads.
 
-## ⚙️ Technical Implementation
-* **[Service Category 1]:** [Describe the primary action taken, e.g., "Configured VPC route tables to isolate the application tier."]
-* **[Service Category 2]:** [Describe the secondary action, e.g., "Implemented IAM policies to enforce least-privilege access."]
-* **[Service Category 3]:** [Describe the final configuration, e.g., "Validated end-to-end connectivity via internal Load Balancer."]
+## ⚙️ Execution & Scripting
+* **OS Initialization:** [E.g., "Provisioned Amazon Linux 2023 AMI and performed initial package updates using YUM/DNF."]
+* **System Environment:** [E.g., "Configured environment variables and verified system kernel performance metrics."]
 
 ## 📷 Lab Evidence
-| Task | Description | Evidence |
+| Task | CLI Output | Evidence |
 | :--- | :--- | :--- |
-| **1** | [Task Name] | [Link to Image/Path] |
-| **2** | [Task Name] | [Link to Image/Path] |
-| **3** | [Task Name] | [Link to Image/Path] |
+| **1** | AMI Launch & SSH Login | ![AMI_Launch](./images/225_AMI_Launch.png) |
+| **2** | System Update Verification | ![Update_Status](./images/225_System_Update.png) |
+| **3** | Kernel/Resource Inspection | ![Kernel_Info](./images/225_Kernel_Check.png) |
 
-## 🛠️ Operational Intelligence (Troubleshooting)
-* **Real-World Challenge:** [What specific technical error or roadblock did you hit?]
-* **Engineering Resolution:** [How did you fix it? Describe your thought process.]
-* **"What If" Scenario:** [If this were a production system, how would you automate or optimize this differently?]
+## 🛠️ Operational Intelligence
+* **Challenge:** [E.g., "Encountered repository connection failures while trying to update packages."]
+* **Engineering Resolution:** [How you fixed it: e.g., "Verified that the instance had proper NAT Gateway access and correct DNS resolution settings."]
+* **Efficiency Gains:** [Why is this setup better? e.g., "Using an optimized AMI reduces boot time and minimizes the attack surface."]
 
 ## 📊 Technical Competence
-* **Demonstrated Skills:** [List 3-4 key skills, e.g., Security Group Management, IAM Policy Creation, CLI Troubleshooting]
+* **Demonstrated Skills:** Amazon Linux AMI Lifecycle, Package Management (YUM/DNF), SSH Key Security, System Environment Configuration.
