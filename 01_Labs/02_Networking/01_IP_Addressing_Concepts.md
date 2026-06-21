@@ -2,22 +2,26 @@
 **Course ID**: `261/262-[NF]-Lab`
 
 ## 🎯 Network Objective
-This lab focuses on mastering IP addressing schemes in the cloud. The objective is to distinguish between public and private address spaces and implement both static and dynamic IP configurations to ensure efficient network reachability.
+This lab focused on mastering IP addressing schemes in a cloud environment. The objective was to diagnose connectivity issues stemming from misconfigured IP types and to implement persistent addressing solutions to ensure high availability for production workloads.
+
+
 
 ## 🚦 Traffic & Flow Logic
-* **Addressing Strategy:** [Describe your approach, e.g., "Assigned private CIDR blocks for internal instances while mapping public IPs for external edge connectivity."]
-* **Protocol Implementation:** [E.g., "Configured DHCP sets for dynamic instance provisioning versus assigning Elastic IPs for static endpoint permanence."]
+* **Addressing Strategy:** Analyzed internal vs. external traffic requirements. Identified that instances requiring internet access need a Public IP/NAT, while internal-only resources remain secured within a private CIDR block.
+* **Protocol Implementation:** * **Dynamic:** Configured standard instance provisioning where public IPs are assigned dynamically via DHCP at launch (and change upon reboot).
+    * **Static:** Resolved "configuration drift" by implementing **Elastic IPs (EIP)**, providing a static, persistent public endpoint that survives instance stop/start cycles.
 
 ## 📷 Lab Evidence
 | Task | Connectivity Check | Evidence |
 | :--- | :--- | :--- |
-| **1** | Public vs. Private IP Verification | ![IP_Check](./images/261_262_IP_Verification.png) |
-| **2** | Dynamic IP Assignment Confirmation | ![DHCP_Config](./images/261_262_DHCP_Status.png) |
-| **3** | Static IP/Elastic IP Association | ![EIP_Config](./images/261_262_EIP_Association.png) |
+| **1** | Public vs. Private IP Verification | ![IP_Audit](./images/261_262_IP_Verification.png) |
+| **2** | Dynamic IP Fluctuation (Stop/Start) | ![DHCP_Change](./images/261_262_DHCP_Status.png) |
+| **3** | Elastic IP (EIP) Association | ![EIP_Config](./images/261_262_EIP_Association.png) |
 
 ## 🛠️ Troubleshooting (The "Ping" Mindset)
-* **Connectivity Roadblock:** [E.g., "Attempted to SSH into an instance using its private IP from a local machine, resulting in a connection timeout."]
-* **Diagnostic Steps:** [E.g., "Used `traceroute` to identify the hop failure; verified the Route Table configuration and confirmed the absence of an Internet Gateway connection."]
+* **Connectivity Roadblock:** Customer reported that their application "broke" every time an instance was restarted due to changing IP addresses.
+* **Diagnostic Steps:** Replicated the issue by stopping and starting a test instance, observing the public IPv4 address change. Verified that the instance had no Elastic IP assigned.
+* **Resolution:** Allocated an EIP from the AWS pool and associated it with the target instance, ensuring a static, reliable ingress point for the customer's resources.
 
 ## 📊 Technical Competence
-* **Skills:** VPC Architecture, CIDR Calculation, DHCP/Static IP Lifecycle, Network Diagnostics, Route Table Management.
+* **Skills:** VPC Architecture, CIDR Calculation, Dynamic Host Configuration Protocol (DHCP) Analysis, Elastic IP Lifecycle Management, Route Table/Gateway Verification.
