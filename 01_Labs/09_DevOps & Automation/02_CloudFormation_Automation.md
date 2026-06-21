@@ -2,24 +2,25 @@
 **Course ID**: `190-[JAWS]-Lab`
 
 ## 🎯 Architectural Objective
-Translating manual console infrastructure into repeatable Infrastructure as Code (IaC) templates using AWS CloudFormation.
+This project marks the shift from manual provisioning to automated infrastructure. The objective is to codify environment architecture into AWS CloudFormation templates, ensuring environment consistency, version control, and rapid, repeatable deployments.
 
-## ⚙️ Technical Implementation
-* **[Service Category 1]:** [Describe the primary action taken, e.g., "Configured VPC route tables to isolate the application tier."]
-* **[Service Category 2]:** [Describe the secondary action, e.g., "Implemented IAM policies to enforce least-privilege access."]
-* **[Service Category 3]:** [Describe the final configuration, e.g., "Validated end-to-end connectivity via internal Load Balancer."]
+
+
+## ⚙️ Execution & IaC Logic
+* **Template Engineering:** [E.g., "Drafted modular YAML CloudFormation templates defining VPC, EC2, and Security Group resources, utilizing parameters for multi-environment flexibility."]
+* **Deployment Automation:** [E.g., "Executed stack deployments via AWS CLI and CloudFormation console, implementing change sets to preview infrastructure modifications before applying."]
 
 ## 📷 Lab Evidence
-| Task | Description | Evidence |
+| Task | Automation Milestone | Evidence |
 | :--- | :--- | :--- |
-| **1** | [Task Name] | [Link to Image/Path] |
-| **2** | [Task Name] | [Link to Image/Path] |
-| **3** | [Task Name] | [Link to Image/Path] |
+| **1** | Template Validation (Linting) | ![Template_Valid](./images/190_CF_Lint.png) |
+| **2** | Stack Provisioning & Resource Creation | ![Stack_Create](./images/190_CF_Stack.png) |
+| **3** | Change Set Deployment/Updates | ![Change_Set](./images/190_CF_Update.png) |
 
-## 🛠️ Operational Intelligence (Troubleshooting)
-* **Real-World Challenge:** [What specific technical error or roadblock did you hit?]
-* **Engineering Resolution:** [How did you fix it? Describe your thought process.]
-* **"What If" Scenario:** [If this were a production system, how would you automate or optimize this differently?]
+## 🛠️ Operational Intelligence
+* **Challenge:** [E.g., "Stack creation failed during deployment due to a circular dependency between the Security Group and an EC2 instance."]
+* **Engineering Resolution:** [How you fixed it: e.g., "Analyzed the stack event log, restructured the template resource dependencies using the `DependsOn` attribute, and successfully re-deployed."]
+* **"What If" Scenario:** [In a production system, I would integrate these templates into a CI/CD pipeline (e.g., AWS CodePipeline) to automate testing, linting, and deployment, ensuring that infrastructure is treated exactly like application code.]
 
 ## 📊 Technical Competence
-* **Demonstrated Skills:** [List 3-4 key skills, e.g., Security Group Management, IAM Policy Creation, CLI Troubleshooting]
+* **Demonstrated Skills:** Infrastructure as Code (CloudFormation), YAML/JSON Template Design, Dependency Management, Automated Provisioning, CI/CD Principles.
