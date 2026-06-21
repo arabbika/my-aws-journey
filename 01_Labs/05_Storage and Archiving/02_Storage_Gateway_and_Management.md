@@ -1,25 +1,26 @@
 # ◈ Storage Gateway and EFS Configuration
 **Course ID**: `183-[JAWS]-Lab`
 
-## 🎯 Architectural Objective
-Documentation of managing scalable cloud storage solutions, including Amazon EFS and storage gateway configurations for hybrid architectures.
+## 🎯 Storage Objective
+This lab focuses on implementing scalable, multi-client storage solutions. The objective is to configure Amazon Elastic File System (EFS) for elastic, shared file access and explore Storage Gateway to bridge on-premises environments with AWS cloud storage.
 
-## ⚙️ Technical Implementation
-* **[Service Category 1]:** [Describe the primary action taken, e.g., "Configured VPC route tables to isolate the application tier."]
-* **[Service Category 2]:** [Describe the secondary action, e.g., "Implemented IAM policies to enforce least-privilege access."]
-* **[Service Category 3]:** [Describe the final configuration, e.g., "Validated end-to-end connectivity via internal Load Balancer."]
+
+
+## 🛡️ Governance & Access Logic
+* **Elastic Scaling:** [E.g., "Deployed Amazon EFS with multiple mount targets to provide high-availability shared storage accessible by multiple EC2 instances simultaneously."]
+* **Hybrid Connectivity:** [E.g., "Configured AWS Storage Gateway to extend on-premises storage capacity into the cloud, ensuring data consistency and optimized latency."]
 
 ## 📷 Lab Evidence
-| Task | Description | Evidence |
+| Task | Storage Configuration | Evidence |
 | :--- | :--- | :--- |
-| **1** | [Task Name] | [Link to Image/Path] |
-| **2** | [Task Name] | [Link to Image/Path] |
-| **3** | [Task Name] | [Link to Image/Path] |
+| **1** | EFS File System & Mount Target Setup | ![EFS_Config](./images/183_EFS_Setup.png) |
+| **2** | Storage Gateway Gateway Setup | ![Gateway_Config](./images/183_Gateway_Setup.png) |
+| **3** | Cross-Instance File Access Verification | ![Access_Test](./images/183_Multi_Instance.png) |
 
-## 🛠️ Operational Intelligence (Troubleshooting)
-* **Real-World Challenge:** [What specific technical error or roadblock did you hit?]
-* **Engineering Resolution:** [How did you fix it? Describe your thought process.]
-* **"What If" Scenario:** [If this were a production system, how would you automate or optimize this differently?]
+## 🛠️ Operational Intelligence
+* **Challenge:** [E.g., "Instances in the private subnet were unable to mount the EFS target due to network connectivity restrictions."]
+* **Engineering Resolution:** [How you fixed it: e.g., "Identified that Security Group rules on the EFS mount target were blocking NFS traffic (TCP port 2049) from the application security group; updated rules to permit necessary communication."]
+* **"What If" Scenario:** [In a production environment, I would leverage EFS Lifecycle Management policies to automatically move infrequently accessed files to EFS Infrequent Access (IA) storage classes, significantly reducing overall storage costs.]
 
 ## 📊 Technical Competence
-* **Demonstrated Skills:** [List 3-4 key skills, e.g., Security Group Management, IAM Policy Creation, CLI Troubleshooting]
+* **Demonstrated Skills:** Shared Storage (EFS) Lifecycle, NFS Protocol Management, Hybrid Cloud Architecture, Mount Target Security, Storage Tiering Strategies.
