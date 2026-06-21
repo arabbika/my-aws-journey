@@ -2,23 +2,25 @@
 **Course ID**: `227/233-[LX]-Lab`
 
 ## 🎯 System Objective
-This lab focuses on mastering the Linux terminal environment. The objective is to demonstrate absolute proficiency in navigating hierarchical file systems, executing administrative commands, and enforcing secure file permission models to protect system integrity.
+This lab focused on mastering the Linux terminal environment. The objective was to demonstrate absolute proficiency in navigating hierarchical file systems, executing administrative commands, and mastering file manipulation—creating, moving, copying, and deleting data structures efficiently.
+
+
 
 ## ⚙️ Execution & Scripting
-* **Navigation & Manipulation:** [E.g., "Executed advanced file operations using standard utilities (`ls`, `find`, `grep`, `cp`, `mv`) to manage directory structures efficiently."]
-* **Security Model:** [E.g., "Applied the Principle of Least Privilege by modifying file ownership and access control lists (`chmod`, `chown`) to secure sensitive configuration files."]
+* **Navigation & Manipulation:** Executed complex file operations using core utilities (`mkdir`, `touch`, `cp -r`, `mv`, `rm -r`) to replicate and reorganize a specific organizational folder structure.
+* **Administrative Workflow:** Optimized shell productivity by utilizing history commands (`history`, `CTRL+R`, `!!`) and path-based navigation (`cd`, `pwd`) to interact with the file system securely and reliably.
 
 ## 📷 Lab Evidence
 | Task | CLI Output | Evidence |
 | :--- | :--- | :--- |
-| **1** | File System Navigation & Search | ![Search_Output](./images/227_233_CLI_Nav.png) |
-| **2** | Permission Modification (`chmod`) | ![Perm_Check](./images/227_233_Permissions.png) |
-| **3** | Ownership & Attribute Audit | ![Owner_Audit](./images/227_233_Ownership.png) |
+| **1** | Hierarchical Folder Creation | ![Folder_Tree](./images/227_233_Folder_Creation.png) |
+| **2** | Recursive Move & Reorganization | ![Move_Ops](./images/227_233_Reorg.png) |
+| **3** | File System Audit (`ls -laR`) | ![Audit_Output](./images/227_233_Audit.png) |
 
 ## 🛠️ Operational Intelligence
-* **Challenge:** [E.g., "Faced 'Permission Denied' errors while attempting to modify system-level logs."]
-* **Engineering Resolution:** [How you fixed it: e.g., "Utilized `sudo` for elevated privileges after verifying file ownership via `ls -l`."]
-* **Efficiency Gains:** [Why is this approach better? e.g., "Mastering CLI navigation significantly reduces time-to-resolution compared to GUI-based administration."]
+* **Challenge:** Encountered `rmdir: failed to remove` errors when attempting to delete non-empty directories during the reorganization phase.
+* **Engineering Resolution:** Applied the recursive remove command (`rm -r`) to safely purge directory contents before folder deletion, demonstrating the importance of understanding command-specific flags and directory states.
+* **Efficiency Gains:** Utilizing relative paths and recursive commands allows for rapid file system restructuring that would be significantly slower and more error-prone in a graphical interface.
 
 ## 📊 Technical Competence
-* **Demonstrated Skills:** CLI Proficiency, File System Hierarchy Standards, POSIX Permission Management, Administrative Command Execution.
+* **Demonstrated Skills:** Command Line Interface (CLI) Navigation, Recursive File/Directory Manipulation, Bash History Management, Path-based File Operations.
