@@ -1,25 +1,26 @@
 # ◈ Data Interaction and Lifecycle Management
 **Course ID**: `269/270/271-[DF]-Lab`
 
-## 🎯 Architectural Objective
-Demonstrates proficiency in performing CRUD operations (Create, Read, Update, Delete) and executing complex conditional searches.
+## 🎯 Data Objective
+This lab focuses on the application layer of database management. The objective is to demonstrate absolute proficiency in performing CRUD operations (Create, Read, Update, Delete) and executing complex conditional queries to extract actionable insights from structured data.
 
-## ⚙️ Technical Implementation
-* **[Service Category 1]:** [Describe the primary action taken, e.g., "Configured VPC route tables to isolate the application tier."]
-* **[Service Category 2]:** [Describe the secondary action, e.g., "Implemented IAM policies to enforce least-privilege access."]
-* **[Service Category 3]:** [Describe the final configuration, e.g., "Validated end-to-end connectivity via internal Load Balancer."]
+
+
+## ⚙️ Query & Execution Logic
+* **Data Manipulation:** [E.g., "Executed DML statements to insert, update, and remove records, ensuring all transactions followed ACID compliance principles."]
+* **Query Optimization:** [E.g., "Utilized advanced conditional clauses (`JOIN`, `GROUP BY`, `HAVING`) to perform complex data analysis and retrieval."]
 
 ## 📷 Lab Evidence
-| Task | Description | Evidence |
+| Task | Data Operation | Evidence |
 | :--- | :--- | :--- |
-| **1** | [Task Name] | [Link to Image/Path] |
-| **2** | [Task Name] | [Link to Image/Path] |
-| **3** | [Task Name] | [Link to Image/Path] |
+| **1** | CRUD Operation Execution | ![CRUD_Ops](./images/269_271_CRUD_Ops.png) |
+| **2** | Complex Query/Search Results | ![Query_Results](./images/269_271_Complex_Query.png) |
+| **3** | Data Integrity Verification | ![Data_Audit](./images/269_271_Data_Audit.png) |
 
-## 🛠️ Operational Intelligence (Troubleshooting)
-* **Real-World Challenge:** [What specific technical error or roadblock did you hit?]
-* **Engineering Resolution:** [How did you fix it? Describe your thought process.]
-* **"What If" Scenario:** [If this were a production system, how would you automate or optimize this differently?]
+## 🛠️ Operational Intelligence
+* **Challenge:** [E.g., "Encountered slow query performance when retrieving data from tables with millions of records."]
+* **Engineering Resolution:** [How you fixed it: e.g., "Analyzed the query execution plan, identified a lack of indexing on the search columns, and implemented B-Tree indexes to reduce query latency by 80%."]
+* **"What If" Scenario:** [In a production system, I would implement Read Replicas to offload heavy read-only traffic from the primary database instance and use an ElastiCache layer to further accelerate frequently accessed query results.]
 
 ## 📊 Technical Competence
-* **Demonstrated Skills:** [List 3-4 key skills, e.g., Security Group Management, IAM Policy Creation, CLI Troubleshooting]
+* **Demonstrated Skills:** SQL/DML Proficiency, Query Optimization (Indexing), Transaction Management (ACID), Conditional Logic, Database Performance Troubleshooting.
