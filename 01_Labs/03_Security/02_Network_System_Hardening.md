@@ -2,23 +2,27 @@
 **Course ID**: `276/277-[SF]-Lab`
 
 ## 🎯 Security Objective
-This lab emphasizes the "Defense-in-Depth" strategy. The objective is to mitigate system vulnerabilities by implementing security layers at both the network perimeter and the OS level to prevent unauthorized access and exposure.
+This lab emphasized a "Defense-in-Depth" strategy. The objective was to mitigate system vulnerabilities by hardening the network perimeter and enforcing automated OS-level patch compliance, effectively neutralizing potential exploit vectors.
+
+
 
 ## 🛡️ Governance & Access Logic
-* **Network Hardening:** [E.g., "Implemented restrictive Security Group rules and NACLs to permit only necessary traffic, effectively neutralizing external reconnaissance attempts."]
-* **System Hardening:** [E.g., "Secured the OS environment by disabling unnecessary services, implementing SSH key-based authentication, and updating critical system packages to patch known CVEs."]
+* **Network Hardening:** Implemented restrictive Security Group (SG) rules and Network ACLs (NACLs) to enforce a "least privilege" traffic model, permitting only essential ingress/egress ports.
+* **System Hardening:** Utilized **Amazon Inspector** for continuous vulnerability assessment (CVE scanning) and **AWS Systems Manager (SSM) Patch Manager** to enforce standardized patch baselines across Linux and Windows fleets, ensuring all instances meet security compliance requirements.
 
 ## 📷 Lab Evidence
 | Task | Security Audit | Evidence |
 | :--- | :--- | :--- |
-| **1** | Network Perimeter Security (SG/NACL) | ![Network_Sec](./images/276_277_Network_Hardening.png) |
-| **2** | OS Security & SSH Configuration | ![System_Sec](./images/276_277_OS_Hardening.png) |
-| **3** | Vulnerability Scan/Status Report | ![Vuln_Scan](./images/276_277_Scan_Results.png) |
+| **1** | Automated Vulnerability Scanning (Inspector) | ![Vuln_Scan](./images/276_277_Scan_Results.png) |
+| **2** | Patch Baseline & Group Configuration | ![Patch_Baseline](./images/276_277_Patch_Manager.png) |
+| **3** | Compliance Status Verification | ![Compliance](./images/276_277_Compliance_Report.png) |
 
 ## 🛠️ Operational Intelligence
-* **Challenge:** [E.g., "Strict hardening policies inadvertently blocked necessary communication between the web and database tiers."]
-* **Engineering Resolution:** [How you fixed it: e.g., "Diagnosed the failure using VPC Flow Logs, identified the blocked port, and adjusted Security Group egress/ingress rules to permit internal traffic while maintaining external restriction."]
-* **"What If" Scenario:** [In a production environment, I would deploy AWS Config rules to automatically monitor and revert any unauthorized changes to Security Group configurations.]
+* **Challenge:** Tightening security policies inadvertently caused a "false positive" vulnerability report in legacy application dependencies.
+* **Diagnostic Steps:** 1. Analyzed Inspector findings to identify the specific `requests` package version CVE.
+    2. Used Systems Manager to verify instance patch group membership and scan execution logs.
+* **Engineering Resolution:** Updated `requirements.txt` to pull the latest patched package versions and triggered a re-scan via Inspector to confirm `Closed` finding status.
+* **"What If" Scenario:** In a production environment, I would integrate these security scans into the CI/CD pipeline, failing deployments if high-severity CVEs are detected, and use AWS Config to remediate non-compliant Security Groups automatically.
 
 ## 📊 Technical Competence
-* **Demonstrated Skills:** Network Hardening (SG/NACL), OS Vulnerability Mitigation, SSH Key Management, Defense-in-Depth Principles, Security Logging & Monitoring.
+* **Demonstrated Skills:** Vulnerability Assessment (Amazon Inspector), Patch Orchestration (SSM Patch Manager), Patch Baseline/Group Design, Compliance Auditing, CVE Remediation, Defense-in-Depth Principles.
