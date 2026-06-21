@@ -2,24 +2,25 @@
 **Course ID**: `191-[JAWS]-Activity`
 
 ## 🎯 Architectural Objective
-Advanced lab focusing on identifying and fixing errors within CloudFormation templates to ensure successful stack deployments.
+This lab focuses on the "Debugging Lifecycle" of infrastructure. The objective is to identify, isolate, and remediate failures within complex CloudFormation templates, transforming broken deployment states into successful, idempotent infrastructure configurations.
 
-## ⚙️ Technical Implementation
-* **[Service Category 1]:** [Describe the primary action taken, e.g., "Configured VPC route tables to isolate the application tier."]
-* **[Service Category 2]:** [Describe the secondary action, e.g., "Implemented IAM policies to enforce least-privilege access."]
-* **[Service Category 3]:** [Describe the final configuration, e.g., "Validated end-to-end connectivity via internal Load Balancer."]
+
+
+## ⚙️ Debugging & Resolution Logic
+* **Fault Isolation:** [E.g., "Analyzed CloudFormation stack events and nested stack outputs to isolate the specific resource property causing deployment failure."]
+* **Remediation:** [E.g., "Refactored YAML resource definitions to correct property inconsistencies, applied updated templates, and validated state reconciliation through successful stack completion."]
 
 ## 📷 Lab Evidence
-| Task | Description | Evidence |
+| Task | Debugging Milestone | Evidence |
 | :--- | :--- | :--- |
-| **1** | [Task Name] | [Link to Image/Path] |
-| **2** | [Task Name] | [Link to Image/Path] |
-| **3** | [Task Name] | [Link to Image/Path] |
+| **1** | Deployment Failure Analysis | ![Fail_Log](./images/191_CF_Error_Log.png) |
+| **2** | Template Refactoring & Linting | ![Fix_Code](./images/191_CF_Fix.png) |
+| **3** | Successful Stack Re-deployment | ![Success_State](./images/191_CF_Success.png) |
 
-## 🛠️ Operational Intelligence (Troubleshooting)
-* **Real-World Challenge:** [What specific technical error or roadblock did you hit?]
-* **Engineering Resolution:** [How did you fix it? Describe your thought process.]
-* **"What If" Scenario:** [If this were a production system, how would you automate or optimize this differently?]
+## 🛠️ Operational Intelligence
+* **Challenge:** [E.g., "Resource 'Update' operations consistently timed out because the template failed to account for existing, manually created dependencies."]
+* **Engineering Resolution:** [How you fixed it: e.g., "Utilized 'Resource Import' to bring the manually created resource into the stack’s management, synchronized the template, and corrected the lifecycle state to enable future automated updates."]
+* **"What If" Scenario:** [In a production system, I would implement unit testing for IaC (using tools like `cfn-lint` or `terrascan`) to catch these configuration errors in the pre-deployment phase, preventing broken builds from reaching the environment.]
 
 ## 📊 Technical Competence
-* **Demonstrated Skills:** [List 3-4 key skills, e.g., Security Group Management, IAM Policy Creation, CLI Troubleshooting]
+* **Demonstrated Skills:** IaC Troubleshooting, CloudFormation Stack Reconciliation, Resource Import/Drift Detection, Pipeline Error Resolution.
