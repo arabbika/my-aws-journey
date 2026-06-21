@@ -1,25 +1,24 @@
 # ◈ Identity and Access Management (IAM) Basics
 **Course ID**: `279-[SF]-Lab`
 
-## 🎯 Architectural Objective
-Implementation of the Principle of Least Privilege by configuring granular IAM policies for AWS user and service accounts.
+## 🎯 Security Objective
+This lab focuses on the implementation of the Principle of Least Privilege. The objective is to design and configure granular IAM policies that restrict user and service account access to only the resources necessary for their specific roles, minimizing the attack surface.
 
-## ⚙️ Technical Implementation
-* **[Service Category 1]:** [Describe the primary action taken, e.g., "Configured VPC route tables to isolate the application tier."]
-* **[Service Category 2]:** [Describe the secondary action, e.g., "Implemented IAM policies to enforce least-privilege access."]
-* **[Service Category 3]:** [Describe the final configuration, e.g., "Validated end-to-end connectivity via internal Load Balancer."]
+## 🛡️ Governance & Access Logic
+* **Policy Design:** [E.g., "Constructed custom JSON IAM policies to provide fine-grained, conditional access to specific S3 buckets."]
+* **Identity Control:** [E.g., "Created IAM Users and Groups, mapping policies to roles to ensure clear separation of duties within the AWS environment."]
 
 ## 📷 Lab Evidence
-| Task | Description | Evidence |
+| Task | Security Audit | Evidence |
 | :--- | :--- | :--- |
-| **1** | [Task Name] | [Link to Image/Path] |
-| **2** | [Task Name] | [Link to Image/Path] |
-| **3** | [Task Name] | [Link to Image/Path] |
+| **1** | IAM User/Group Creation | ![IAM_Identity](./images/279_IAM_Users.png) |
+| **2** | Policy Application & Attachment | ![Policy_Attach](./images/279_Policy_Attach.png) |
+| **3** | Access Denied/Granted Verification | ![Access_Test](./images/279_Policy_Test.png) |
 
-## 🛠️ Operational Intelligence (Troubleshooting)
-* **Real-World Challenge:** [What specific technical error or roadblock did you hit?]
-* **Engineering Resolution:** [How did you fix it? Describe your thought process.]
-* **"What If" Scenario:** [If this were a production system, how would you automate or optimize this differently?]
+## 🛠️ Operational Intelligence
+* **Challenge:** [E.g., "Encountered 'Access Denied' errors even after assigning administrative policies due to conflicting SCPs or existing permission boundaries."]
+* **Engineering Resolution:** [How you fixed it: e.g., "Utilized the IAM Policy Simulator to identify the specific rule causing the conflict and refined the policy JSON for proper evaluation."]
+* **Efficiency Gains:** [Why is this approach better? e.g., "Regular IAM audits and simulator testing prevent unauthorized privilege escalation and ensure compliance with security best practices."]
 
 ## 📊 Technical Competence
-* **Demonstrated Skills:** [List 3-4 key skills, e.g., Security Group Management, IAM Policy Creation, CLI Troubleshooting]
+* **Demonstrated Skills:** IAM Policy Creation (JSON), Principle of Least Privilege, Role-Based Access Control (RBAC), Policy Simulator Troubleshooting.
