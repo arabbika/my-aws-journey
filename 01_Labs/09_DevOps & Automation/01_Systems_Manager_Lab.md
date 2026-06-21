@@ -1,25 +1,26 @@
 # ◈ AWS Systems Manager Administration
 **Course ID**: `169-[JAWS]-Lab`
 
-## 🎯 Architectural Objective
-Demonstrates the use of AWS Systems Manager to centralize the operation and management of infrastructure resources at scale.
+## 🎯 Operational Objective
+This lab focuses on operational excellence through centralized management. The objective is to utilize AWS Systems Manager (SSM) to gain visibility and control over infrastructure, moving away from manual SSH access toward secure, automated resource management and patch compliance.
 
-## ⚙️ Technical Implementation
-* **[Service Category 1]:** [Describe the primary action taken, e.g., "Configured VPC route tables to isolate the application tier."]
-* **[Service Category 2]:** [Describe the secondary action, e.g., "Implemented IAM policies to enforce least-privilege access."]
-* **[Service Category 3]:** [Describe the final configuration, e.g., "Validated end-to-end connectivity via internal Load Balancer."]
+
+
+## ⚙️ Execution & Management Logic
+* **Centralized Control:** [E.g., "Configured SSM Agent on EC2 instances to enable remote management, eliminating the need for open inbound SSH ports."]
+* **Operational Automation:** [E.g., "Deployed SSM Run Command and State Manager to automate configuration drifts, ensuring all instances adhere to a consistent security and software baseline."]
 
 ## 📷 Lab Evidence
-| Task | Description | Evidence |
+| Task | Management Output | Evidence |
 | :--- | :--- | :--- |
-| **1** | [Task Name] | [Link to Image/Path] |
-| **2** | [Task Name] | [Link to Image/Path] |
-| **3** | [Task Name] | [Link to Image/Path] |
+| **1** | Instance Registration & SSM Agent Status | ![SSM_Agent](./images/169_SSM_Register.png) |
+| **2** | Run Command Execution (Automation) | ![Run_Command](./images/169_Run_Command.png) |
+| **3** | Patch Compliance & Inventory Report | ![Patch_Audit](./images/169_SSM_Patch.png) |
 
-## 🛠️ Operational Intelligence (Troubleshooting)
-* **Real-World Challenge:** [What specific technical error or roadblock did you hit?]
-* **Engineering Resolution:** [How did you fix it? Describe your thought process.]
-* **"What If" Scenario:** [If this were a production system, how would you automate or optimize this differently?]
+## 🛠️ Operational Intelligence
+* **Challenge:** [E.g., "Instances were not appearing in the 'Managed Instances' console, preventing automated patching tasks."]
+* **Engineering Resolution:** [How you fixed it: e.g., "Verified that the IAM instance profile lacked the `AmazonSSMManagedInstanceCore` policy; updated the profile, restarted the SSM Agent, and confirmed communication with the SSM service."]
+* **"What If" Scenario:** [In a production system, I would use SSM Maintenance Windows to schedule non-disruptive patching across the entire fleet and use Parameter Store to securely inject configuration data into applications at runtime.]
 
 ## 📊 Technical Competence
-* **Demonstrated Skills:** [List 3-4 key skills, e.g., Security Group Management, IAM Policy Creation, CLI Troubleshooting]
+* **Demonstrated Skills:** Fleet Management (SSM), Infrastructure-as-Code (SSM Documents), Automated Patch Compliance, Secure Remote Access (Session Manager).
