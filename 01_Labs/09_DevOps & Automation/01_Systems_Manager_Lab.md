@@ -2,25 +2,27 @@
 **Course ID**: `169-[JAWS]-Lab`
 
 ## 🎯 Operational Objective
-This lab focuses on operational excellence through centralized management. The objective is to utilize AWS Systems Manager (SSM) to gain visibility and control over infrastructure, moving away from manual SSH access toward secure, automated resource management and patch compliance.
+This lab focused on achieving operational excellence through centralized management. The objective was to replace insecure, manual SSH-based administration with automated, secure, and auditable AWS Systems Manager (SSM) workflows, ensuring fleet-wide compliance and consistent configuration.
 
 
 
 ## ⚙️ Execution & Management Logic
-* **Centralized Control:** [E.g., "Configured SSM Agent on EC2 instances to enable remote management, eliminating the need for open inbound SSH ports."]
-* **Operational Automation:** [E.g., "Deployed SSM Run Command and State Manager to automate configuration drifts, ensuring all instances adhere to a consistent security and software baseline."]
+* **Centralized Fleet Control:** Leveraged **Fleet Manager** to establish inventory associations, gaining real-time visibility into software configurations and metadata across the instance fleet without manual connectivity.
+* **Operational Automation:** Utilized **SSM Run Command** to deploy a multi-component dashboard application (Apache, PHP, SDKs) in a single, repeatable execution, proving the ability to perform complex fleet-wide software orchestration.
+* **Dynamic Configuration:** Implemented **Parameter Store** to manage application "dark features," enabling real-time toggling of beta functionalities via external configuration values rather than code deployments.
+* **Secure Remote Access:** Replaced traditional bastion hosts and SSH keys with **Session Manager**, providing an interactive, browser-based shell access that is fully compliant with modern security and auditing policies.
 
 ## 📷 Lab Evidence
 | Task | Management Output | Evidence |
 | :--- | :--- | :--- |
-| **1** | Instance Registration & SSM Agent Status | ![SSM_Agent](./images/169_SSM_Register.png) |
-| **2** | Run Command Execution (Automation) | ![Run_Command](./images/169_Run_Command.png) |
-| **3** | Patch Compliance & Inventory Report | ![Patch_Audit](./images/169_SSM_Patch.png) |
+| **1** | Instance Inventory & Fleet Registration | ![SSM_Agent](./images/169_SSM_Register.png) |
+| **2** | Run Command App Deployment | ![Run_Command](./images/169_Run_Command.png) |
+| **3** | Parameter Store Feature Toggle | ![Param_Store](./images/169_SSM_Param.png) |
 
 ## 🛠️ Operational Intelligence
-* **Challenge:** [E.g., "Instances were not appearing in the 'Managed Instances' console, preventing automated patching tasks."]
-* **Engineering Resolution:** [How you fixed it: e.g., "Verified that the IAM instance profile lacked the `AmazonSSMManagedInstanceCore` policy; updated the profile, restarted the SSM Agent, and confirmed communication with the SSM service."]
-* **"What If" Scenario:** [In a production system, I would use SSM Maintenance Windows to schedule non-disruptive patching across the entire fleet and use Parameter Store to securely inject configuration data into applications at runtime.]
+* **Challenge:** Instances were not appearing in the 'Managed Instances' console, which prevented the execution of any automated tasks.
+* **Engineering Resolution:** Diagnosed the issue by verifying the IAM Instance Profile; discovered that the instance lacked the `AmazonSSMManagedInstanceCore` policy. Updated the role, confirmed the SSM Agent service was active, and re-registered the instance, successfully restoring communication with the Systems Manager service.
+* **"What If" Scenario:** In a large-scale production environment, I would utilize **SSM Maintenance Windows** to schedule non-disruptive, phased patching across the fleet to maintain high availability. Furthermore, I would integrate **CloudTrail** with all SSM actions to provide a complete audit log of every command executed across the infrastructure.
 
 ## 📊 Technical Competence
-* **Demonstrated Skills:** Fleet Management (SSM), Infrastructure-as-Code (SSM Documents), Automated Patch Compliance, Secure Remote Access (Session Manager).
+* **Demonstrated Skills:** Fleet Management (Inventory/Fleet Manager), Configuration Automation (Run Command), Secure Parameter/Secret Management, Auditable Remote Access (Session Manager), VPC/Security Troubleshooting.
