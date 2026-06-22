@@ -18,9 +18,10 @@ This lab establishes the baseline for cloud-based system administration. The obj
 | **3** | Identifying Command Headers | ![Command_Headers](./images/225_Man_Headers.png) |
 
 ## 🛠️ Operational Intelligence
-* **Challenge:** Encountered connectivity issues during SSH authentication due to incorrect file permissions on the private key.
-* **Engineering Resolution:** Applied `chmod 400` to the `.pem` key file to enforce read-only permissions, fulfilling SSH security requirements and enabling a successful handshake.
-* **Efficiency Gains:** Mastering the `man` pages reduces dependency on external documentation, allowing for rapid, context-aware troubleshooting directly from the CLI terminal during high-pressure incidents.
+Challenge: Encountered connectivity issues during SSH authentication due to file permission requirements and key format compatibility.
 
+Engineering Resolution: Verified that the Public Key was correctly associated with the instance during provisioning. For Windows-based environments, I ensured the private key was correctly managed using PuTTYgen to convert the .pem file to .ppk format, ensuring compatibility with SSH clients and secure key-based authentication.
+
+Efficiency Gains: Mastering the man pages reduces dependency on external documentation, allowing for rapid, context-aware troubleshooting directly from the CLI terminal during high-pressure incidents.
 ## 📊 Technical Competence
 * **Demonstrated Skills:** SSH Key Management, CLI Navigation, Manual Page (Help) System Proficiency, Linux Instance Access Control.
