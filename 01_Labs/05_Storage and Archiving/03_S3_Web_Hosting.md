@@ -12,11 +12,12 @@ This project demonstrates the efficiency of serverless, static web hosting. The 
 * **Automated Deployment:** Developed a custom bash script (`update-website.sh`) using the AWS CLI to automate synchronization between local source files and the S3 bucket.
 
 ## 📷 Lab Evidence
+
 | Task | Delivery Check | Evidence |
 | :--- | :--- | :--- |
-| **1** | Bucket Creation & Website Enablement | ![S3_Config](./images/170_S3_Hosting_Setup.png) |
-| **2** | CLI-based Object Upload & IAM Audit | ![Object_Upload](./images/170_S3_Object_Upload.png) |
-| **3** | Browser-Based Connectivity Test | ![Web_Access](./images/170_S3_Web_Result.png) |
+| 1 | Bucket Creation & Website Enablement | ![S3 Config](images/01_S3_Config.PNG) |
+| 2 | CLI-based Object Upload & IAM Audit | ![Object Upload](images/02_Object_Upload.PNG) |
+| 3 | Browser-Based Connectivity Test | ![Web Access](images/03_Web_Access.jpg) |
 
 ## 🛠️ Operational Intelligence
 * **Challenge:** Accessing the bucket website endpoint initially returned a 403 "Forbidden" error, despite the bucket being configured for public access.
