@@ -17,7 +17,7 @@ This project demonstrates the efficiency of serverless, static web hosting. The 
 | :--- | :--- | :--- |
 | 1 | Bucket Creation & Website Enablement | ![S3 Config](images/01_S3_Config.PNG) |
 | 2 | CLI-based Object Upload & IAM Audit | ![Object Upload](images/02_Object_Upload.PNG) |
-| 3 | Browser-Based Connectivity Test | ![Web Access](images/03_Web_Access.jpg) |
+| 3 | Browser-Based Connectivity Test | ![Web Access](images/03_Web_Access.png) |
 
 ## 🛠️ Operational Intelligence
 * **Challenge:** Accessing the bucket website endpoint initially returned a 403 "Forbidden" error, despite the bucket being configured for public access.
