@@ -1,16 +1,15 @@
 # ◈ Static S3 Web Hosting
 **Course ID**: `170-[JAWS]-Activity`
 
-## 🎯 Architectural Objective
-This project demonstrates the efficiency of serverless, static web hosting. The objective was to leverage Amazon S3’s built-in hosting capabilities to deliver high-availability, low-cost static web content, while implementing automated deployment scripts to streamline content updates.
+## 🎯 Project Goal
+The goal of this project was to set up a highly available, low-cost static website using serverless architecture on Amazon S3, and to build an automated deployment script to make updating the site quick and easy.
 
 
 
-## ⚙️ Content & Delivery Logic
-* **Bucket Configuration:** Configured S3 for static website hosting, mapping the index document and enabling public access via modified Block Public Access (BPA) settings and ACLs.
-* **Access Control:** Managed identity through IAM, attaching `AmazonS3FullAccess` policies to specific users to enable programmatic bucket administration.
-* **Automated Deployment:** Developed a custom bash script (`update-website.sh`) using the AWS CLI to automate synchronization between local source files and the S3 bucket.
-
+## ⚙️ How it works
+* **S3 Hosting & Access:** I enabled static website hosting on the bucket, configured the index document, and opened up public access by adjusting the Block Public Access (BPA) settings and setting up ACLs.
+* **IAM Permissions:** To manage the bucket securely via the command line, I created a dedicated IAM user (`awsS3user`) and attached the `AmazonS3FullAccess` policy to it.
+* **Automation Script:** I wrote a custom bash script (`update-website.sh`) using the AWS CLI to push local web files directly up to S3.
 ## 📷 Lab Evidence
 
 | Task | Delivery Check | Evidence |
@@ -19,11 +18,10 @@ This project demonstrates the efficiency of serverless, static web hosting. The 
 | 2 | CLI-based Object Upload & IAM Audit | ![Object Upload](images/02_Object_Upload.PNG) |
 | 3 | Browser-Based Connectivity Test | ![Web Access](images/03_Web_Access.PNG) |
 
-## 🛠️ Operational Intelligence
-* **Challenge:** Accessing the bucket website endpoint initially returned a 403 "Forbidden" error, despite the bucket being configured for public access.
-* **Engineering Resolution:** Identified that account-level "Block Public Access" (BPA) settings were overriding bucket-level configurations. Disabled the specific BPA block and enabled ACLs to permit public read access, successfully validating the endpoint.
-* **Efficiency Gains:** Transitioned from `aws s3 cp` to `aws s3 sync`. The `sync` command is significantly more efficient as it performs an incremental update, only uploading files that have changed (checksum-based) rather than re-uploading the entire directory, saving bandwidth and execution time.
-* **"What If" Scenario:** In a production environment, I would place a **CloudFront** distribution in front of this S3 bucket. This would provide HTTPS encryption, support Origin Access Control (OAC) to ensure the bucket remains private (accessible only via CloudFront), and leverage global edge caching for faster content delivery.
+## 🛠️ Lessons Learned & Optimization
+* **The 403 Forbidden Hurdle:** When I first tried to view the site, I hit a 403 "Forbidden" error. I realized that the account-level Block Public Access settings were overriding my bucket settings. Disabling that block and enabling ACLs fixed the issue immediately.
+* **Making Updates Efficient:** Instead of using `aws s3 cp` (which re-uploads every single file every time), I switched the script to use `aws s3 sync`. Now it runs an incremental update—checking file checksums and only uploading files that actually changed, saving time and bandwidth.
+* **Next Steps for Production:** If I were taking this to a production environment, I’d throw a **CloudFront** distribution in front of the bucket. That way, I could keep the S3 bucket entirely private using Origin Access Control (OAC), add HTTPS encryption, and take advantage of edge caching for faster loading speeds globally.
 
 ## 📊 Technical Competence
-* **Demonstrated Skills:** S3 Static Website Hosting, AWS CLI Automation (Shell Scripting), IAM Policy/User Management, ACLs & Bucket Policy configuration, Incremental Deployment Patterns (`s3 sync`).
+AWS S3 Static Hosting, AWS CLI, Bash Shell Scripting, IAM Policies, Bucket Security & ACLs, Incremental Deployment Patterns (`s3 sync`).
