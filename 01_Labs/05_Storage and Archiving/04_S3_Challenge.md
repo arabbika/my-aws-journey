@@ -12,12 +12,15 @@ CLI Storage Operations: I bypassed the AWS Management Console entirely to intera
 
 Permission Isolation: I explored how AWS handles access hierarchies, validating how bucket-level restrictions interact with individual object permissions.
 
+s3 cp or bucket control panel to successfully upload web assets to the bucket.awsweb1.PNG $\rightarrow$ Rename to 03_Web_Access.png: The final verification window showing the publicly readable item loaded over standard HTTP web addresses.
+
 ## 📷 Lab Evidence
+
 | Task | Optimization Metric | Evidence |
-| :--- | :--- | :--- |
-| **1** | Bucket Provisioning & Object Upload | ![Bucket_Setup](./images/184_S3_Bucket_Setup.png) |
-| **2** | Object-Level Public Access Configuration | ![Public_Access](./images/184_S3_Permissions.png) |
-| **3** | CLI-based Resource Auditing | ![CLI_Audit](./images/184_S3_CLI_Audit.png) |
+| :---: | :--- | :--- |
+| **1** | Bucket Provisioning & Object Upload | ![S3 Resource Configuration](images/01_S3_Config.png) |
+| **2** | Object-Level Public Access Configuration | ![CLI Object Upload Success](images/02_Object_Upload.png) |
+| **3** | CLI-based Resource Auditing | ![Web URL Access Validation](images/03_Web_Access.png) |
 
 ## 🛠️ Lessons Learned
 The Object-Level 403 Forbidden Hurdle: After setting up my bucket, I tried to view an uploaded image in my browser using its object URL and immediately ran into a 403 "Forbidden" error. I realized that making a bucket accessible doesn't automatically mean its contents are public. I had to explicitly apply object-level Access Control Lists (ACLs) to grant public read permissions, which fixed the browser error instantly.
