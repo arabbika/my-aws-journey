@@ -14,11 +14,12 @@ Linux File System Integration: To make the raw storage usable, I formatted the b
 Persistence Configuration: I edited the system's /etc/fstab configuration file so that the operating system would remember the mount point and automatically reconnect the storage whenever the server reboots.
 
 ## 📷 Lab Evidence
+
 | Task | Storage Operation | Evidence |
-| :--- | :--- | :--- |
-| **1** | EBS Volume Creation & Attachment | ![Volume_Attach](./images/182_EBS_Attach.png) |
-| **2** | File System Formatting & Mounting | ![FS_Mount](./images/182_EBS_Mount.png) |
-| **3** | Snapshot Restoration & Data Integrity | ![Data_Check](./images/182_EBS_Data.png) |
+| :---: | :--- | :--- |
+| **1** | EBS Volume Creation & Attachment | ![EBS Volume Mount Verification](images/01_ebs_volume_mount.png) |
+| **2** | File System Formatting & Mounting | ![EBS Volume Mount Verification](images/01_ebs_volume_mount.png) |
+| **3** | Snapshot Restoration & Data Integrity | ![fstab Storage Persistence Configuration](images/02_fstab_persistence_configuration.png) |
 
 ## 🛠️ Lessons Learned & Optimization
 The Ghost Volume Trap: During testing, I noticed that if I rebooted the EC2 instance, my newly mounted storage would completely vanish from the directory tree. I learned that manual mount commands only last for the current login session. To fix this permanently, I looked up the disk's unique attributes and added them to /etc/fstab, ensuring the storage survives server restarts.
