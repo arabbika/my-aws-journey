@@ -17,8 +17,8 @@ Access Control & Permissions: I attached a dedicated execution role to my Lambda
 | Task | Integration Milestone | Evidence |
 | :--- | :--- | :--- |
 | **1** | S3 Event-Trigger Configuration | ![S3_Trigger](./images/177_S3_Trigger.png) |
-| **2** | Lambda Function Logic & SNS Integration | ![Lambda_Logic](./images/177_Lambda_Backend.png) |
-| **3** | End-to-End Execution Validation | ![API_Test](./images/177_API_Test.png) |
+| **2** | Lambda Function Logic & SNS Integration | ![Lambda_Logic](./images/02_lambda_s3_metrics_success.png) |
+| **3** | End-to-End Execution Validation | ![API_Test](./images/03_lambda_db_extractor_logs.png) |
 
 ## 🛠️ Lessons Learned & Optimization
 The Silent Trigger Failure: During initial testing, uploading a text file to my bucket did absolutely nothing—the Lambda function wasn't even attempting to run. I learned that just because you hook up a trigger in S3 doesn't mean S3 has permission to talk to Lambda. I had to audit the Lambda function's Resource-Based Policy and explicitly grant the S3 service principal (s3.amazonaws.com) the lambda:InvokeFunction authority. Once that policy was updated, the data pipeline clicked into place perfectly.
