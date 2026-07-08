@@ -1,7 +1,7 @@
 # ◈ Linux CLI and File System Operations
 **Course ID**: `227/233-[LX]-Lab`
 
-🎯 Project Goal
+## 🎯 Project Goal
 The goal of this lab was to get comfortable working entirely inside the Linux terminal. I practiced navigating complex directory structures, managing files, and using administrative shortcuts to move around the file system quickly and efficiently without relying on a desktop interface.
 
 
