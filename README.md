@@ -34,7 +34,8 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 | [AWS SimuLearn: Cloud Computing Essentials](./Certifications/Cloud%20Computing%20Essentials.png) | June 02, 2026 |
 | [AWS SimuLearn: Cloud Economics](./Certifications/Cloud%20Economics.png) | June 02, 2026 |
 | [AWS SimuLearn: Highly Available Web Applications](./Certifications/Highly%20Available%20Web%20Applications.png) | June 04, 2026 |
-| [AWS SimuLearn: Computing Solutions](./Certifications/Computing%20Solutions.png) | June 11, 2026 | | [AWS SimuLearn: File Systems in the Cloud](./Certifications/File%20Systems%20in%20the%20Cloud.png) | July 08, 2026 |
+| [AWS SimuLearn: Computing Solutions](./Certifications/Computing%20Solutions.png) | June 11, 2026 |
+| [AWS SimuLearn: File Systems in the Cloud](./Certifications/File%20Systems%20in%20the%20Cloud.png) | July 08, 2026 |
 
 ---
 
@@ -59,9 +60,9 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 
 Professional-in-training in the AWS re/Start program, this repository contains the validated technical evidence of my core competencies.
 
-* **Total Knowledge Check Score:** 1,908 / 1,908 (100%).
-* **Lab Completion Rate:** 100%.
-* **Core Competency Domains:** Cloud Economics, Linux Administration, Security Governance, and DevOps Automation.
+* **Total Knowledge Check Score:** 2,226 / 2,226 (100%)
+* **Lab Completion Rate:** 100%
+* **Core Competency Domains:** Cloud Economics, Linux Administration, Security Governance, Storage Architecture, and DevOps Automation.
 
 ---
 
