@@ -4,8 +4,7 @@
 ![Linux](https://img.shields.io/badge/Linux-System%20Administration-black?style=for-the-badge&logo=linux)
 ![Python](https://img.shields.io/badge/Python-Automation-blue?style=for-the-badge&logo=python)
 
-Welcome to my Cloud Engineering Portfolio. This repository serves as the definitive record of my technical mastery and progression through the AWS re/Start program. It highlights hands-on proficiency in systems administration, network architecture, security engineering, automation, and core cloud operations.
-
+Welcome to my Cloud Engineering Portfolio. This repository showcases my technical growth, hands-on labs, and milestones throughout the AWS re/Start program. It highlights practical proficiency in systems administration, network architecture, security engineering, automation, and core cloud operations.
 ---
 
 ![About Me](https://img.shields.io/badge/◈-About_Me-blue?style=for-the-badge&logo=aboutdotme)
