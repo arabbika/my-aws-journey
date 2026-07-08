@@ -13,11 +13,12 @@ Backup Automation: I used a combination of Linux cron scheduling and a custom Py
 S3 Synchronization: I integrated local storage volumes with object storage by building an automated synchronization pipeline using the AWS CLI, ensuring all critical data has a secure, version-controlled backup.
 
 ## 📷 Lab Evidence
+
 | Task | Storage Configuration | Evidence |
-| :--- | :--- | :--- |
-| **1** | Automated Snapshot Lifecycle (cron) | ![Snapshot_Config](./images/183_Snapshot_Cron.png) |
-| **2** | S3 Bucket Versioning & Sync Setup | ![S3_Sync](./images/183_S3_Versioning.png) |
-| **3** | Version Restoration & Data Recovery | ![Recovery_Test](./images/183_Data_Recovery.png) |
+| :---: | :--- | :--- |
+| **1** | Automated Snapshot Lifecycle (cron) | *Log verified via terminal outputs during active lab session.* |
+| **2** | S3 Bucket Versioning & Sync Setup | *S3 bucket synchronization validated via AWS CLI.* |
+| **3** | Version Restoration & Data Recovery | *Data recovery successfully tested and confirmed.* |
 
 ## 🛠️ Lessons Learned & Optimization
 Stopping Snapshot Sprawl: Leaving automated backup scripts to run indefinitely can quickly bloat AWS storage costs as old snapshots pile up. To solve this, I deployed a Python retention script (snapshotter_v2.py) that enforces a strict "Keep Last 2" rule—automatically sweeping the environment and deleting older, unneeded snapshots every time a new one is successfully created.
