@@ -14,8 +14,8 @@ Cloud Authentication: I installed the AWS CLI and securely linked my local Linux
 ## 📷 Lab Evidence
 | Task | Delivery Check | Evidence |
 | :--- | :--- | :--- |
-| **1** | System Update Status | ![Update_Status](./images/243_Upgrade_Result.png) |
-| **2** | Transaction History Audit | ![History_List](./images/243_History_List.png) |
+| **1** | System Update Status | ![Update_Status](./images/system_update_status.PNG) |
+| **2** | Transaction History Audit | ![History_List](./images/transaction_history_audit.PNG) |
 | **3** | Successful CLI Verification | ![CLI_Verify](./images/243_CLI_Help.png) |
 
 ## 🛠️ Lessons Learned & Optimization
