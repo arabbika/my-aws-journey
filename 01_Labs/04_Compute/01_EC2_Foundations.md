@@ -1,15 +1,15 @@
 # ◈ EC2 Foundations and Provisioning
 **Course ID**: `11-[CF]-Lab`
 
-## 🎯 Architectural Objective
-Establishing a foundational compute environment to master instance lifecycle management, security group orchestration, and vertical scaling (compute/storage) within AWS.
+## 🎯 Project Goal
+The goal of this lab was to get hands-on experience managing the lifecycle of an Amazon EC2 instance. I practiced launching a virtual server, automating software installation on boot, adjusting firewall rules, and modifying both compute and storage capacity on the fly.
 
-## ⚙️ Technical Implementation
-* **Compute:** Provisioned a `t3.micro` instance using Amazon Linux 2023, initialized with a User Data script to automate the deployment of an Apache web server.
-* **Network & Security:** Implemented a "Least Privilege" security model by explicitly configuring an Inbound Rule to permit HTTP traffic (Port 80) only after validating that the initial web request failed due to lack of permission.
-* **Lifecycle & Scaling:** * Performed vertical scaling by transitioning the instance type from `t3.micro` to `t3.small`.
-    * Executed storage expansion by modifying the EBS root volume from `8 GiB` to `10 GiB` to accommodate increased resource needs.
-    * Configured **Termination Protection** to prevent accidental resource deletion.
+## ⚙️ How it Works
+Automated Provisioning: I launched an EC2 instance running Amazon Linux 2023 and passed a custom User Data bash script during creation to completely automate the installation and startup of an Apache web server.
+
+Network Access Control: I managed the instance’s virtual firewall via Security Groups, troubleshooting web access by strictly controlling inbound traffic permissions.
+
+Instance Scaling & Governance: I manually performed vertical scaling to adapt to shifting workloads—upgrading the instance type and expanding the root Elastic Block Store (EBS) volume. I also applied safeguards to protect the infrastructure from accidental destruction.
 
 ## 📷 Lab Evidence
 | Task | Description | Evidence |
@@ -19,10 +19,12 @@ Establishing a foundational compute environment to master instance lifecycle man
 | **4** | Vertical Scaling (Storage) | ![Storage](./images/11CF_Task4_Resize_VolumeSize.png) |
 | **5** | Resource Governance Test | ![Governance](./images/11CF_Task5_TerminationProtection_Error.png) |
 
-## 🛠️ Operational Intelligence (Troubleshooting)
-* **Real-World Challenge:** Encountered a `Connection Refused` error when attempting to access the web server post-launch.
-* **Engineering Resolution:** Identified that the security group lacked an explicit inbound rule for Port 80. Remedied this by updating the Security Group Inbound Rules to allow HTTP traffic, enabling successful web server access.
-* **"What If" Scenario:** In a production environment, I would define the security group as **Infrastructure as Code (IaC)** using Terraform or CloudFormation to ensure consistent, repeatable network security configurations across environments.
+## 🛠️ Lessons Learned & Optimization
+The Connection Refused Gotcha: Immediately after launching, my browser requests to the web server timed out with a connection error. Instead of messing with the server itself, I verified that the underlying OS was fine and realized the issue was at the network layer: the instance's Security Group was missing a rule for HTTP traffic (Port 80). Adding that rule fixed the issue instantly, reinforcing the value of troubleshooting from the outside in.
+
+Resizing Without Downtime: I learned that AWS allows you to modify an EBS root volume's size dynamically while the instance is still running. Upgrading the volume from 8 GiB to 10 GiB showed me how easy it is to scale storage resources without tearing down the application or causing user downtime.
+
+Preventing Costly Mistakes: By enabling Termination Protection, I added an essential layer of operational safety. Trying to delete the instance threw an explicit warning, which is an industry best practice to prevent accidental command-line drops or dashboard misclicks in production environments.
 
 ## 📊 Technical Competence
-* **Demonstrated Skills:** Security Group Management, Instance Lifecycle Control, Vertical Scaling (EBS & Compute), and Automated Provisioning via User Data.
+EC2 Instance Lifecycle Management, Security Group Configuration, Bootstrap Scripting (User Data), EBS Volume Modification, Vertical Scaling Patterns, Cloud Resource Governance.
