@@ -18,13 +18,13 @@ The goal of this project was to move away from traditional, always-running serve
 
 ---
 
-## 📷 Lab Evidence
+### 📷 Lab Evidence
 
 | Task | Delivery Check | Evidence |
 | :---: | :--- | :--- |
-| **1** | Lambda Function & Layer Creation | ![Lambda Function Setup via CLI](images/lambda_cli_creation.png) <br><br> ![Lambda Environment Variables](images/lambda_env_vars.png) |
-| **2** | Event Source (EventBridge) Mapping | ![EventBridge Cron Trigger Configuration](images/eventbridge_cron_trigger.png) |
-| **3** | Troubleshooting & Log Analysis | ![Successful Log Execution](images/lambda_execution_success.png) |
+| **1** | Lambda Function & Layer Creation | ![Lambda Function Setup via CLI](images/02_cli_creation_success.png) <br><br> ![Lambda Environment Variables](images/01_lambda_env_vars.png) |
+| **2** | Event Source (EventBridge) Mapping | ![EventBridge Cron Trigger Configuration](images/06_eventbridge_trigger.png) |
+| **3** | Troubleshooting & Log Analysis | ![Successful Log Execution](images/04_execution_success.png) |
 
 ---
 
