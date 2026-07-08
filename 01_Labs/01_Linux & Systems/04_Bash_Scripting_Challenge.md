@@ -14,8 +14,8 @@ The goal of this lab was to move away from manual administration and use automat
 
 | Task | Delivery Check | Evidence |
 | :--- | :--- | :--- |
-| **1** | Script Execution & Initial Batch | ![Initial Batch Execution](images/initial_batch_execution.png) |
-| **2** | Dynamic File Generation & Sequential Increment | ![Dynamic Increment Check](images/dynamic_increment_check.png) |
+| **1** | Script Execution & Initial Batch | ![Initial Batch Execution](images/initial_batch_execution.PNG) |
+| **2** | Dynamic File Generation & Sequential Increment | ![Dynamic Increment Check](images/dynamic_increment_check.PNG) |
 
 
 ## 🛠️ Lessons Learned & Optimization
