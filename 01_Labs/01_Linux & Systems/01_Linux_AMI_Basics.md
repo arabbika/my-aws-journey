@@ -1,14 +1,19 @@
 # ◈ Amazon Linux AMI Fundamentals
 **Course ID**: `225-[LX]-Lab`
 
-## 🎯 System Objective
-This lab establishes the baseline for cloud-based system administration. The objective is to securely connect to an Amazon Linux environment and master the Linux `man` (manual) pages, ensuring proficiency in navigating system documentation and command syntax.
+## 🎯 Project Goal
+The goal of this lab was to establish a secure remote connection to a cloud-based Amazon Linux instance and learn how to use the built-in Linux documentation system (man pages) to figure out command syntax and flags without needing to google them.
 
 
 
-## ⚙️ Execution & Exploration Logic
-* **Remote Access:** Established secure connectivity to the EC2 instance using SSH/PuTTY with key-pair authentication, ensuring encrypted management access.
-* **Documentation Mastery:** Utilized the `man` command to navigate internal Linux help documentation, identifying command syntax, descriptions, and functional headers (SYNOPSIS, OPTIONS, etc.).
+## ⚙️ How it Works
+Secure Remote Access: I connected to the hosted EC2 instance securely using an SSH client and public/private key-pair authentication to manage the server remotely.
+
+Documentation Navigation: I utilized the man (manual) utility to open internal documentation directly in the terminal, learning how to quickly skim through structural sections like NAME, SYNOPSIS, and OPTIONS.
+
+Command Discovery: Instead of guessing command flags, I used the built-in manual to look up specific arguments, structural requirements, and examples for essential Linux tools.
+
+📷 Lab Evidence
 
 ## 📷 Lab Evidence
 | Task | CLI Output | Evidence |
@@ -17,11 +22,12 @@ This lab establishes the baseline for cloud-based system administration. The obj
 | **2** | Man Page Interface Navigation | ![Man_Pages](./images/225_Man_Nav.png) |
 | **3** | Identifying Command Headers | ![Command_Headers](./images/225_Man_Headers.png) |
 
-## 🛠️ Operational Intelligence
-Challenge: Encountered connectivity issues during SSH authentication due to file permission requirements and key format compatibility.
+## 🛠️ Lessons Learned & Optimization
+The SSH Connection Hurdle: I initially ran into connection errors trying to authenticate. I learned that Windows SSH clients like PuTTY require private keys to be in .ppk format, whereas Linux/macOS terminals and modern OpenSSH tools use .pem files. Using PuTTYgen to convert the key format resolved the issue immediately.
 
-Engineering Resolution: Verified that the Public Key was correctly associated with the instance during provisioning. For Windows-based environments, I ensured the private key was correctly managed using PuTTYgen to convert the .pem file to .ppk format, ensuring compatibility with SSH clients and secure key-based authentication.
+Breaking the "Google Dependency": When working under pressure in a terminal, switching back and forth to a web browser to look up commands ruins your momentum. Learning to use man <command> keeps your hands on the keyboard and gives you the exact technical answers for the specific version of Linux you are running.
 
-Efficiency Gains: Mastering the man pages reduces dependency on external documentation, allowing for rapid, context-aware troubleshooting directly from the CLI terminal during high-pressure incidents.
+Keyboard Shortcuts Matter: Inside a manual page, you aren't just scrolling. I learned to use / to search for text, n to jump to the next match, and q to instantly exit back to the command prompt, making navigation incredibly fast.
+
 ## 📊 Technical Competence
-* **Demonstrated Skills:** SSH Key Management, CLI Navigation, Manual Page (Help) System Proficiency, Linux Instance Access Control.
+Secure Shell (SSH) Connectivity, Key-Pair Configuration (.pem vs .ppk), Linux Manual System (man), Terminal Help Navigation, Cloud Instance Remote Administration.
