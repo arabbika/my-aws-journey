@@ -1,15 +1,7 @@
 # Data Retrieval Architectures & Conditional Relational Filtering
 
-**Course Framework:** AWS re/Start Training Program  
-**Infrastructure Node:** Linux EC2 Client Command Host Instance  
-**Database Core:** Local MySQL Engine Architecture  
-
----
-
 ## 🎯 Project Overview
 In this lab workspace, I acted as a data analyst to query a structured relational database container. I utilized Data Query Language (DQL) structures to selectively extract dataset metrics, run aggregation functions, apply column aliases for front-facing scannability, and deploy multi-conditional logical operators to filter high-volume data matrices.
-
----
 
 ## ⚙️ Core Technical Capabilities Demonstrated
 
@@ -25,9 +17,7 @@ In this lab workspace, I acted as a data analyst to query a structured relationa
 * **Options Applied:** `AS "Aliased Name"`, `ORDER BY ... DESC`
 * **Process Reflection:** To ensure output data was prepared cleanly for application layer consumption or business intelligence formatting, I leveraged aliases to overwrite raw database naming conventions and implemented reverse sorting indexing (`DESC`) to stack high-priority metrics on top.
 
----
-
-## 📸 Technical Execution Artifacts
+## 📸 Lab Evidence
 
 | Milestone Reference | Administrative Operation Verified | System Output Mapping |
 | :---: | :--- | :--- |
