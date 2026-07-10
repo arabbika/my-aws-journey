@@ -12,7 +12,7 @@ Welcome to my Cloud Engineering Portfolio. This repository showcases my technica
 I am a technical builder, analytics specialist, and data architect with a proven track record of engineering impact. 
 
 * **Enterprise Operations SME:** Top Performer at Amazon Virtual Customer Service (VCS), maintaining elite delivery metrics in high-volume environments. Engineered automated team performance dashboards widely adopted across VCS teams.
-* **AI & Product Founder:** Lead Engineer of live, self-funded AI ventures including **CV Architect™** and **HiRiseAboveBot** (a production WhatsApp-native, cloud-optimized AI tutoring platform built using Flask and custom Python environments).
+* **AI & Product Founder:** Lead Engineer of live, self-funded AI ventures including **CV Architect™** and **HiRiseAboveBot** (a production WhatsApp-native, AI tutoring platform built using Flask and custom Python environments).
 * **Cloud Strategy:** AWS-focused professional specializing in robust cloud infrastructure, containerized ecosystems, and automated systems architecture.
 
 ![Leadership](https://img.shields.io/badge/🏗️-Operational_Excellence-orange?style=for-the-badge&logo=opsgenie)
