@@ -23,7 +23,7 @@ In this lab workspace, I acted as a data infrastructure analyst to design and ev
 
 ## 📸 Lab Evidence
 
-| Milestone Reference | Administrative Operation Verified | System Output Mapping |
+| Milestone Reference | Delivery Check | System Output Mapping |
 | :---: | :--- | :--- |
 | **Artifact 01** | Descriptive Aliasing and Region Aggregation | ![Aliased Population Aggregate Search](./images/01_aliased_aggregate_search.png) |
 | **Artifact 02** | North America Regional Challenge Metrics | ![Challenge Resolution Metric Mapping](./images/02_conditional_challenge_resolved.png) |
