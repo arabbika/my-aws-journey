@@ -21,7 +21,7 @@ In this lab workspace, I acted as a data infrastructure analyst to design and ev
 
 ---
 
-## 📸 Technical Execution Artifacts
+## 📸 Lab Evidence
 
 | Milestone Reference | Administrative Operation Verified | System Output Mapping |
 | :---: | :--- | :--- |
