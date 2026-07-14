@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shisanyama - Premium Braai & Lounge</title>
+    <style>
+        :root {
+            --bg-main: #0C0C0E;
+            --bg-surface: #141417;
+            --border-color: #2B2B32;
+            --accent-fire: #FF5722;
+            --text-main: #FFFFFF;
+            --max-width: 1200px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial Black', 'Impact', 'Montserrat', 'Segoe UI', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        .accent-text { color: var(--accent-fire); }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .app-header {
+            background-color: var(--bg-surface);
+            border-bottom: 1px solid var(--border-color);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .brand-logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-decoration: none;
+            color: var(--text-main);
+        }
+
+        .logo-main-text {
+            font-size: 1.8rem;
+            font-weight: 900;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            line-height: 1;
+        }
+
+        .logo-i-wrapper {
+            position: relative;
+            display: inline-block;
+        }
+
+        .logo-i-wrapper .round-dot {
+            position: absolute;
+            top: -6px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 7px;
+            height: 7px;
+            background-color: var(--accent-fire);
+            border-radius: 50%;
+        }
+
+        .logo-sub-text {
+            font-size: 0.55rem;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            margin-top: 4px;
+            color: var(--text-main);
+            opacity: 0.8;
+            width: 100%;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .nav-links a {
+            color: var(--text-main);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: opacity 0.2s;
+        }
+
+        .nav-links a:hover { opacity: 0.7; }
+
+        .btn {
+            padding: 12px 24px;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            cursor: pointer;
+            border: none;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-primary {
+            background-color: var(--accent-fire);
+            color: var(--text-main);
+            box-shadow: 0 4px 15px rgba(255, 87, 34, 0.2);
+        }
+
+        .btn-primary:hover {
+            opacity: 0.95;
+            box-shadow: 0 4px 25px rgba(255, 87, 34, 0.4);
+            transform: translateY(-1px);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--text-main);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--accent-fire);
+            background-color: rgba(255, 87, 34, 0.05);
+        }
+
+        .btn-block {
+            width: 100%;
+            display: block;
+        }
+
+        .auth-btn {
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            border: 1px solid var(--border-color);
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+        }
+
+        .auth-btn:hover { border-color: var(--accent-fire); }
+
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            min-height: 70vh;
+            border-bottom: 1px solid var(--border-color);
+            background-color: var(--bg-main);
+            align-items: center;
+        }
+
+        .hero-left { padding: 60px; z-index: 3; }
+
+        .hero-right {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            background-color: #050506;
+        }
+
+        .hero-banner-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .hero-right-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right, var(--bg-main) 0%, rgba(12, 12, 14, 0.4) 20%, transparent 100%);
+            z-index: 2;
+        }
+
+        .tagline {
+            color: var(--accent-fire);
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: 900;
+            line-height: 1.15;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: -0.5px;
+        }
+
+        .hero p {
+            color: var(--text-main);
+            opacity: 0.75;
+            font-size: 1.05rem;
+            margin-bottom: 35px;
+            line-height: 1.5;
+        }
+
+        .hero-actions { display: flex; gap: 15px; }
+
+        .section { padding: 80px 0; }
+
+        .section-header { margin-bottom: 40px; }
+
+        .section-header h2 {
+            font-size: 2rem;
+            font-weight: 900;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .section-header p { color: var(--text-main); opacity: 0.6; }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 25px;
+        }
+
+        .menu-card {
+            background-color: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .menu-card:hover {
+            border-color: var(--accent-fire);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(255, 87, 34, 0.15);
+        }
+
+        .menu-img-container {
+            height: 210px;
+            background-color: var(--bg-main);
+            border-bottom: 1px solid var(--border-color);
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .menu-card-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .menu-card:hover .menu-card-img { transform: scale(1.04); }
+
+        .menu-img-placeholder {
+            width: 100%;
+            height: 100%;
+            background-color: var(--bg-main);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--text-main);
+            opacity: 0.6;
+            font-size: 0.8rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .menu-info {
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-grow: 1;
+        }
+
+        .menu-info h3 {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .menu-info p {
+            color: var(--text-main);
+            opacity: 0.65;
+            font-size: 0.88rem;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .menu-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255,255,255,0.04);
+        }
+
+        .price { font-weight: 900; color: var(--accent-fire); font-size: 1.3rem; }
+
+        .booking-split { display: flex; gap: 30px; align-items: flex-start; }
+
+        .form-card {
+            background-color: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            padding: 35px;
+            width: 55%;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .form-card h3 { font-size: 1.4rem; margin-bottom: 4px; text-transform: uppercase; }
+
+        .form-sub { color: var(--text-main); opacity: 0.55; font-size: 0.82rem; margin-bottom: 24px; }
+
+        .form-group { margin-bottom: 20px; }
+
+        .form-row { display: flex; gap: 15px; }
+
+        .form-row .form-group { flex: 1; }
+
+        label {
+            display: block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            color: var(--text-main);
+            opacity: 0.9;
+        }
+
+        input, select {
+            width: 100%;
+            background-color: var(--bg-main);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 12px 14px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            outline: none;
+            transition: all 0.2s ease;
+        }
+
+        input:focus, select:focus {
+            border-color: var(--accent-fire);
+            box-shadow: 0 0 0 1px rgba(255, 87, 34, 0.2);
+        }
+
+        .status-panel {
+            width: 45%;
+            background-color: #050506;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            padding: 24px;
+            align-self: stretch;
+            display: flex;
+            flex-direction: column;
+            box-shadow: inset 0 0 20px rgba(0,0,0,0.6);
+        }
+
+        .status-panel h4 {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 15px;
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .status-panel h4::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            background-color: #4CAF50;
+            border-radius: 50%;
+            display: inline-block;
+            animation: pulse-green 1.8s infinite;
+        }
+
+        @keyframes pulse-green {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 5px rgba(76, 175, 80, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(76, 175, 80, 0); }
+        }
+
+        .terminal-box {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.8rem;
+            line-height: 1.6;
+            color: #A0A0A5;
+            flex-grow: 1;
+            overflow-y: auto;
+        }
+
+        .terminal-line { margin-bottom: 8px; }
+
+        .t-accent { color: var(--accent-fire); font-weight: bold; }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(12, 12, 14, 0.96);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.25s ease;
+        }
+
+        .modal-overlay.active { opacity: 1; pointer-events: auto; }
+
+        .modal-card {
+            background-color: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            padding: 35px;
+            border-radius: 6px;
+            width: 100%;
+            max-width: 420px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+        }
+
+        .modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+
+        .modal-header h3 { text-transform: uppercase; font-size: 1.25rem; }
+
+        .modal-desc { color: var(--text-main); opacity: 0.55; font-size: 0.78rem; margin-bottom: 24px; }
+
+        .close-btn {
+            background: none;
+            border: none;
+            color: var(--text-main);
+            font-size: 1.5rem;
+            cursor: pointer;
+            opacity: 0.5;
+            transition: opacity 0.2s;
+        }
+
+        .close-btn:hover { opacity: 1; }
+
+        @media (max-width: 992px) {
+            .hero { grid-template-columns: 1fr; text-align: center; min-height: auto; }
+            .hero-left { padding: 60px 20px; }
+            .hero-right { height: 350px; }
+            .hero-right-overlay { background: linear-gradient(to top, var(--bg-main) 0%, transparent 100%); }
+            .hero h1 { font-size: 2.4rem; }
+            .hero-actions { justify-content: center; }
+            .booking-split { flex-direction: column; }
+            .form-card, .status-panel { width: 100%; }
+            .status-panel { min-height: 200px; }
+        }
+
+        @media (max-width: 768px) { .nav-links a { display: none; } }
+    </style>
+</head>
+<body>
+
+    <header class="app-header">
+        <a href="#" class="brand-logo-container">
+            <div class="logo-main-text">
+                SH<span class="logo-i-wrapper">I<span class="round-dot"></span></span>SANYAMA
+            </div>
+            <div class="logo-sub-text">FLAME & LOUNGE</div>
+        </a>
+        <nav class="nav-links">
+            <a href="#menu-section">Menu</a>
+            <a href="#booking-section">Book Table</a>
+            <button class="auth-btn" id="login-nav-btn" onclick="toggleAuthModal(true)">Sign In</button>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="hero-left">
+            <span class="tagline">Authentic Open-Flame Braai</span>
+            <h1>Experience Premium Taste & True Tradition</h1>
+            <p>Skip the long queues. Secure your table booking or place your gourmet meat platter order online instantly.</p>
+            <div class="hero-actions">
+                <a href="#booking-section" class="btn btn-primary">Book a Table</a>
+                <a href="#menu-section" class="btn btn-secondary">Explore Menu</a>
+            </div>
+        </div>
+        <div class="hero-right">
+            <div class="hero-right-overlay"></div>
+            <img src="hero.webp" alt="Premium Shisanyama Grill Setup" class="hero-banner-img">
+        </div>
+    </div>
+
+    <main class="container">
+        <section id="menu-section" class="section">
+            <div class="section-header">
+                <h2>Our Signature Menu</h2>
+                <p>Premium cuts grilled to perfection by our master braai-masters.</p>
+            </div>
+            <div class="menu-grid" id="menu-container"></div>
+        </section>
+
+        <section id="booking-section" class="section booking-split">
+            <div class="form-card">
+                <h3>Secure Booking & Order Pipeline</h3>
+                <p class="form-sub">Fill out your details to dispatch an encrypted database request.</p>
+                <form id="transaction-form" onsubmit="handleFormSubmit(event)">
+                    <div class="form-group">
+                        <label for="customer-name">Full Name</label>
+                        <input type="text" id="customer-name" required placeholder="e.g. Sipho Sithole">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="booking-date">Date</label>
+                            <input type="date" id="booking-date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="booking-time">Time</label>
+                            <input type="time" id="booking-time" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="platter-select">Select Primary Platter</label>
+                        <select id="platter-select" required>
+                            <option value="" disabled selected>Choose an item...</option>
+                            <option value="lekker-braai">Lekker Combo Braai Platter (R350)</option>
+                            <option value="kings-feast">The King's Feast Family Board (R680)</option>
+                            <option value="brisket-chox">Slow-Smoked Brisket & Chakalaka (R220)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Confirm Booking Transaction</button>
+                </form>
+            </div>
+
+            <div class="status-panel">
+                <h4>Live Pipeline Operations</h4>
+                <div class="terminal-box">
+                    <div class="terminal-line"><span class="t-accent">system-node:~#</span> status: online</div>
+                    <div class="terminal-line"><span class="t-accent">system-node:~#</span> awaiting secure transaction parameters...</div>
+                    <div id="terminal-feed"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal-overlay" id="auth-modal">
+        <div class="modal-card">
+            <div class="modal-header">
+                <h3>Secure Account Gateway</h3>
+                <button class="close-btn" onclick="toggleAuthModal(false)">&times;</button>
+            </div>
+            <p class="modal-desc">Authenticate directly via secure AWS user pool identity pools.</p>
+            <form id="auth-form" onsubmit="handleAuth(event)">
+                <div class="form-group">
+                    <label for="auth-email">Email Address</label>
+                    <input type="email" id="auth-email" required placeholder="name@domain.com">
+                </div>
+                <div class="form-group">
+                    <label for="auth-password">Password</label>
+                    <input type="password" id="auth-password" required placeholder="••••••••">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Authenticate Session</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const signatureMenu = [
+            { id: "lekker-braai", title: "Lekker Combo Braai Platter", desc: "A hearty combination of premium boerewors, tender brisket slices, and flame-grilled chuck, served with warm pap and a side of fresh chakalaka.", price: "R350", img: "lekker.webp" },
+            { id: "kings-feast", title: "The King's Feast Family Board", desc: "Designed for groups. Loaded with short ribs, double boerewors line loops, multiple chicken quarters, dynamic dipping glazes, and double sides.", price: "R680", img: "kings.webp" },
+            { id: "brisket-chox", title: "Slow-Smoked Brisket Slab", desc: "Oak-smoked barbecue beef brisket marinated in special spices for 12 hours, sliced thin and layered alongside standard rustic house salads.", price: "R220", img: "brisket.webp" }
+        ];
+
+        document.addEventListener("DOMContentLoaded", () => { renderMenuGrid(); });
+
+        function renderMenuGrid() {
+            const container = document.getElementById("menu-container");
+            if (!container) return;
+            container.innerHTML = signatureMenu.map(item => `
+                <div class="menu-card">
+                    <div class="menu-img-container">
+                        <img src="${item.img}" alt="${item.title}" class="menu-card-img" onerror="showFallback(this, '${item.title}')">
+                    </div>
+                    <div class="menu-info">
+                        <div>
+                            <h3>${item.title}</h3>
+                            <p>${item.desc}</p>
+                        </div>
+                        <div class="menu-meta">
+                            <span class="price">${item.price}</span>
+                            <button class="btn btn-secondary" style="padding: 6px 14px; font-size: 0.75rem;" onclick="preSelectPlatter('${item.id}')">Select</button>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function showFallback(imageElement, title) {
+            const container = imageElement.parentElement;
+            container.innerHTML = `<div class="menu-img-placeholder">[ Photo: ${title} ]</div>`;
+        }
+
+        function preSelectPlatter(itemId) {
+            const selector = document.getElementById("platter-select");
+            if (!selector) return;
+            selector.value = itemId;
+            document.getElementById("booking-section").scrollIntoView();
+        }
+
+        function toggleAuthModal(show) {
+            const modal = document.getElementById("auth-modal");
+            if (modal) { modal.classList.toggle("active", show); }
+        }
+
+        function handleAuth(event) {
+            event.preventDefault();
+            const email = document.getElementById("auth-email").value;
+            const navBtn = document.getElementById("login-nav-btn");
+            if (navBtn) {
+                navBtn.innerText = email.split('@')[0];
+                navBtn.style.borderColor = "var(--accent-fire)";
+            }
+            toggleAuthModal(false);
+            loggerFeedPrint("Cognito user verification string successfully cached into current platform session storage.");
+        }
+
+        async function handleFormSubmit(event) {
+            event.preventDefault();
+            
+            const formData = {
+                name: document.getElementById("customer-name").value,
+                date: document.getElementById("booking-date").value,
+                time: document.getElementById("booking-time").value,
+                guests: "1",
+                requests: document.getElementById("platter-select").value
+            };
+
+            loggerFeedPrint("Initializing payload serialization...");
+
+            try {
+                const response = await fetch('https://luza35ltai.execute-api.us-east-1.amazonaws.com/prod/booking', {
+                    method: 'POST',
+                    body: JSON.stringify(formData),
+                    headers: { 'Content-Type': 'application/json' }
+                });
+
+                if (response.ok) {
+                    loggerFeedPrint('<span style="color: #4CAF50;">Success: Booking sent to Lambda & saved to DynamoDB!</span>');
+                    document.getElementById("transaction-form").reset();
+                } else {
+                    loggerFeedPrint('<span style="color: #FF5722;">Error: Server returned status ' + response.status + '</span>');
+                }
+            } catch (error) {
+                loggerFeedPrint('<span style="color: #FF5722;">Error: Could not connect to API Gateway.</span>');
+            }
+        }
+
+        function loggerFeedPrint(message) {
+            const feed = document.getElementById("terminal-feed");
+            if (!feed) return;
+            const newLine = document.createElement("div");
+            newLine.className = "terminal-line";
+            newLine.innerHTML = `<span class="t-accent">system-node:~#</span> ${message}`;
+            feed.appendChild(newLine);
+            const terminalBox = feed.parentElement;
+            if (terminalBox) terminalBox.scrollTop = terminalBox.scrollHeight;
+        }
+    </script>
+</body>
+</html>
