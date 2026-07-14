@@ -12,9 +12,9 @@ The goal of this lab was to get comfortable working with relational databases di
 ### 📷 Lab Evidence
 | Task | Delivery Check | Evidence |
 | :---: | :--- | :--- |
-| **1** | Secure MariaDB Authentication & Login | (images/01_mariadb_login_success.png) |
-| **2** | SQL Window Functions (Running Totals & Country Rank) | ![SQL Window Functions](images/02_sql_window_functions_running_total.png) |
-| **3** | Regional Partitioning & Custom Ranking Query | ![Regional Partitioning](images/03_sql_regional_rank_partition.png) |
+| **1** | Secure MariaDB Authentication & Login | ![Secure MariaDB Login](./images/01_mariadb_login_success.png) |
+| **2** | SQL Window Functions (Running Totals & Country Rank) | ![SQL Window Functions](./images/02_sql_window_functions_running_total.png) |
+| **3** | Regional Partitioning & Custom Ranking Query | ![Regional Partitioning](./images/03_sql_regional_rank_partition.png) |
 
 ### 🛠️ Lessons Learned & Optimization
 * **Grouping vs. Partitioning:** This lab really helped me understand the difference between `GROUP BY` and `PARTITION BY`. With `GROUP BY`, the database collapses my rows into single summary rows. By using `PARTITION BY` inside a window function, I can calculate values like running totals or ranks and still display every single country's row side-by-side.
