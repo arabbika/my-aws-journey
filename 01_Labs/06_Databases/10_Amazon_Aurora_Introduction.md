@@ -21,4 +21,4 @@ The objective of this lab was to configure and deploy a high-performance, manage
 * **Targeting Specific Schemas on Boot**: Appending the database name (e.g., `world`) to the end of the `mysql` connection string saves operational overhead by establishing immediate access to the working schema, eliminating the need to manually run `USE database;` commands.
 
 ## 📊 Technical Competence
-Amazon Aurora Provisioning, DB Cluster Lifecycle Management, Database Endpoint Integration, VPC Security Group Network Isolation, Relational Database Modeling, MySQL Client Connection & Query Verification[cite: 1].
+Amazon Aurora Provisioning, DB Cluster Lifecycle Management, Database Endpoint Integration, VPC Security Group Network Isolation, Relational Database Modeling, MySQL Client Connection & Query Verification.
