@@ -14,14 +14,13 @@ Relational Schema Design: Once connected via the MySQL CLI client on the EC2 bas
 ## 📷 Lab Evidence
 | Task | Description | Evidence |
 | :--- | :--- | :--- |
-| **1** | Secure MySQL RDS Connection | ![Connection Established](./images/01_rds_connection_established.png) |
-| **2** | 'RESTART' Table Schema Design | ![RESTART Describe Output](./images/02_restart_table_creation_and_describe_output.png) |
-| **3** | Populate 'RESTART' Records | ![RESTART Insert Confirmation](./images/03_restart_table_insert_10_rows_confirmation.png) |
-| **4** | Verify Student Database Entries | ![Select All RESTART](./images/04_select_all_from_restart_table.png) |
-| **5** | 'CLOUD_PRACTITIONER' Table Schema | ![CLOUD_PRACTITIONER Describe Output](./images/05_cloud_practitioner_table_describe_output.png) |
-| **6** | Populate Certification Records | ![CLOUD_PRACTITIONER Insert Confirmation](./images/06_cloud_practitioner_insert_5_rows_confirmation.png) |
-| **7** | Verify Active Certifications | ![Select All CLOUD_PRACTITIONER](./images/07_select_all_from_cloud_practitioner_table.png) |
-| **8** | Dynamic Table Inner Join Query | ![Inner Join Output](./images/08_inner_join_certified_students_output.png) |
+| **1** | 'RESTART' Table Schema Design | ![RESTART Describe Output](./images/02_restart_table_creation_and_describe_output.png) |
+| **2** | Populate 'RESTART' Records | ![RESTART Insert Confirmation](./images/03_restart_table_insert_10_rows_confirmation.png) |
+| **3** | Verify Student Database Entries | ![Select All RESTART](./images/04_select_all_from_restart_table.png) |
+| **4** | 'CLOUD_PRACTITIONER' Table Schema | ![CLOUD_PRACTITIONER Describe Output](./images/05_cloud_practitioner_table_describe_output.png) |
+| **5** | Populate Certification Records | ![CLOUD_PRACTITIONER Insert Confirmation](./images/06_cloud_practitioner_insert_5_rows_confirmation.png) |
+| **6** | Verify Active Certifications | ![Select All CLOUD_PRACTITIONER](./images/07_select_all_from_cloud_practitioner_table.png) |
+| **7** | Dynamic Table Inner Join Query | ![Inner Join Output](./images/08_inner_join_certified_students_output.png) |
 
 ## 🛠️ Lessons Learned & Optimization
 Least Privilege Security: I learned first-hand how AWS prevents database exposure by decoupling compute resources from storage. Rather than opening database access to the entire VPC or public internet, nesting security groups (authorizing the EC2 SG directly inside the RDS SG) ensures that only our designated bastion host can knock on port 3306.
