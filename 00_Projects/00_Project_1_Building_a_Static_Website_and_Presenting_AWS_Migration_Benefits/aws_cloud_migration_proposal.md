@@ -24,17 +24,22 @@ Evaluating standard on-premises manual limitations:
 
 ---
 
-## 🎥 2. Media Pitch Briefing (Embedded Video Demo)
-
-Below is the embedded presentation video pitch showcasing the conceptual transformation from manual limitations directly into a managed AWS serverless environment:
-
 ## 🎥 2. Media Pitch Briefing (Video Demo)
 
 Below is the presentation video pitch showcasing the conceptual transformation from manual limitations directly into a managed AWS serverless environment:
 
-[![Watch Presentation Video](https://img.shields.io/badge/▶_PLAY_VIDEO-AWS_Serverless_Migration_Demo-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://github.com/arabbika/my-aws-journey/blob/main/00_Projects/00_Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/2026-07-13%2016-10-32%20Compressed.mp4)
+<video controls width="100%" poster="" style="border-radius: 8px;">
+  <source src="https://raw.githubusercontent.com/arabbika/my-aws-journey/main/00_Projects/00_Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/2026-07-13%2016-10-32%20Compressed.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
 
-> 🎬 **Note:** Click the orange button above to view and play the full presentation video on GitHub.
+---
+
+### Alternative Direct Play Link
+
+[![Watch Presentation Video](https://img.shields.io/badge/▶_PLAY_VIDEO-AWS_Serverless_Migration_Demo-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://raw.githubusercontent.com/arabbika/my-aws-journey/main/00_Projects/00_Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/2026-07-13%2016-10-32%20Compressed.mp4)
+
+> 🎬 **Note:** Click the orange button above to stream or download the raw 2.85 MB presentation video directly.
 
 
 ## ⚡ 3. Technical Solution & Cloud Ecosystem
