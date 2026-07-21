@@ -78,6 +78,22 @@ The proposed frontend interface replaces manual ingestion pipelines with a high-
 
 
 ```
+### 🌐 Live Web Portal Demonstration
+
+Experience the deployed frontend interface directly on GitHub Pages:
+
+[![Launch Application](https://img.shields.io/badge/🚀_LAUNCH_LIVE_PORTAL-GitHub_Pages-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://arabbika.github.io/my-aws-journey/00_Projects/00_Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/index.html)
+
+> 🚀 **Interactive Demo:** Click the button above to launch and test the live application directly in your browser.
+
+### 🖥️ Interactive Portal Features
+
+* **AWS Cognito Sign-In:** Secure identity interface isolating unique profile booking data securely.
+* **Menu Display:** Fast image component loading derived directly from static file storage buckets.
+* **Booking & Order Forms:** Consolidated data injection panels structured to block overlapping table inputs.
+* **Confirmation Page:** Immediate digital feedback layout establishing transaction validation for guests.
+
+---
 
 ---
 
