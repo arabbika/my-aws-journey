@@ -7,9 +7,18 @@
 
 ---
 
+# AWS Cloud Migration Proposal & Pre-Deployment Architectural Handover
+
+> **Project:** AWS Serverless Migration for Shisanyama Operational Ecosystem  
+> **Prepared By:** [Your Name/Alias] – Solutions Architect & Delivery Lead  
+> **Prepared For:** Executive Board of Directors (MD & CFO)  
+> **Status:** Production-Ready / Handover Stage  
+
+---
+
 ## 📋 Executive Briefing
 
-Welcome, members of the Board of Directors. As your Lead Cloud Solutions Consultants, we are delivering the production-ready technical architecture designed to turn unstructured manual operational hurdles—such as lost double-bookings and kitchen friction—into scalable, high-performing digital business assets.
+This document outlines the production-ready technical architecture designed to transition current manual operational hurdles—such as lost double-bookings and kitchen friction—into a scalable, high-performing digital ecosystem. By leveraging managed AWS cloud services, we aim to secure data, optimize the customer experience, and reduce long-term operational overhead.
 
 ---
 
