@@ -74,11 +74,11 @@ A strict comparative evaluation detailing how shifting from an upfront capital e
 
 ---
 
-## 📊 6. Key Business Benefits & Empirical Results (Kyalami Case Study)
+## 📊 6. Key Business Benefits & Results (Kyalami Case Study)
 
 Verifiable market metrics resulting from cloud-native conversion models:
 
-| Performance Vector | Identified Operational Inefficiency | AWS Managed Empirical Result |
+| Performance Vector | Identified Operational Inefficiency | AWS Managed Result |
 | :--- | :--- | :--- |
 | **Platform Traffic** | High customer demand spikes and storage issues | Seamless scalability across high peak hours. |
 | **Guest Interaction** | Poor communication and dropped pipeline inputs | **40% increase** in customer engagement metrics achieved. |
