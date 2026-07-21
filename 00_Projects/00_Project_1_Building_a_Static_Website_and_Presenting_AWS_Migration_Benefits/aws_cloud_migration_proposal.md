@@ -56,6 +56,17 @@ The proposed frontend interface replaces manual ingestion pipelines with a high-
 [01 AWS Cognito Sign-In] ➔ [02 Menu Display] ➔ [03 Booking & Order Forms] ➔ [04 Confirmation Page]
 ```
 
+## 🌐 Live Application Preview
+
+Experience the live Shisanyama web application directly hosted on GitHub Pages:
+
+[![Launch Live Web Portal](video_preview.png)](https://arabbika.github.io/my-aws-journey/00_Projects/00_Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/index.html)
+
+> 🚀 **Interactive Demo:** Click the preview window above or use the launch badge below to open the live web portal in your browser.
+
+[![Launch Application](https://img.shields.io/badge/🚀_LAUNCH_LIVE_PORTAL-GitHub_Pages-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://arabbika.github.io/my-aws-journey/00_Projects/00_Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/index.html)
+
+
 ### 🖥️ Interactive Portal Features
 
 * **AWS Cognito Sign-In:** Secure identity interface isolating unique profile booking data securely.
