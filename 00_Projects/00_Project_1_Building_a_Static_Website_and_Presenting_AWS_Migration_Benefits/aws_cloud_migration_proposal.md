@@ -29,7 +29,7 @@ Evaluating standard on-premises manual limitations:
 Below is the embedded presentation video pitch showcasing the conceptual transformation from manual limitations directly into a managed AWS serverless environment:
 
 <video controls width="100%" poster="" style="border-radius: 8px; border: 1px solid #2a2a30;">
-    <source src="C:\Users\ashanar\Downloads\HG - Trim.mp4" type="video/mp4">
+    <source src="00_Projects/00_Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/2026-07-13 16-10-32 Compressed.mp4" type="video/mp4">
     Your browser does not support HTML5 video tags.
 </video>
 
