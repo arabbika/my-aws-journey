@@ -1,15 +1,6 @@
 # AWS Cloud Migration Proposal & Pre-Deployment Architectural Handover
 
 > **Project:** AWS Serverless Migration for Shisanyama Operational Ecosystem  
-> **Lead Presenter:** Solutions Architect & Delivery Lead  
-> **Audience:** Executive Board of Directors (MD & CFO)  
-> **Status:** Production-Ready / Handover Stage  
-
----
-
-# AWS Cloud Migration Proposal & Pre-Deployment Architectural Handover
-
-> **Project:** AWS Serverless Migration for Shisanyama Operational Ecosystem  
 > **Prepared By:** [Your Name/Alias] – Solutions Architect & Delivery Lead  
 > **Prepared For:** Executive Board of Directors (MD & CFO)  
 > **Status:** Production-Ready / Handover Stage  
