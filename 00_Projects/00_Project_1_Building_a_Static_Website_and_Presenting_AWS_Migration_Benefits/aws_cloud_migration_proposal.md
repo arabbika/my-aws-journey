@@ -32,9 +32,9 @@ Below is the embedded presentation video pitch showcasing the conceptual transfo
 
 Below is the presentation video pitch showcasing the conceptual transformation from manual limitations directly into a managed AWS serverless environment:
 
-[![▶ Play Video Pitch](https://img.shields.io/badge/▶_Watch_Video_Pitch-AWS_Serverless_Migration-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://github.com/arabbika/my-aws-journey/blob/ab538bc0adbd88050b3541e034149319e3731546/00_Projects/00_Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/2026-07-13%2016-10-32%20Compressed.mp4)
+[![Watch Presentation Video](https://raw.githubusercontent.com/arabbika/my-aws-journey/main/00_Projects/00_Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/demo_preview.gif)](https://github.com/arabbika/my-aws-journey/blob/ab538bc0adbd88050b3541e034149319e3731546/00_Projects/00_Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/2026-07-13%2016-10-32%20Compressed.mp4)
 
-> 🎬 **Note:** [Click here to view or download the presentation video directly on GitHub](https://github.com/arabbika/my-aws-journey/blob/ab538bc0adbd88050b3541e034149319e3731546/00_Projects/00_Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/2026-07-13%2016-10-32%20Compressed.mp4).
+> 💡 **Click the preview above to watch the full video pitch on GitHub.**
 
 ## ⚡ 3. Technical Solution & Cloud Ecosystem
 
