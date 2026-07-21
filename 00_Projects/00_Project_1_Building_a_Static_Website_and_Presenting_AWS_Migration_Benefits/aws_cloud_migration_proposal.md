@@ -1,9 +1,10 @@
 # ☁️ AWS Cloud Migration Proposal & Architectural Handover
 
-![AWS](https://img.shields.io/badge/AWS-Serverless-orange?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Cognito](https://img.shields.io/badge/Cognito-Authentication-blue?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-Database-blueviolet?style=for-the-badge&logo=amazondynamodb&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Production--Ready-green?style=for-the-badge)
+[![](https://img.shields.io/badge/Briefing-Executive-blue?style=for-the-badge)](#-executive-briefing)
+[![](https://img.shields.io/badge/Bottlenecks-Operational-red?style=for-the-badge)](#-1-the-business-problem-operational-bottlenecks)
+[![](https://img.shields.io/badge/Pitch-Video_Demo-orange?style=for-the-badge)](#-2-media-pitch-briefing-video-demo)
+[![](https://img.shields.io/badge/Architecture-AWS_Ecosystem-black?style=for-the-badge&logo=amazonaws)](#-3-technical-solution--cloud-ecosystem)
+[![](https://img.shields.io/badge/Financials-CapEx_vs_OpEx-green?style=for-the-badge)](#-5-financial-analysis--resource-budget-projections)
 
 ---
 
