@@ -75,3 +75,6 @@ The proposed frontend interface replaces manual ingestion pipelines with a high-
 
 ```text
 [01 AWS Cognito Sign-In] ➔ [02 Menu Display] ➔ [03 Booking & Order Forms] ➔ [04 Confirmation Page]
+
+
+```
