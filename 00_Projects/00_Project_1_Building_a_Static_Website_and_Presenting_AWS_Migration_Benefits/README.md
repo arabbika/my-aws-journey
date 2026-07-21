@@ -86,6 +86,8 @@ Experience the deployed frontend interface directly on GitHub Pages:
 
 > 🚀 **Interactive Demo:** Click the button above to launch and test the live application directly in your browser.
 
+![Demo Preview](media/demo_preview.gif)
+
 ### 🖥️ Interactive Portal Features
 
 * **AWS Cognito Sign-In:** Secure identity interface isolating unique profile booking data securely.
