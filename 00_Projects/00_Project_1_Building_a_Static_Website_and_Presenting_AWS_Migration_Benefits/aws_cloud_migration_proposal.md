@@ -28,21 +28,13 @@ Evaluating standard on-premises manual limitations:
 
 Below is the embedded presentation video pitch showcasing the conceptual transformation from manual limitations directly into a managed AWS serverless environment:
 
-## 🎥 2. Media Pitch Briefing (Embedded Video Demo)
+## 🎥 2. Media Pitch Briefing (Video Demo)
 
-Below is the embedded presentation video pitch showcasing the conceptual transformation from manual limitations directly into a managed AWS serverless environment:
+Below is the presentation video pitch showcasing the conceptual transformation from manual limitations directly into a managed AWS serverless environment:
 
-<video controls width="100%" poster="" style="border-radius: 8px; border: 1px solid #2a2a30;">
-    <source src="https://github.com/arabbika/my-aws-journey/raw/ab538bc0adbd88050b3541e034149319e3731546/00_Projects/00_Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/2026-07-13%2016-10-32%20Compressed.mp4" type="video/mp4">
-    <source src="./00_Projects/00_Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/2026-07-13%2016-10-32%20Compressed.mp4" type="video/mp4">
-    Your browser does not support HTML5 video tags.
-</video>
+[![▶ Play Video Pitch](https://img.shields.io/badge/▶_Watch_Video_Pitch-AWS_Serverless_Migration-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://github.com/arabbika/my-aws-journey/blob/ab538bc0adbd88050b3541e034149319e3731546/00_Projects/00_Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/2026-07-13%2016-10-32%20Compressed.mp4)
 
-> **Note:** If the video does not render in your local Markdown preview, watch the video directly on [GitHub](https://github.com/arabbika/my-aws-journey/blob/ab538bc0adbd88050b3541e034149319e3731546/00_Projects/00_Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/2026-07-13%2016-10-32%20Compressed.mp4).
-
-
-
----
+> 🎬 **Note:** [Click here to view or download the presentation video directly on GitHub](https://github.com/arabbika/my-aws-journey/blob/ab538bc0adbd88050b3541e034149319e3731546/00_Projects/00_Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/2026-07-13%2016-10-32%20Compressed.mp4).
 
 ## ⚡ 3. Technical Solution & Cloud Ecosystem
 
