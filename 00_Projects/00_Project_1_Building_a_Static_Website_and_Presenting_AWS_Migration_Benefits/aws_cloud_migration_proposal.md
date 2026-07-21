@@ -1,14 +1,15 @@
+```markdown
 # ☁️ AWS Cloud Migration Proposal & Architectural Handover
 
 <div align="center">
 
 [![Executive Briefing](https://img.shields.io/badge/Briefing-Executive-blue?style=for-the-badge)](#-executive-briefing)
-[![Bottlenecks](https://img.shields.io/badge/Bottlenecks-Operational-red?style=for-the-badge)](#-1-the-business-problem-operational-bottlenecks)
-[![Video Pitch](https://img.shields.io/badge/Pitch-Video_Demo-orange?style=for-the-badge)](#-2-media-pitch-briefing-video-demo)
-[![AWS Architecture](https://img.shields.io/badge/Architecture-AWS_Ecosystem-black?style=for-the-badge&logo=amazonaws)](#-3-technical-solution--cloud-ecosystem)
-[![Live Portal](https://img.shields.io/badge/Portal-Interactive_Demo-2ea44f?style=for-the-badge&logo=github)](#-4-interactive-portal-features--execution-pipeline)
-[![Financials](https://img.shields.io/badge/Financials-CapEx_vs_OpEx-green?style=for-the-badge)](#-5-financial-analysis--resource-budget-projections)
-[![Results](https://img.shields.io/badge/Results-Case_Study-purple?style=for-the-badge)](#-6-key-business-benefits--results-kyalami-case-study)
+[![Bottlenecks](https://img.shields.io/badge/Bottlenecks-Operational-red?style=for-the-badge)](#1--the-business-problem-operational-bottlenecks)
+[![Video Pitch](https://img.shields.io/badge/Pitch-Video_Demo-orange?style=for-the-badge)](#2--media-pitch-briefing-video-demo)
+[![AWS Architecture](https://img.shields.io/badge/Architecture-AWS_Ecosystem-black?style=for-the-badge&logo=amazonaws)](#3--technical-solution--cloud-ecosystem)
+[![Live Portal](https://img.shields.io/badge/Portal-Interactive_Demo-2ea44f?style=for-the-badge&logo=github)](#4--interactive-portal-features--execution-pipeline)
+[![Financials](https://img.shields.io/badge/Financials-CapEx_vs_OpEx-green?style=for-the-badge)](#5--financial-analysis--resource-budget-projections)
+[![Results](https://img.shields.io/badge/Results-Case_Study-purple?style=for-the-badge)](#6--key-business-benefits--results-kyalami-case-study)
 
 </div>
 
@@ -26,7 +27,7 @@ This document outlines the production-ready technical architecture designed to t
 
 ---
 
-## 🔴 1. The Business Problem: Operational Bottlenecks
+## 1. 🔴 The Business Problem: Operational Bottlenecks
 
 > [!CAUTION]
 > **Legacy On-Premises Risk Exposure**  
@@ -39,7 +40,7 @@ This document outlines the production-ready technical architecture designed to t
 
 ---
 
-## 🎥 2. Media Pitch Briefing (Video Demo)
+## 2. 🎥 Media Pitch Briefing (Video Demo)
 
 > [!IMPORTANT]
 > **Executive Presentation Walkthrough**  
@@ -51,7 +52,7 @@ https://github.com/user-attachments/assets/140af033-4fbe-45eb-ab15-5b4f54d7b528
 
 ---
 
-## ⚡ 3. Technical Solution & Cloud Ecosystem
+## 3. ⚡ Technical Solution & Cloud Ecosystem
 
 Transitioning localized legacy bottlenecks into a highly available ecosystem of modern managed cloud service components to ensure platform auto-scaling and continuous availability:
 
@@ -64,7 +65,7 @@ Transitioning localized legacy bottlenecks into a highly available ecosystem of 
 
 ---
 
-## 💻 4. Interactive Portal Features & Execution Pipeline
+## 4. 💻 Interactive Portal Features & Execution Pipeline
 
 The proposed frontend interface replaces manual ingestion pipelines with a high-contrast web portal layout built with accessible, clean components to handle secure consumer processing paths:
 
@@ -72,45 +73,7 @@ The proposed frontend interface replaces manual ingestion pipelines with a high-
 [01 AWS Cognito Sign-In] ➔ [02 Menu Display] ➔ [03 Booking & Order Forms] ➔ [04 Confirmation Page]
 ```
 
-### 🌐 Live Web Portal Demonstration
-
-Experience the deployed frontend interface directly on GitHub Pages:
-
-[![Launch Application](https://img.shields.io/badge/🚀_LAUNCH_LIVE_PORTAL-GitHub_Pages-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://arabbika.github.io/my-aws-journey/00_Projects/00_Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/index.html)
-
-> 🚀 **Interactive Demo:** Click the button above to launch and test the live application directly in your browser.
-
-### 🖥️ Interactive Portal Features
-
-* **AWS Cognito Sign-In:** Secure identity interface isolating unique profile booking data securely.
-* **Menu Display:** Fast image component loading derived directly from static file storage buckets.
-* **Booking & Order Forms:** Consolidated data injection panels structured to block overlapping table inputs.
-* **Confirmation Page:** Immediate digital feedback layout establishing transaction validation for guests.
-
----
-
-## 💰 5. Financial Analysis & Resource Budget Projections
-
-A strict comparative evaluation detailing how shifting from an upfront capital equipment model to a utility cloud structure protects monthly cash flow margins from wasted overhead:
-
-```rust
-// Financial Strategy Shift
+🌐 Live Web Portal DemonstrationExperience the deployed frontend interface directly on GitHub Pages:[!TIP]Interactive Demo: Click the launch badge above to test the live application directly in your browser.🖥️ Interactive Portal Features🔐 AWS Cognito Sign-In: Secure identity interface isolating unique profile booking data securely.🍽️ Menu Display: Fast image component loading derived directly from static file storage buckets.📑 Booking & Order Forms: Consolidated data injection panels structured to block overlapping table inputs.✅ Confirmation Page: Immediate digital feedback layout establishing transaction validation for guests.5. 💰 Financial Analysis & Resource Budget ProjectionsA strict comparative evaluation detailing how shifting from an upfront capital equipment model to a utility cloud structure protects monthly cash flow margins from wasted overhead:Rust// Financial Strategy Shift
 [ Legacy CapEx Model ] ➔ High Upfront Cost  + Fixed Monthly Overhead  + Downtime Risk
 [ AWS OpEx Model ]    ➔ Zero Capital Outlay + Pay-Per-Use Scaling      + 30% Savings
-
-* **Legacy On-Premises Strategy (CapEx Model):** Demands heavy upfront capital expenditures for physical office machinery and manual server components. Expenses remain completely flat and costly even during quiet seasons, while system downtimes and operational inefficiencies drop overall productivity.
-* **Managed AWS Strategy (OpEx Model):** Replaces all hardware infrastructure overhead with zero upfront equipment outlays. Proven cloud deployment models minimize downtime and maximize pipeline flows, reducing administrative operational costs by 30%.
-
-```
----
-
-## 📊 6. Key Business Benefits & Results (Kyalami Case Study)
-
-Verifiable market metrics resulting from cloud-native conversion models:
-
-| Performance Vector | Identified Operational Inefficiency | AWS Managed Result |
-| :--- | :--- | :--- |
-| **Platform Traffic** | High customer demand spikes and storage issues | Seamless scalability across high peak hours. |
-| **Guest Interaction** | Poor communication and dropped pipeline inputs | **40% increase** in customer engagement metrics achieved. |
-| **Bottom-Line Overhead** | High maintenance hardware capital expenditures | **30% reduction** in overall operational costs verified. |
-| **Risk Mitigation** | Systemic system errors, downtime, and resource waste | High-availability target infrastructure removes physical hardware dependency. |
+🏦 Legacy On-Premises Strategy (CapEx Model): Demands heavy upfront capital expenditures for physical office machinery and manual server components. Expenses remain completely flat and costly even during quiet seasons, while system downtimes and operational inefficiencies drop overall productivity.☁️ Managed AWS Strategy (OpEx Model): Replaces all hardware infrastructure overhead with zero upfront equipment outlays. Proven cloud deployment models minimize downtime and maximize pipeline flows, reducing administrative operational costs by 30%.6. 📊 Key Business Benefits & Results (Kyalami Case Study)Verifiable market metrics resulting from cloud-native conversion models:Performance VectorIdentified Operational InefficiencyAWS Managed Result🚀 Platform TrafficHigh customer demand spikes and storage issuesSeamless Peak Scalability💬 Guest InteractionPoor communication and dropped pipeline inputs+40% Engagement Increase💵 Bottom-Line OverheadHigh maintenance hardware capital expenditures30% Operational Cost Cut🛡️ Risk MitigationSystemic system errors, downtime, and resource wasteZero Hardware Dependency
