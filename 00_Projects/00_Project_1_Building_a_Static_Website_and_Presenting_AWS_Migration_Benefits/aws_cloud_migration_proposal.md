@@ -29,11 +29,10 @@ Evaluating standard on-premises manual limitations:
 
 Below is the presentation video pitch showcasing the conceptual transformation from manual limitations directly into a managed AWS serverless environment:
 
-<a href="https://media.githubusercontent.com/media/arabbika/my-aws-journey/main/00_Projects/00_Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/2026-07-13%2016-10-32%20Compressed.mp4" target="_blank">
-  <img src="video_preview.png" alt="Watch Presentation Video" width="100%" />
-</a>
+https://github.com/user-attachments/assets/140af033-4fbe-45eb-ab15-5b4f54d7b528
 
-> 🔊 **Note:** Click the preview image above to open and stream the video pitch with full voiceover audio in a new tab.
+> 🎬 **Note:** Click play above to stream the full video pitch with audio directly inside GitHub.
+
 
 
 ## ⚡ 3. Technical Solution & Cloud Ecosystem
