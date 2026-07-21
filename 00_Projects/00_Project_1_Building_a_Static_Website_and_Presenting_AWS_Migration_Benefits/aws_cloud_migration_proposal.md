@@ -93,6 +93,7 @@ Experience the deployed frontend interface directly on GitHub Pages:
 
 A strict comparative evaluation detailing how shifting from an upfront capital equipment model to a utility cloud structure protects monthly cash flow margins from wasted overhead:
 
+```rust
 // Financial Strategy Shift
 [ Legacy CapEx Model ] ➔ High Upfront Cost  + Fixed Monthly Overhead  + Downtime Risk
 [ AWS OpEx Model ]    ➔ Zero Capital Outlay + Pay-Per-Use Scaling      + 30% Savings
@@ -100,6 +101,7 @@ A strict comparative evaluation detailing how shifting from an upfront capital e
 * **Legacy On-Premises Strategy (CapEx Model):** Demands heavy upfront capital expenditures for physical office machinery and manual server components. Expenses remain completely flat and costly even during quiet seasons, while system downtimes and operational inefficiencies drop overall productivity.
 * **Managed AWS Strategy (OpEx Model):** Replaces all hardware infrastructure overhead with zero upfront equipment outlays. Proven cloud deployment models minimize downtime and maximize pipeline flows, reducing administrative operational costs by 30%.
 
+```
 ---
 
 ## 📊 6. Key Business Benefits & Results (Kyalami Case Study)
