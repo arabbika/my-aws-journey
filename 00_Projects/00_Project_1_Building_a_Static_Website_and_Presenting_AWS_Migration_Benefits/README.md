@@ -125,7 +125,6 @@ A strict comparative evaluation detailing how shifting from an upfront capital e
 
 ---
 
-<a name="financials"></a>
 ## 📊 6. Key Business Benefits & Results (Kyalami Case Study)
 
 Verifiable market metrics resulting from cloud-native conversion models:
