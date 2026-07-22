@@ -124,7 +124,7 @@ A strict comparative evaluation detailing how shifting from an upfront capital e
 * **Managed AWS Strategy (OpEx Model):** Replaces all hardware infrastructure overhead with zero upfront equipment outlays. Proven cloud deployment models minimize downtime and maximize pipeline flows, reducing administrative operational costs by 30%.
 
 ---
-
+<a name="results"></a>
 ## 📊 6. Key Business Benefits & Results (Kyalami Case Study)
 
 Verifiable market metrics resulting from cloud-native conversion models:
