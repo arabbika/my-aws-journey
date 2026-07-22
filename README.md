@@ -1,21 +1,33 @@
-# AWS Cloud Infrastructure & Systems Engineering Portfolio
+# ☁️ AWS Cloud Infrastructure & Systems Engineering Portfolio
 
-![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-System%20Administration-black?style=for-the-badge&logo=linux)
-![Python](https://img.shields.io/badge/Python-Automation-blue?style=for-the-badge&logo=python)
+<div align="center">
 
-Welcome to my Cloud Engineering Portfolio. This repository showcases my technical growth, hands-on labs, and milestones throughout the AWS re/Start program. It highlights practical proficiency in systems administration, network architecture, security engineering, automation, and core cloud operations.
+[![About Me](https://img.shields.io/badge/About-Me-0052CC?style=for-the-badge&logo=aboutdotme&logoColor=white)](#about-me)
+[![Leadership](https://img.shields.io/badge/Leadership-Excellence-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](#operational-excellence)
+[![Certifications](https://img.shields.io/badge/AWS-Certifications-232F3E?style=for-the-badge&logo=awslambda&logoColor=white)](#certifications)
+[![Technical Labs](https://img.shields.io/badge/Labs-Simulations-181717?style=for-the-badge&logo=github&logoColor=white)](#technical-simulations)
+[![Validation](https://img.shields.io/badge/re/Start-Validation-3F9E00?style=for-the-badge&logo=awsre-start&logoColor=white)](#program-validation)
+[![Architecture](https://img.shields.io/badge/Repo-Structure-6C757D?style=for-the-badge&logo=files&logoColor=white)](#repository-structure)
+
+</div>
+
+Welcome to my Cloud Engineering Portfolio! This repository showcases my technical growth, hands-on labs, and milestones throughout the **AWS re/Start Program**. It highlights practical proficiency in systems administration, network architecture, security engineering, automation, and core cloud operations.
+
 ---
 
-![About Me](https://img.shields.io/badge/◈-About_Me-blue?style=for-the-badge&logo=aboutdotme)
+<a name="about-me"></a>
+## 👤 About Me
 
-I am a technical builder, analytics specialist, and data architect with a proven track record of engineering impact. 
+I am a technical builder, analytics specialist, and data architect with a proven track record of engineering impact:
 
 * **Enterprise Operations SME:** Top Performer at Amazon Virtual Customer Service (VCS), maintaining elite delivery metrics in high-volume environments. Engineered automated team performance dashboards widely adopted across VCS teams.
 * **AI & Product Founder:** Lead Engineer of live, self-funded AI ventures including **CV Architect™** and **HiRiseAboveBot** (a production WhatsApp-native, AI tutoring platform built using Flask and custom Python environments).
 * **Cloud Strategy:** AWS-focused professional specializing in robust cloud infrastructure, containerized ecosystems, and automated systems architecture.
 
-![Leadership](https://img.shields.io/badge/🏗️-Operational_Excellence-orange?style=for-the-badge&logo=opsgenie)
+---
+
+<a name="operational-excellence"></a>
+## 🏗️ Operational Excellence & Leadership
 
 I integrate AWS Leadership Principles and professional methodologies into my technical workflows:
 
@@ -25,9 +37,10 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 
 ---
 
-![Certifications](https://img.shields.io/badge/🏆-AWS_Certifications-red?style=for-the-badge&logo=awslambda)
+<a name="certifications"></a>
+## 🏆 AWS Certifications & SimuLearn Badges
 
-| Certification | Date Completed |
+| Certification / Badge | Date Completed |
 | :--- | :--- |
 | [AWS SimuLearn: Cloud First Steps](./Certifications/Cloud%20First%20Steps.png) | June 02, 2026 |
 | [AWS SimuLearn: Cloud Computing Essentials](./Certifications/Cloud%20Computing%20Essentials.png) | June 02, 2026 |
@@ -39,9 +52,10 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 
 ---
 
-![Technical Labs](https://img.shields.io/badge/⚙️-Technical_Simulations-black?style=for-the-badge&logo=github)
+<a name="technical-simulations"></a>
+## ⚙️ Technical Simulations & AWS Domains
 
-*I have curated my lab work into thematic domains that mirror the AWS Well-Architected Framework.*
+*I have curated my lab work into thematic domains that mirror the AWS Well-Architected Framework:*
 
 * **Compute**: Instance provisioning, sizing, and management.
 * **Networking**: VPC configuration, subnets, and routing.
@@ -56,7 +70,8 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 
 ---
 
-![Validation](https://img.shields.io/badge/🛡️-Program_Validation-green?style=for-the-badge&logo=securityscorecard)
+<a name="program-validation"></a>
+## 🛡️ AWS re/Start Program Validation
 
 Professional-in-training in the AWS re/Start program, this repository contains the validated technical evidence of my core competencies.
 
@@ -66,7 +81,8 @@ Professional-in-training in the AWS re/Start program, this repository contains t
 
 ---
 
-![Architecture](https://img.shields.io/badge/🗂️-Repository_Architecture-lightgrey?style=for-the-badge&logo=files)
+<a name="repository-structure"></a>
+## 🗂️ Repository Architecture
 
 ```text
 📂 my-aws-journey/
@@ -74,4 +90,4 @@ Professional-in-training in the AWS re/Start program, this repository contains t
 ├── 📁 Certifications/ ── # Validated Skill Builder Certificates
 ├── 📁 Labs/ ──────────── # Validated Engineering Simulations (Domain-grouped)
 ├── 📁 Projects/ ──────── # Architectural Frameworks & AI Ventures
-└── 📄 README_2.md ────── # Master Portfolio Profile
+└── 📄 README.md ──────── # Master Portfolio Profile
