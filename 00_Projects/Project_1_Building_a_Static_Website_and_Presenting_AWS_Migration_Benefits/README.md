@@ -60,7 +60,7 @@ Transitioning localized legacy bottlenecks into a highly available ecosystem of 
 
 <div align="center">
 
-![AWS Live 3D Architecture Diagram](images/aws_architecture_3d.png)
+![AWS Live 3D Architecture Diagram](Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits/images/aws_architecture_3d.png)
 
 </div>
 
