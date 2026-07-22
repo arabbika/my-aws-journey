@@ -2,12 +2,12 @@
 
 <div align="center">
 
-[![About Me](https://img.shields.io/badge/About-Me-0052CC?style=for-the-badge&logo=aboutdotme&logoColor=white)](#about-me)
-[![Leadership](https://img.shields.io/badge/Leadership-Excellence-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](#operational-excellence)
-[![Certifications](https://img.shields.io/badge/AWS-Certifications-232F3E?style=for-the-badge&logo=awslambda&logoColor=white)](#certifications)
-[![Technical Labs](https://img.shields.io/badge/Labs-Simulations-181717?style=for-the-badge&logo=github&logoColor=white)](#technical-simulations)
-[![Validation](https://img.shields.io/badge/re/Start-Validation-3F9E00?style=for-the-badge&logo=awsre-start&logoColor=white)](#program-validation)
-[![Architecture](https://img.shields.io/badge/Repo-Structure-6C757D?style=for-the-badge&logo=files&logoColor=white)](#repository-structure)
+[![About Me](https://img.shields.io/badge/ABOUT-ME-0078D4?style=for-the-badge&logo=aboutdotme&logoColor=white)](#about-me)
+[![Leadership](https://img.shields.io/badge/LEADERSHIP-EXCELLENCE-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](#operational-excellence)
+[![Certifications](https://img.shields.io/badge/AWS-CERTIFICATIONS-E50914?style=for-the-badge&logo=awslambda&logoColor=white)](#certifications)
+[![Technical Labs](https://img.shields.io/badge/LABS-SIMULATIONS-2EA44F?style=for-the-badge&logo=github&logoColor=white)](#technical-simulations)
+[![Validation](https://img.shields.io/badge/RE/START-VALIDATION-70B500?style=for-the-badge&logo=securityscorecard&logoColor=white)](#program-validation)
+[![Architecture](https://img.shields.io/badge/REPO-STRUCTURE-8A2BE2?style=for-the-badge&logo=files&logoColor=white)](#repository-structure)
 
 </div>
 
