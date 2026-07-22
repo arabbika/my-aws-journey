@@ -14,7 +14,7 @@
 
 > [!NOTE]
 > **📋 Project:** AWS Serverless Migration for Shisanyama Operational Ecosystem  
-> **👨‍💻 Prepared By:** Praesignis AWS re/Start Mini Group
+> **👨‍💻 Prepared By:** Praesignis AWS re/Start Mini Group  
 > **🏁 Status:** Production-Ready / Handover Stage  
 
 ---
