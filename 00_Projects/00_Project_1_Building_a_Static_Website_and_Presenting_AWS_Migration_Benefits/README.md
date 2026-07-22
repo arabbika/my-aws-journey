@@ -15,7 +15,6 @@
 > [!NOTE]
 > **📋 Project:** AWS Serverless Migration for Shisanyama Operational Ecosystem  
 > **👨‍💻 Prepared By:** Praesignis Mini Group
-> **🎯 Prepared For:** Executive Board of Directors (MD & CFO)  
 > **🏁 Status:** Production-Ready / Handover Stage  
 
 ---
