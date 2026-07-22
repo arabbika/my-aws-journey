@@ -108,6 +108,7 @@ Experience the deployed frontend interface directly on GitHub Pages:
 
 ---
 
+<a name="financials"></a>
 ## 💰 5. Financial Analysis & Resource Budget Projections
 
 A strict comparative evaluation detailing how shifting from an upfront capital equipment model to a utility cloud structure protects monthly cash flow margins from wasted overhead:
