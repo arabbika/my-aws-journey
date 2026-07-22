@@ -59,6 +59,14 @@ This document outlines the production-ready technical architecture designed to t
 
 Transitioning localized legacy bottlenecks into a highly available ecosystem of modern managed cloud service components to ensure platform auto-scaling and continuous availability:
 
+<div align="center">
+
+![AWS Live 3D Architecture Diagram](images/aws_architecture_3d.png)
+
+</div>
+
+<br>
+
 | AWS Service | Architecture Role | Business Value Delivered |
 | :--- | :--- | :--- |
 | **`Amazon S3`** | **Static Web Hosting** | Eliminates localized frontend dependencies by hosting web code and high-availability digital menu graphics across globally distributed endpoints. |
@@ -67,6 +75,8 @@ Transitioning localized legacy bottlenecks into a highly available ecosystem of 
 | **`AWS Lambda & SNS`** | **Serverless Compute & Alerts** | Introduces event-driven processing engines to handle messaging updates and order print notifications without maintaining permanent compute servers. |
 
 ---
+
+
 
 <a name="portal"></a>
 ## 4. 💻 Interactive Portal Features & Execution Pipeline
