@@ -20,18 +20,18 @@ The goal of these combined labs was to gain hands-on experience diagnosing, trou
 ### Part 1: Public and Private IP Addresses (`261-[NF]-Lab`)
 | Task | Description | Evidence |
 | :--- | :--- | :--- |
-| **1** | Instance A Details (Private IPv4 Only) | ![Instance A Details](./images/261_01_instance_a_networking_details.png) |
-| **1** | Instance B Details (Public & Private IPv4) | ![Instance B Details](./images/261_02_instance_b_networking_details.png) |
-| **2** | Instance A Reachability/Key Failure | ![Instance A Failure](./images/261_03_instance_a_ssh_failure.png) |
-| **2** | Instance B Windows CLI SSH Connection Success | ![Instance B Success](./images/261_04_instance_b_ssh_success.png) |
+| **1** | Instance A Details (Private IPv4 Only) | ![Instance A Details](/my-aws-journey/01_Labs/02_Networking/images/01-instance-a-networking-details.png) |
+| **1** | Instance B Details (Public & Private IPv4) | ![Instance B Details](/my-aws-journey/01_Labs/02_Networking/images/02-instance-b-networking-details.png) |
+| **2** | Instance A Reachability/Key Failure | ![Instance A Failure](/my-aws-journey/01_Labs/02_Networking/images/03-instance-a-ssh-failure.png) |
+| **2** | Instance B Windows CLI SSH Connection Success | ![Instance B Success](/my-aws-journey/01_Labs/02_Networking/images/04-instance-b-ssh-success.png) |
 
 ### Part 2: Static and Dynamic IP Addresses (`262-[NF]-Lab`)
 | Task | Description | Evidence |
 | :--- | :--- | :--- |
-| **1** | Initial Dynamic Public IP (Running State) | ![Dynamic Initial](./images/262_01_dynamic_ip_initial_running.png) |
-| **1** | Dynamic Public IP Changed After Restart | ![Dynamic Changed](./images/262_02_dynamic_ip_changed_after_restart.png) |
-| **1** | Elastic IP Allocation & Association | ![EIP Association](./images/262_03_elastic_ip_associated.png) |
-| **1** | Static Elastic IP Persisted After Restart | ![Static Persisted](./images/262_04_static_ip_persisted_after_restart.png) |
+| **1** | Initial Dynamic Public IP (Running State) | ![Dynamic Initial](/my-aws-journey/01_Labs/02_Networking/images/01-dynamic-ip-initial-running.png) |
+| **1** | Dynamic Public IP Changed After Restart | ![Dynamic Changed](/my-aws-journey/01_Labs/02_Networking/images/02-dynamic-ip-changed-after-restart.png) |
+| **1** | Elastic IP Allocation & Association | ![EIP Association](/my-aws-journey/01_Labs/02_Networking/images/03-elastic-ip-associated.png) |
+| **1** | Static Elastic IP Persisted After Restart | ![Static Persisted](/my-aws-journey/01_Labs/02_Networking/images/04-static-ip-persisted-after-restart.png) |
 
 ## 🛠️ Lessons Learned & Optimization
 * **The Auto-Assign Public IP Trap**: Auto-assigned public IPv4 addresses are ephemeral. They are tied directly to the lifecycle of the underlying EC2 hypervisor session. Stopping an instance returns its public IP to the AWS pool, meaning hardcoded IP configurations in external applications or DNS records will break instantly upon instance restart.
