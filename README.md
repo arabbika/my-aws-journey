@@ -1,4 +1,4 @@
-# ☁️ AWS Cloud Infrastructure & Systems Engineering Portfolio
+# ☁️ AWS Cloud Infrastructure & Systems Engineering Portfolio ☁️
 
 <div align="center">
 
