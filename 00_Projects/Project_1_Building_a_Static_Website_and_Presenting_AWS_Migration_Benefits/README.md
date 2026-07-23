@@ -1,4 +1,4 @@
-# ☁️ AWS Cloud Migration Proposal & Architectural Handover
+# ☁️ AWS Cloud Migration Proposal & Architectural Handover ☁️
 
 <div align="center">
 
