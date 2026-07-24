@@ -49,6 +49,7 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 | [AWS SimuLearn: Computing Solutions](./Certifications/Computing%20Solutions.png) | June 11, 2026 |
 | [AWS SimuLearn: File Systems in the Cloud](./Certifications/File%20Systems%20in%20the%20Cloud.png) | July 08, 2026 |
 | [AWS SimuLearn: Databases in Practice](./Certifications/Databases%20in%20Practice.png) | July 10, 2026 |
+| [AWS SimuLearn: Networking Concepts](./Certifications/Networking%20Concepts.png) | July 24, 2026 |
 
 ---
 
