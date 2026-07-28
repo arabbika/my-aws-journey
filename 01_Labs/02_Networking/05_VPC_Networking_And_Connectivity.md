@@ -11,16 +11,14 @@ Designing and deploying a custom Virtual Private Cloud (VPC) from scratch to est
 * **Compute & Connectivity:** Launched a `t3.micro` EC2 instance (`Bastion Server`) within the public subnet and established an active SSH session via PuTTY.
 
 ## 📸 Lab Evidence
-The step-by-step verification and configuration screenshots for this implementation are stored in the `/images` directory:
-
 | Step | Architecture Component | Verification Artifact |
 | :--- | :--- | :--- |
-| **01** | VPC Provisioning | `images/01_vpc_creation.png` |
-| **02** | Subnet Allocation | `images/02_subnet_creation.png` |
-| **03** | Internet Gateway Attachment | `images/03_igw_attached.png` |
-| **04** | Route Table Configuration | `images/04_route_table_configured.png` |
-| **05** | Security Group Rules | `images/06_security_group_rules.png` |
-| **06** | Outbound ICMP Ping Verification | `images/08_ping_verification.png` |
+| **01** | VPC Provisioning | ![VPC Creation](images/01_vpc_creation.png) |
+| **02** | Subnet Allocation | ![Subnet Creation](images/02_subnet_creation.png) |
+| **03** | Internet Gateway Attachment | ![IGW Attached](images/03_igw_attached.png) |
+| **04** | Route Table Configuration | ![Route Table Configured](images/04_route_table_configured.png) |
+| **05** | Security Group Rules | ![Security Group Rules](images/06_security_group_rules.png) |
+| **06** | Outbound ICMP Ping Verification | ![Ping Verification](images/08_ping_verification.png) |
 
 ## 🛠️ Operational Intelligence (Troubleshooting)
 * **Real-World Challenge:** Encountered initial connectivity confusion regarding multi-layered security controls and verifying outbound ICMP traffic through configured route tables and firewall rules.
