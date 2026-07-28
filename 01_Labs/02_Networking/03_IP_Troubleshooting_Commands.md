@@ -13,12 +13,25 @@ Executing standard Network Diagnostic Utilities mapped across OSI Layers 3, 4, a
 
 | Step | OSI Layer & Focus | Verification Artifact |
 | :--- | :--- | :--- |
-| **01** | SSH Terminal Session | [01_ssh_puTTY_session.png](images/01_ssh_puTTY_session.png) |
-| **02** | L3 ICMP Reachability (`ping`) | [02_ping_8888.png](images/02_ping_8888.png) |
-| **03** | L3 Route & Hop Latency (`traceroute`) | [03_traceroute_8888.png](images/03_traceroute_8888.png) |
-| **04** | L4 Active Sockets (`netstat`) | [04_netstat_connections.png](images/04_netstat_connections.png) |
-| **05** | L4 TCP Port Verification (`telnet`) | [05_telnet_google_80.png](images/05_telnet_google_80.png) |
-| **06** | L7 HTTP/S Verbose Headers (`curl`) | [06_curl_verbose_aws.png](images/06_curl_verbose_aws.png) |
+## 📸 Lab Evidence
+
+### 01. SSH Terminal Session
+![SSH Terminal Session](images/01_ssh_puTTY_session.png)
+
+### 02. L3 ICMP Reachability (ping)
+![ICMP Reachability](images/02_ping_8888.png)
+
+### 03. L3 Route & Hop Latency (traceroute)
+![Traceroute Output](images/03_traceroute_8888.png)
+
+### 04. L4 Active Sockets (netstat)
+![Netstat Connections](images/04_netstat_connections.png)
+
+### 05. L4 TCP Port Verification (telnet)
+![Telnet Output](images/05_telnet_google_80.png)
+
+### 06. L7 HTTP/S Verbose Headers (curl)
+![Curl Verbose Headers](images/06_curl_verbose_aws.png)
 
 ## 🛠️ Operational Intelligence (Troubleshooting)
 * **Real-World Challenge:** Isolating network failures often leads to misidentifying issues (e.g., assuming a web application is down when a Security Group is blocking inbound traffic or an ISP hop is dropping packets).
