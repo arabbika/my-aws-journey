@@ -11,7 +11,7 @@ Executing standard Network Diagnostic Utilities mapped across OSI Layers 3, 4, a
 
 ## 📸 Lab Evidence
 
-| Step | OSI Layer & Focus | Verification Artifact |
+| Step | What I tested | Proof |
 | :--- | :--- | :--- |
 ## 📸 Lab Evidence
 
