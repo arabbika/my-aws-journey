@@ -11,7 +11,7 @@ Designing and deploying a custom Virtual Private Cloud (VPC) from scratch to est
 * **Compute & Connectivity:** Launched a `t3.micro` EC2 instance (`Bastion Server`) within the public subnet and established an active SSH session via PuTTY.
 
 ## 📸 Lab Evidence
-| Step | Architecture Component | Verification Artifact |
+| Step | Component | Proof |
 | :--- | :--- | :--- |
 | **01** | VPC Provisioning | ![VPC Creation](images/01_vpc_creation.png) |
 | **02** | Subnet Allocation | ![Subnet Creation](images/02_subnet_creation.png) |
