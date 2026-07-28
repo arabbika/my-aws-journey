@@ -10,6 +10,18 @@ Designing and deploying a custom Virtual Private Cloud (VPC) from scratch to est
 * **Security & Traffic Control:** Configured a stateless Network Access Control List (`Public Subnet NACL`) at the subnet level and stateful Security Groups (`public security group`) allowing inbound SSH (Port 22) access at the instance level.
 * **Compute & Connectivity:** Launched a `t3.micro` EC2 instance (`Bastion Server`) within the public subnet and established an active SSH session via PuTTY.
 
+## 📸 Lab Evidence
+The step-by-step verification and configuration screenshots for this implementation are stored in the `/images` directory:
+
+| Step | Architecture Component | Verification Artifact |
+| :--- | :--- | :--- |
+| **01** | VPC Provisioning | `images/01_vpc_creation.png` |
+| **02** | Subnet Allocation | `images/02_subnet_creation.png` |
+| **03** | Internet Gateway Attachment | `images/03_igw_attached.png` |
+| **04** | Route Table Configuration | `images/04_route_table_configured.png` |
+| **05** | Security Group Rules | `images/06_security_group_rules.png` |
+| **06** | Outbound ICMP Ping Verification | `images/08_ping_verification.png` |
+
 ## 🛠️ Operational Intelligence (Troubleshooting)
 * **Real-World Challenge:** Encountered initial connectivity confusion regarding multi-layered security controls and verifying outbound ICMP traffic through configured route tables and firewall rules.
 * **Engineering Resolution:** Confirmed stateful security group behaviors and verified that Network ACLs explicitly allowed all traffic inbound/outbound on rule `100`; validated end-to-end network connectivity by executing an ICMP `ping google.com` test directly from the instance CLI, achieving a 0% packet loss rate.
