@@ -15,7 +15,7 @@ The step-by-step verification and configuration screenshots for this implementat
 
 | Step | Architecture Component | Verification Artifact |
 | :--- | :--- | :--- |
-| **01** | VPC Provisioning | `/images/01_vpc_creation.png` |
+| **01** | VPC Provisioning | `images/01_vpc_creation.png` |
 | **02** | Subnet Allocation | `images/02_subnet_creation.png` |
 | **03** | Internet Gateway Attachment | `images/03_igw_attached.png` |
 | **04** | Route Table Configuration | `images/04_route_table_configured.png` |
