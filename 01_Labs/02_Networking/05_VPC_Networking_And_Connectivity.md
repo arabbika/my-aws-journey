@@ -1,7 +1,7 @@
 # ◈ VPC Networking & Connectivity
 **Course ID**: `264-[NF]-Lab - Networking resources for a VPC`
 
-## 🎯 Architectural Objective
+## 🎯 Project Goal
 Designing and deploying a custom Virtual Private Cloud (VPC) from scratch to establish isolated networking infrastructure, routing, security controls, and verified public internet access for compute resources.
 
 ## ⚙️ Technical Implementation
