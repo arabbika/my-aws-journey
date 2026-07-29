@@ -20,7 +20,7 @@ Verified the allocation of public (`10.0.0.0/24`) and private (`10.0.2.0/23`) su
 
 ### 2. Public Network Routing
 Configured `Public Route Table` with an explicit route targeting `Lab IGW` (`0.0.0.0/0`) associated with `Public Subnet`.
-![Public Route Table](03-public-route-table.png)
+![Public Route Table](images/03-public-route-table.png)
 
 ---
 
