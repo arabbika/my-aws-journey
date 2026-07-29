@@ -25,7 +25,7 @@ Diagnosing and resolving real-world network connectivity issues across VPC bound
 ## 📷 Proof of Work
 
 ### 1. Active VPC Flow Log Configuration
-![VPC Flow Log Active Status](.images/01-active-vpc-flow-log.png)
+![VPC Flow Log Active Status](images/01-active-vpc-flow-log.png)
 
 ### 2. Successful HTTP Web Access
 ![HTTP Web Page Loaded](.images/02-web-server-http-success.png)
