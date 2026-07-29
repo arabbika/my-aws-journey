@@ -28,13 +28,13 @@ Diagnosing and resolving real-world network connectivity issues across VPC bound
 ![VPC Flow Log Active Status](images/01-active-vpc-flow-log.png)
 
 ### 2. Successful HTTP Web Access
-![HTTP Web Page Loaded](.images/02-web-server-http-success.png)
+![HTTP Web Page Loaded](images/02-web-server-http-success.png)
 
 ### 3. SSH Instance Connect Verification
-![SSH Terminal Session](.images/03-ec2-instance-connect-ssh-success.png)
+![SSH Terminal Session](images/03-ec2-instance-connect-ssh-success.png)
 
 ### 4. Flow Log REJECT Traffic Analysis
-![Filtered VPC Flow Logs](.images/04-vpc-flowlog-reject-analysis.png)
+![Filtered VPC Flow Logs](images/04-vpc-flowlog-reject-analysis.png)
 
 ### 5. ENI & Timestamp Conversion Verification
-![Epoch Timestamp Conversion](.images/05-timestamp-conversion-verification.png)
+![Epoch Timestamp Conversion](images/05-timestamp-conversion-verification.png)
