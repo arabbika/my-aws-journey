@@ -26,19 +26,19 @@ Configured `Public Route Table` with an explicit route targeting `Lab IGW` (`0.0
 
 ### 3. Private Network Routing
 Configured `Private Route Table` with a default route (`0.0.0.0/0`) targeting `Lab NAT gateway`.
-![NAT Gateway Route](04-nat-gateway-route.png)
+![NAT Gateway Route](images/04-nat-gateway-route.png)
 
 ---
 
 ### 4. Bastion Host Connection
 Established an SSH terminal session jumping from the public `Bastion Server` into the isolated `Private Instance`.
-![Bastion Private SSH Session](05-bastion-private-ssh.png)
+![Bastion Private SSH Session](images/05-bastion-private-ssh.png)
 
 ---
 
 ### 5. Outbound Connectivity Verification
 Verified successful egress internet communication from the private instance through the NAT Gateway via HTTP header request (`curl -I https://aws.amazon.com`).
-![Outbound NAT Connectivity Success](06-nat-ping-success.png)
+![Outbound NAT Connectivity Success](images/06-nat-ping-success.png)
 
 ## 🛠️ Operational Intelligence (Troubleshooting)
 * **Real-World Challenge:** Initial connectivity verification from the private EC2 instance failed when testing outbound internet traffic via `ping amazon.com`, showing 100% packet loss despite the NAT Gateway being in an `Available` state.
