@@ -18,14 +18,14 @@ Designing and deploying a multi-tier, high-availability network architecture usi
 ![VPC Creation](images/267%2001_vpc_creation%20.png)
 *Figure 1: Successful provisioning of Lab VPC.*
 
-![Subnet Creation](267%2002_subnet_creation.png)
+![Subnet Creation](images/267%2002_subnet_creation.png)
 *Figure 2: Subnet configuration across multiple Availability Zones.*
 
 ### 2. Security & Firewall Configuration
 * **Security Group:** Built `Web Security Group` acting as a stateful virtual firewall assigned directly to the web instance.
 * **Inbound Rules:** Configured rule `sgr-0e55b78c536883434` allowing inbound HTTP (Port 80) traffic from anywhere (`0.0.0.0/0`) to accept web requests.
 
-![Security Group Rules](267%2003_security_group_rules.png)
+![Security Group Rules](images/267%2003_security_group_rules.png)
 *Figure 3: Inbound HTTP rule configuration for Web Security Group.*
 
 ### 3. Automated Web Server Provisioning
@@ -45,7 +45,7 @@ service httpd start
 
 ```
 
-![Web Server Test Success](267%20web_server_test_success.png)
+![Web Server Test Success](images/267%20web_server_test_success.png)
 *Figure 4: Successful HTTP connection to the web server via public IP (`52.11.158.35`).*
 
 🛠️ Operational Intelligence (Troubleshooting)
