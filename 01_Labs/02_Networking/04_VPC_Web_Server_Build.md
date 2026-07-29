@@ -15,7 +15,7 @@ Designing and deploying a multi-tier, high-availability network architecture usi
   * `Private Subnet 1` (`10.0.1.0/24`) & `Private Subnet 2` (`10.0.3.0/24`)
 * **Routing & NAT:** Configured `Public Route Table` attached to an Internet Gateway for public-facing resources, and explicit associations for `Private Route Table` utilizing a NAT Gateway for secure outbound connectivity.
 
-![VPC Creation](267%2001_vpc_creation%20.png)
+![VPC Creation](images/267%2001_vpc_creation%20.png)
 *Figure 1: Successful provisioning of Lab VPC.*
 
 ![Subnet Creation](267%2002_subnet_creation.png)
