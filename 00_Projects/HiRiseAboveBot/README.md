@@ -1,4 +1,4 @@
-# 🤖 HiRiseAboveBot — WhatsApp AI Tutoring Engine
+# 🤖 HiRiseAboveBot — WhatsApp AI Tutoring Engine 🤖
 
 > **Notice:** The underlying backend logic and custom prompt orchestration for HiRiseAboveBot are proprietary. This document provides a high-level system architecture overview, tech stack breakdown, and production feature summary.
 
