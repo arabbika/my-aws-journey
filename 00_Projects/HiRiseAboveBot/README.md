@@ -1,10 +1,9 @@
 # 🤖 HiRiseAboveBot — WhatsApp AI Tutoring Engine 🤖
 
-> **Notice:** The underlying backend logic and custom prompt orchestration for HiRiseAboveBot are proprietary. This document provides a high-level system architecture overview, tech stack breakdown, and production feature summary.
 
 ---
 
-## 🌍 Educational Impact & Overview
+## 🌍 Community & Educational Impact
 
 HiRiseAboveBot is a live, production WhatsApp-native AI tutoring platform built for Grades 7–12 students following the CAPS and IEB curricula. It provides instant, multi-modal learning assistance—ranging from image OCR problem-solving to automated text-to-speech explanations.
 
