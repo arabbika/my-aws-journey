@@ -50,9 +50,3 @@ HiRiseAboveBot is a live, production WhatsApp-native AI tutoring platform built 
 * **Security & Access Control:** Implements SQLite user verification and daily query limit checks (20 queries/day).
 
 ---
-
-## 📸 Platform Interface & Screenshots
-
-| Image OCR Workflow | LaTeX Math Formatting | Voice Explanation |
-| :---: | :---: | :---: |
-| ![OCR Demo](./screenshots/ocr-demo.png) | ![Math Demo](./screenshots/math-demo.png) | ![Audio Demo](./screenshots/audio-demo.png) |
