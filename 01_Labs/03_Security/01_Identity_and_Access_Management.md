@@ -17,7 +17,7 @@ Establishing identity-based access controls and enforcing the principle of least
 ## 📸 Lab Evidence
 
 ### 1. Initial IAM User Setup
-![Initial IAM Users](./screenshots/01-iam-initial-users.png)
+![Initial IAM Users](images/screenshots/01-iam-initial-users.png)
 
 ### 2. Group Membership Configuration
 ![Group Memberships](./screenshots/02-iam-group-memberships.png)
