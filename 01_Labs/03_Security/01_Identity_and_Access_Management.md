@@ -15,13 +15,21 @@ Establishing identity-based access controls and enforcing the principle of least
 * **"What If" Scenario:** In a production setting, I would implement **AWS IAM Roles with Service Control Policies (SCPs)** via AWS Organizations and mandate **Multi-Factor Authentication (MFA)**, ensuring temporary security credentials replace long-term user access and centralized guardrails prevent privilege escalation.
 
 ## 📸 Lab Evidence
-| Step / Validation | Description | Artifact |
-|---|---|---|
-| Initial IAM State | Pre-created users setup | `01-iam-initial-users.png` |
-| Group Memberships | Assigning users to functional groups | `02-iam-group-memberships.png` |
-| Authorization Boundary | `user-1` EC2 Access Denied error | `03-user1-ec2-access-denied.png` |
-| Read-Only Restriction | `user-2` EC2 Instance Stop error | `04-user2-ec2-stop-denied.png` |
-| Elevated Execution | `user-3` EC2 Admin access verified | `05-user3-ec2-admin-access.png` |
+
+### 1. Initial IAM User Setup
+![Initial IAM Users](./screenshots/01-iam-initial-users.png)
+
+### 2. Group Membership Configuration
+![Group Memberships](./screenshots/02-iam-group-memberships.png)
+
+### 3. S3 Support EC2 Access Restriction Test
+![User 1 Access Denied](./screenshots/03-user1-ec2-access-denied.png)
+
+### 4. EC2 Support Read-Only Enforcement Test
+![User 2 Stop Denied](./screenshots/04-user2-ec2-stop-denied.png)
+
+### 5. EC2 Admin Access Verification
+![User 3 Admin Access](./screenshots/05-user3-ec2-admin-access.png)
 
 ## 📊 Technical Competence
 * **Demonstrated Skills:** Identity & Access Management (IAM), Least Privilege Enforcement, Policy Validation, Multi-Factor Authentication/Persona Testing, and Governance.
