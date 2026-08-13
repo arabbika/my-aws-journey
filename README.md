@@ -51,6 +51,7 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 | [AWS SimuLearn: Databases in Practice](./Certifications/Databases%20in%20Practice.png) | July 10, 2026 |
 | [AWS SimuLearn: Networking Concepts](./Certifications/Networking%20Concepts.png) | July 24, 2026 |
 | [AWS SimuLearn: First NoSQL Database](./Certifications/First%20NoSQL%20Database.png) | July 30, 2026 |
+| [AWS SimuLearn: Core Security Concepts](./Certifications/Core%20Security%20Concepts.png) | August 13, 2026 |
 
 ---
 
