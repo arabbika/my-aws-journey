@@ -28,10 +28,10 @@ In this lab workspace, I took on the responsibilities of a junior database admin
 
 | Milestone Reference | Administrative Operation Verified | System Output Mapping |
 | :---: | :--- | :--- |
-| **Artifact 01** | Targeted Record Ingestion Verification | ` if this is a showcase lab, i also need to take screenshots for github.`![Inserted Rows Output Proof](./images/01_records_inserted.png) |
-| **Artifact 02** | Multi-Column Data Mutation Success | ` if this is a showcase lab, i also need to take screenshots for github.`![Mass Update Verification Capture](./images/02_global_records_updated.png) |
-| **Artifact 03** | Structural Component Complete Evacuation | ` if this is a showcase lab, i also need to take screenshots for github.`![Empty Table Evacuation Verification](./images/03_table_evacuated.png) |
-| **Artifact 04** | Script-Driven Automated Hydration Result | ` if this is a showcase lab, i also need to take screenshots for github.`![Hydrated Database Matrix Preview](./images/04_database_hydrated.png) |
+| **Artifact 01** | Targeted Record Ingestion Verification | ![Inserted Rows Output Proof](./images/01_records_inserted.png) |
+| **Artifact 02** | Multi-Column Data Mutation Success | ![Mass Update Verification Capture](./images/02_global_records_updated.png) |
+| **Artifact 03** | Structural Component Complete Evacuation | ![Empty Table Evacuation Verification](./images/03_table_evacuated.png) |
+| **Artifact 04** | Script-Driven Automated Hydration Result | ![Hydrated Database Matrix Preview](./images/04_database_hydrated.png) |
 
 ---
 
