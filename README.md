@@ -62,7 +62,7 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 
 ---
 
-### 🤖 AWS Certified AI Practitioner SimuLearn Badges
+### 🤖 AWS AI Practitioner SimuLearn Badges
 | | |
 | :--- | :--- |
 | • [Build and Understand Code with Amazon Q](./Certifications/Build%20and%20Understand%20Code%20with%20Amazon%20Q.png) | • [Create an AI Smart Assistant](./Certifications/Create%20an%20AI%20Smart%20Assistant.png) |
