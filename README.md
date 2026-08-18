@@ -46,6 +46,8 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
   <img src="./Certifications/AI%20Practitioner%20-%20Microcredential%20Training%20Badge.png" width="140" alt="AWS SimuLearn - AI Practitioner - Training Badge" align="left" style="margin-right: 15px;" />
 </a>
 
+<br clear="all" />
+
 ---
 
 ### ☁️ AWS Cloud Practitioner SimuLearn Badges
@@ -57,6 +59,15 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 | • [File Systems in the Cloud](./Certifications/File%20Systems%20in%20the%20Cloud.png) | • [First NoSQL Database](./Certifications/First%20NoSQL%20Database.png) |
 | • [Highly Available Web Applications](./Certifications/Highly%20Available%20Web%20Applications.png) | • [Networking Concepts](./Certifications/Networking%20Concepts.png) |
 
+---
+
+### 🤖 AWS Certified AI Practitioner SimuLearn Badges
+| | |
+| :--- | :--- |
+| • [Build and Understand Code with Amazon Q](./Certifications/Build%20and%20Understand%20Code%20with%20Amazon%20Q.png) | • [Create an AI Smart Assistant](./Certifications/Create%20an%20AI%20Smart%20Assistant.png) |
+| • [Create an Enterprise Knowledge Assistant](./Certifications/Create%20an%20Enterprise%20Knowledge%20Assistant.png) | • [Explore the Amazon Bedrock Playgrounds](./Certifications/Explore%20the%20Amazon%20Bedrock%20Playgrounds.png) |
+| • [Generate Code for a Webpage](./Certifications/Generate%20Code%20for%20a%20Webpage.png) | • [Get Started with Generative AI](./Certifications/Get%20Started%20with%20Generative%20AI.png) |
+| • [Secure Conversational AI with Guardrails](./Certifications/Secure%20Conversational%20AI%20with%20Guardrails.png) | • [Use AI services with Amazon SageMaker](./Certifications/Use%20AI%20services%20with%20Amazon%20SageMaker.png) |
 ---
 
 ### 🤖 AWS Certified AI Practitioner SimuLearn Badges
