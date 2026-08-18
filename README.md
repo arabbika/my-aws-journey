@@ -40,10 +40,8 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 <a name="certifications"></a>
 ## 🏆 Certifications
 
-### 🏅 Verified Credentials
-<a href="https://www.credly.com/badges/bc7e00b8-6752-4c2a-aaf7-3bc0b1f48e71/public_url" target="_blank">
-  <img src="https://images.credly.com/size/340x340/images/2839b039-4171-483d-9d41-3ebaa0aed352/image.png" width="150" alt="AWS Knowledge Cloud Essentials Badge" />
-</a>
+### Click on the image to verify my badge on Credly :)
+[<img src="https://images.credly.com/size/340x340/images/2839b039-4171-483d-9d41-3ebaa0aed352/image.png" width="160" alt="AWS Knowledge Cloud Essentials Badge" />](https://www.credly.com/badges/bc7e00b8-6752-4c2a-aaf7-3bc0b1f48e71/public_url)
 
 ---
 
@@ -65,6 +63,7 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 | • [Create an Enterprise Knowledge Assistant](./Certifications/Create%20an%20Enterprise%20Knowledge%20Assistant.png) | • [Explore the Amazon Bedrock Playgrounds](./Certifications/Explore%20the%20Amazon%20Bedrock%20Playgrounds.png) |
 | • [Generate Code for a Webpage](./Certifications/Generate%20Code%20for%20a%20Webpage.png) | • [Get Started with Generative AI](./Certifications/Get%20Started%20with%20Generative%20AI.png) |
 | • [Secure Conversational AI with Guardrails](./Certifications/Secure%20Conversational%20AI%20with%20Guardrails.png) | • [Use AI services with Amazon SageMaker](./Certifications/Use%20AI%20services%20with%20Amazon%20SageMaker.png) |
+
 ---
 
 <a name="technical-simulations"></a>
