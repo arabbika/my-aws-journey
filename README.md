@@ -38,7 +38,7 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 ---
 
 <a name="certifications"></a>
-## 🏆 Certifications
+## 📜 Certifications
 
 ##### SimuLearn - AI Practitioner - Training Badge
 ##### Click to see on Credly
