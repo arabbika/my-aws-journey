@@ -68,7 +68,7 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 | • [Create an Enterprise Knowledge Assistant](./Certifications/Create%20an%20Enterprise%20Knowledge%20Assistant.png) | • [Explore the Amazon Bedrock Playgrounds](./Certifications/Explore%20the%20Amazon%20Bedrock%20Playgrounds.png) |
 | • [Generate Code for a Webpage](./Certifications/Generate%20Code%20for%20a%20Webpage.png) | • [Get Started with Generative AI](./Certifications/Get%20Started%20with%20Generative%20AI.png) |
 | • [Secure Conversational AI with Guardrails](./Certifications/Secure%20Conversational%20AI%20with%20Guardrails.png) | • [Use AI services with Amazon SageMaker](./Certifications/Use%20AI%20services%20with%20Amazon%20SageMaker.png) |
----
+
 
 
 ---
