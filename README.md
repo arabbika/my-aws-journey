@@ -46,7 +46,6 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
   <img src="./Certifications/AI%20Practitioner%20-%20Microcredential%20Training%20Badge.png" width="140" alt="AWS SimuLearn - AI Practitioner - Training Badge" align="left" style="margin-right: 15px;" />
 </a>
 
-</div>
 ---
 
 ### ☁️ AWS Cloud Practitioner SimuLearn Badges
