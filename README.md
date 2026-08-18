@@ -49,22 +49,22 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 
 ### ☁️ AWS Cloud Practitioner SimuLearn Badges
 | | |
-| :---: | :---: |
-| <a href="./Certifications/Cloud%20Computing%20Essentials.png"><img src="./Certifications/Cloud%20Computing%20Essentials.png" width="220"/><br><b>Cloud Computing Essentials</b></a> | <a href="./Certifications/Cloud%20Economics.png"><img src="./Certifications/Cloud%20Economics.png" width="220"/><br><b>Cloud Economics</b></a> |
-| <a href="./Certifications/Cloud%20First%20Steps.png"><img src="./Certifications/Cloud%20First%20Steps.png" width="220"/><br><b>Cloud First Steps</b></a> | <a href="./Certifications/Computing%20Solutions.png"><img src="./Certifications/Computing%20Solutions.png" width="220"/><br><b>Computing Solutions</b></a> |
-| <a href="./Certifications/Core%20Security%20Concepts.png"><img src="./Certifications/Core%20Security%20Concepts.png" width="220"/><br><b>Core Security Concepts</b></a> | <a href="./Certifications/Databases%20in%20Practice.png"><img src="./Certifications/Databases%20in%20Practice.png" width="220"/><br><b>Databases in Practice</b></a> |
-| <a href="./Certifications/File%20Systems%20in%20the%20Cloud.png"><img src="./Certifications/File%20Systems%20in%20the%20Cloud.png" width="220"/><br><b>File Systems in the Cloud</b></a> | <a href="./Certifications/First%20NoSQL%20Database.png"><img src="./Certifications/First%20NoSQL%20Database.png" width="220"/><br><b>First NoSQL Database</b></a> |
-| <a href="./Certifications/Highly%20Available%20Web%20Applications.png"><img src="./Certifications/Highly%20Available%20Web%20Applications.png" width="220"/><br><b>Highly Available Web Applications</b></a> | <a href="./Certifications/Networking%20Concepts.png"><img src="./Certifications/Networking%20Concepts.png" width="220"/><br><b>Networking Concepts</b></a> |
+| :--- | :--- |
+| • [Cloud Computing Essentials](./Certifications/Cloud%20Computing%20Essentials.png) | • [Cloud Economics](./Certifications/Cloud%20Economics.png) |
+| • [Cloud First Steps](./Certifications/Cloud%20First%20Steps.png) | • [Computing Solutions](./Certifications/Computing%20Solutions.png) |
+| • [Core Security Concepts](./Certifications/Core%20Security%20Concepts.png) | • [Databases in Practice](./Certifications/Databases%20in%20Practice.png) |
+| • [File Systems in the Cloud](./Certifications/File%20Systems%20in%20the%20Cloud.png) | • [First NoSQL Database](./Certifications/First%20NoSQL%20Database.png) |
+| • [Highly Available Web Applications](./Certifications/Highly%20Available%20Web%20Applications.png) | • [Networking Concepts](./Certifications/Networking%20Concepts.png) |
 
 ---
 
 ### 🤖 AWS Certified AI Practitioner SimuLearn Badges
 | | |
-| :---: | :---: |
-| <a href="./Certifications/Build%20and%20Understand%20Code%20with%20Amazon%20Q.png"><img src="./Certifications/Build%20and%20Understand%20Code%20with%20Amazon%20Q.png" width="220"/><br><b>Build & Understand Code with Amazon Q</b></a> | <a href="./Certifications/Create%20an%20AI%20Smart%20Assistant.png"><img src="./Certifications/Create%20an%20AI%20Smart%20Assistant.png" width="220"/><br><b>Create an AI Smart Assistant</b></a> |
-| <a href="./Certifications/Create%20an%20Enterprise%20Knowledge%20Assistant.png"><img src="./Certifications/Create%20an%20Enterprise%20Knowledge%20Assistant.png" width="220"/><br><b>Create an Enterprise Knowledge Assistant</b></a> | <a href="./Certifications/Explore%20the%20Amazon%20Bedrock%20Playgrounds.png"><img src="./Certifications/Explore%20the%20Amazon%20Bedrock%20Playgrounds.png" width="220"/><br><b>Explore Amazon Bedrock Playgrounds</b></a> |
-| <a href="./Certifications/Generate%20Code%20for%20a%20Webpage.png"><img src="./Certifications/Generate%20Code%20for%20a%20Webpage.png" width="220"/><br><b>Generate Code for a Webpage</b></a> | <a href="./Certifications/Get%20Started%20with%20Generative%20AI.png"><img src="./Certifications/Get%20Started%20with%20Generative%20AI.png" width="220"/><br><b>Get Started with Generative AI</b></a> |
-| <a href="./Certifications/Secure%20Conversational%20AI%20with%20Guardrails.png"><img src="./Certifications/Secure%20Conversational%20AI%20with%20Guardrails.png" width="220"/><br><b>Secure Conversational AI with Guardrails</b></a> | <a href="./Certifications/Use%20AI%20services%20with%20Amazon%20SageMaker.png"><img src="./Certifications/Use%20AI%20services%20with%20Amazon%20SageMaker.png" width="220"/><br><b>Use AI services with Amazon SageMaker</b></a> |
+| :--- | :--- |
+| • [Build and Understand Code with Amazon Q](./Certifications/Build%20and%20Understand%20Code%20with%20Amazon%20Q.png) | • [Create an AI Smart Assistant](./Certifications/Create%20an%20AI%20Smart%20Assistant.png) |
+| • [Create an Enterprise Knowledge Assistant](./Certifications/Create%20an%20Enterprise%20Knowledge%20Assistant.png) | • [Explore the Amazon Bedrock Playgrounds](./Certifications/Explore%20the%20Amazon%20Bedrock%20Playgrounds.png) |
+| • [Generate Code for a Webpage](./Certifications/Generate%20Code%20for%20a%20Webpage.png) | • [Get Started with Generative AI](./Certifications/Get%20Started%20with%20Generative%20AI.png) |
+| • [Secure Conversational AI with Guardrails](./Certifications/Secure%20Conversational%20AI%20with%20Guardrails.png) | • [Use AI services with Amazon SageMaker](./Certifications/Use%20AI%20services%20with%20Amazon%20SageMaker.png) |
 ---
 
 <a name="technical-simulations"></a>
