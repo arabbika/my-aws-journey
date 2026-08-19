@@ -40,7 +40,7 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 <a name="certifications"></a>
 ## 📜 Certifications
 
-##### AWS MicroCedential
+##### AWS MicroCredential
 ##### AI Practitioner - Simulearn
 ##### Click to see on Credly
 
