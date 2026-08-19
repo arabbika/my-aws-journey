@@ -95,6 +95,20 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 
 ---
 
+<a name="featured-projects"></a>
+## 🚀 Featured Projects
+
+> 📁 **[Browse Full Projects Directory →](./00_Projects)**
+
+*Production-ready cloud solutions and AI engines engineered:*
+
+| Project | Core Stack | Key Outcomes & Architecture |
+| :--- | :--- | :--- |
+| ☁️ **[AWS Cloud Migration Proposal](./00_Projects/Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits)** | `S3` `Cognito` `DynamoDB` `Lambda` `SNS` | Serverless transformation of manual operational workflows. Delivered static hosting, Cognito auth, and a **30% reduction** in operational costs. |
+| 🤖 **[HiRiseAboveBot — AI Engine](./00_Projects/HiRiseAboveBot)** | `Python` `Flask` `xAI Grok-4` `Tesseract OCR` `Twilio` | Live, production WhatsApp-native AI tutor for CAPS/IEB students. Features multi-modal OCR image processing, dynamic LaTeX rendering, and gTTS audio lesson generation. |
+
+---
+
 <a name="program-validation"></a>
 ## 🛡️ AWS re/Start Program Validation
 
