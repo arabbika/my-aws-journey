@@ -76,7 +76,9 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 ---
 
 <a name="technical-simulations"></a>
-## ⚙️ Technical Simulations & AWS Domains
+## ⚙️ [Technical Simulations & AWS Domains](./01_Labs)
+
+> 📁 **[Explore All Hands-on Lab Directories →](./01_Labs)**
 
 *I have curated my lab work into thematic domains that mirror the AWS Well-Architected Framework:*
 
