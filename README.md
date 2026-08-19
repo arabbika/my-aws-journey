@@ -40,7 +40,8 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 <a name="certifications"></a>
 ## 📜 Certifications
 
-##### AWS - AI Practitioner - Training Badge
+##### AWS MicroCedential
+##### AI Practitioner - Simulearn
 ##### Click to see on Credly
 
 <a href="https://www.credly.com/badges/bc7e00b8-6752-4c2a-aaf7-3bc0b1f48e71/public_url" target="_blank" rel="noopener noreferrer">
