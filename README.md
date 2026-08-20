@@ -57,9 +57,10 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 | :--- | :--- |
 | • [Cloud Computing Essentials](./Certifications/Cloud%20Computing%20Essentials.png) | • [Cloud Economics](./Certifications/Cloud%20Economics.png) |
 | • [Cloud First Steps](./Certifications/Cloud%20First%20Steps.png) | • [Computing Solutions](./Certifications/Computing%20Solutions.png) |
-| • [Core Security Concepts](./Certifications/Core%20Security%20Concepts.png) | • [Databases in Practice](./Certifications/Databases%20in%20Practice.png) |
-| • [File Systems in the Cloud](./Certifications/File%20Systems%20in%20the%20Cloud.png) | • [First NoSQL Database](./Certifications/First%20NoSQL%20Database.png) |
-| • [Highly Available Web Applications](./Certifications/Highly%20Available%20Web%20Applications.png) | • [Networking Concepts](./Certifications/Networking%20Concepts.png) |
+| • [Connecting VPCs](./Certifications/Connecting%20VPCs.png) | • [Core Security Concepts](./Certifications/Core%20Security%20Concepts.png) |
+| • [Databases in Practice](./Certifications/Databases%20in%20Practice.png) | • [File Systems in the Cloud](./Certifications/File%20Systems%20in%20the%20Cloud.png) |
+| • [First NoSQL Database](./Certifications/First%20NoSQL%20Database.png) | • [Highly Available Web Applications](./Certifications/Highly%20Available%20Web%20Applications.png) |
+| • [Networking Concepts](./Certifications/Networking%20Concepts.png) | |
 
 ---
 
