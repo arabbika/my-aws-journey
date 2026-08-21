@@ -52,7 +52,7 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 
 ---
 
-### ☁️ AWS Cloud Practitioner SimuLearn Badges
+### ☁️ AWS Cloud Practitioner SimuLearn
 | | |
 | :--- | :--- |
 | • [Cloud Computing Essentials](./Certifications/Cloud%20Computing%20Essentials.png) | • [Cloud Economics](./Certifications/Cloud%20Economics.png) |
