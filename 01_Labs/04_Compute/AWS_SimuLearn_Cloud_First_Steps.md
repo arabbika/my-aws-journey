@@ -22,3 +22,11 @@ Demonstrate multi-Availability Zone (Multi-AZ) fault tolerance by deploying EC2 
 
 ## 💡 Key Architectural Takeaway
 Deploying workloads across multiple Availability Zones provides high availability and fault tolerance. It ensures application resilience against localized infrastructure failures without changing regional routing parameters.
+
+---
+
+## 📜 Certification & Verification
+
+<p align="center">
+  <img src="../../../Certifications/Cloud%20First%20Steps.png" alt="AWS SimuLearn - Cloud First Steps Badge" width="350" />
+</p>
