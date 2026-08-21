@@ -55,12 +55,12 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 ### ☁️ AWS Cloud Practitioner SimuLearn
 | | |
 | :--- | :--- |
-| • [Cloud Computing Essentials](./Certifications/Cloud%20Computing%20Essentials.png) | • [Cloud Economics](./Certifications/Cloud%20Economics.png) |
+| • [Cloud Computing Essentials](./Certifications/Cloud%20Computing%20Essentials.png) | • [Cloud Economics](./01_Labs/04_Compute/AWS_SimuLearn_Cloud_Economics.md) |
 | • [Cloud First Steps](./01_Labs/04_Compute/AWS_SimuLearn_Cloud_First_Steps.md) | • [Computing Solutions](./01_Labs/04_Compute/AWS_SimuLearn_Computing_Solutions.md) |
-| • [Connecting VPCs](./01_Labs/02_Networking/AWS_SimuLearn_Connecting_VPCs.md) | • [Core Security Concepts](./Certifications/Core%20Security%20Concepts.png) |
-| • [Databases in Practice](./Certifications/Databases%20in%20Practice.png) | • [File Systems in the Cloud](./Certifications/File%20Systems%20in%20the%20Cloud.png) |
-| • [First NoSQL Database](./Certifications/First%20NoSQL%20Database.png) | • [Highly Available Web Applications](./01_Labs/02_Networking/AWS_SimuLearn_Highly_Available_Web_Applications.md) |
-| • [Networking Concepts](./Certifications/Networking%20Concepts.png) | |
+| • [Connecting VPCs](./01_Labs/02_Networking/AWS_SimuLearn_Connecting_VPCs.md) | • [Core Security Concepts](./01_Labs/03_Security/AWS_SimuLearn_Core_Security_Concepts.md) |
+| • [Databases in Practice](./Certifications/Databases%20in%20Practice.png) | • [File Systems in the Cloud](./01_Labs/05_Storage%20and%20Archiving/AWS_SimuLearn_File_Systems_in_the_Cloud.md) |
+| • [First NoSQL Database](./01_Labs/06_Databases/AWS_SimuLearn_First_NoSQL_Database.md) | • [Highly Available Web Applications](./01_Labs/02_Networking/AWS_SimuLearn_Highly_Available_Web_Applications.md) |
+| • [Networking Concepts](./01_Labs/02_Networking/AWS_SimuLearn_Networking_Concepts.md) | |
 
 ---
 
