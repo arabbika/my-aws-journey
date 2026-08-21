@@ -28,5 +28,7 @@ Deploying workloads across multiple Availability Zones provides high availabilit
 ## 📜 Certification & Verification
 
 <p align="center">
-  <img src="../../../Certifications/Cloud%20First%20Steps.png" alt="AWS SimuLearn - Cloud First Steps Badge" width="350" />
+  <a href="https://github.com/arabbika/my-aws-journey/blob/main/Certifications/Cloud%20First%20Steps.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/arabbika/my-aws-journey/main/Certifications/Cloud%20First%20Steps.png" alt="AWS SimuLearn - Cloud First Steps Badge" width="350" />
+  </a>
 </p>
