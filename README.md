@@ -45,18 +45,18 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 
 <table>
   <tr>
-    <td align="center" width="160" valign="top">
+    <td align="center" width="170" valign="middle">
       <a href="https://www.credly.com/badges/e9eef2ce-df12-41ef-abce-202dec02ffab" target="_blank" rel="noopener noreferrer">
-        <img src="./Certifications/Cloud%20Practitioner%20-%20Microcredential%20Training%20Badge.png" width="140" height="140" alt="AWS SimuLearn - Cloud Practitioner - Training Badge" />
+        <img src="./Certifications/Cloud%20Practitioner%20-%20Microcredential%20Training%20Badge.png" width="150" alt="AWS Cloud Quest - Cloud Practitioner - Training Badge" style="transform: scale(1.15); margin: 10px 0;" />
       </a>
-      <br />
+      <br /><br />
       <sub><b>Cloud Practitioner</b></sub>
     </td>
-    <td align="center" width="160" valign="top">
+    <td align="center" width="170" valign="middle">
       <a href="https://www.credly.com/badges/bc7e00b8-6752-4c2a-aaf7-3bc0b1f48e71/public_url" target="_blank" rel="noopener noreferrer">
-        <img src="./Certifications/AI%20Practitioner%20-%20Microcredential%20Training%20Badge.png" width="140" height="140" alt="AWS SimuLearn - AI Practitioner - Training Badge" />
+        <img src="./Certifications/AI%20Practitioner%20-%20Microcredential%20Training%20Badge.png" width="150" alt="AWS SimuLearn - AI Practitioner - Training Badge" />
       </a>
-      <br />
+      <br /><br />
       <sub><b>AI Practitioner</b></sub>
     </td>
   </tr>
