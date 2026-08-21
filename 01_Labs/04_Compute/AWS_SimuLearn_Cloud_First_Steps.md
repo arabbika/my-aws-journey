@@ -1,6 +1,6 @@
 # ☁️ AWS SimuLearn: Cloud First Steps
 
-## 🎯 Lab Objective
+## 🎯 Simulearn Objective
 Demonstrate multi-Availability Zone (Multi-AZ) fault tolerance by deploying EC2 compute instances across distinct physical Availability Zones within the same AWS Region (`us-east-1`).
 
 ---
