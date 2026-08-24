@@ -126,7 +126,7 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 
 Professional-in-training in the AWS re/Start program, this repository contains the validated technical evidence of my core competencies.
 
-* **Total Knowledge Check Score:** 6,260 / 6,300 (99.37%)
+* **Total Knowledge Check Score:** 6,560 / 6,600 (99.37%)
 * **Lab Completion Rate:** 100%
 * **Core Competency Domains:** Cloud Economics, Linux Administration, Security Governance, Storage Architecture, and DevOps Automation.
 
