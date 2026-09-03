@@ -17,49 +17,56 @@ This repository contains hands-on Python scripts, data processing workflows, and
 ### 1. `hello-world.py`
 * **Concepts:** Basic syntax, standard output, and script execution.
 * **Overview:** Demonstrates the fundamental entry-point script using `print()` to output string data to the console.
-* **Lab Evidence:** `01-hello-world.png`
+* **Lab Evidence:**
+  ![Hello World Output](images/01-hello-world.png)
 
 ---
 
 ### 2. `numeric-data.py`
 * **Concepts:** Numerical data types (`int`, `float`, `complex`), arithmetic operators, and type casting.
 * **Overview:** Evaluates fundamental mathematical operations and examines how Python handles numerical precision across different data types.
-* **Lab Evidence:** `02-numeric-data.png`
+* **Lab Evidence:**
+  ![Numeric Data Output](images/02-numeric-data.png)
 
 ---
 
 ### 3. `string-data-type.py`
 * **Concepts:** String creation, concatenation, escape sequences, dynamic prompts, and f-string / `.format()` interpolation.
 * **Overview:** Interactively collects user text inputs and formats structured string outputs.
-* **Lab Evidence:** `03-string-data-type.png`
+* **Lab Evidence:**
+  ![String Data Type Output](images/03-string-data-type.png)
 
 ---
 
 ### 4. `collections_lab.py`
 * **Concepts:** Lists, tuples, and dictionaries.
 * **Overview:** Implements indexed data collections, enforces element immutability rules, and performs key-value dictionary lookups.
-* **Lab Evidence:** `04-collections.png`
+* **Lab Evidence:**
+  ![Collections Output](images/04-collections.png)
 
 ---
 
 ### 5. `categorize-values.py`
 * **Concepts:** Mixed-type lists, dynamic type checking with `type()`, and `for` loops.
 * **Overview:** Iterates through a heterogeneous list containing integers, floats, booleans, and strings, displaying each value alongside its runtime data type.
-* **Lab Evidence:** `05-categorize-values.png`
+* **Lab Evidence:**
+  ![Categorize Values Output](images/05-categorize-values.png)
 
 ---
 
 ### 6. `composite-data.py` & `car_fleet.csv`
 * **Concepts:** File I/O, tabular CSV parsing, deep copying (`copy.deepcopy`), and nested collection structures.
 * **Overview:** Reads structured vehicle fleet data from a CSV file, populates dictionary templates using deep copies, and constructs a manageable list of complex data items.
-* **Lab Evidence:** `06-composite-data.png`
+* **Lab Evidence:**
+  ![Composite Data Output](images/06-composite-data.png)
 
 ---
 
 ### 7. `conditionals.py`
 * **Concepts:** Control flow (`if`, `elif`, `else`), logical comparison operators, and branching paths.
 * **Overview:** Implements decision-tree logic based on dynamic user responses to simulate a postal service workflow.
-* **Lab Evidence:** `07-conditionals.png`
+* **Lab Evidence:**
+  ![Conditionals Output](images/07-conditionals.png)
 
 ---
 
@@ -68,14 +75,16 @@ This repository contains hands-on Python scripts, data processing workflows, and
 * **Overview:** 
   * `while-loop.py`: Executes an interactive number-guessing game that prompts continuously until a correct guess is made.
   * `for-loop.py`: Performs sequence iteration to count deterministically from 0 to 10.
-* **Lab Evidence:** `08-loops.png`
+* **Lab Evidence:**
+  ![Loops Output](images/08-loops.png)
 
 ---
 
 ### 9. Version Control & GitHub Integration (`aws_restart`)
 * **Concepts:** Git local setup, cloud remote creation, workspace extraction, file staging, committing, and uploading artifacts.
 * **Overview:** Initialized a private repository (`aws_restart`) on GitHub with a default `README.md`. Exported local environment lab files (`.py` and `.csv`) and committed them to remote source control.
-* **Lab Evidence:** `09-github-repository.png`
+* **Lab Evidence:**
+  ![GitHub Repository Screenshot](images/09-github-repository.png)
 
 ---
 
@@ -87,7 +96,8 @@ This repository contains hands-on Python scripts, data processing workflows, and
   * **C Peptide (Cinsulin):** Amino acids 55–89 (Length: 35)
   * **A Chain (Ainsulin):** Amino acids 90–110 (Length: 21)
   * **Active Insulin:** Concatenated B Chain + A Chain (Length: 51)
-* **Lab Evidence:** `10-analyze-insulin.png`
+* **Lab Evidence:**
+  ![Analyze Insulin Output](images/10-analyze-insulin.png)
 
 ---
 
