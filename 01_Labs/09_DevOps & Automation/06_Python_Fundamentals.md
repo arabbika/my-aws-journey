@@ -100,3 +100,10 @@ This repository contains hands-on Python scripts, data processing workflows, and
   ![Analyze Insulin Output](images/10-analyze-insulin.png)
 
 ---
+
+## 🚀 How to Run Scripts
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/arabbika/aws_restart.git](https://github.com/arabbika/aws_restart.git)
+   cd aws_restart
