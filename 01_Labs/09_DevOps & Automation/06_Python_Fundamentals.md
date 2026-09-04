@@ -13,7 +13,7 @@ The goal of this project was to establish core software development competencies
 
 ---
 
-## 📁 Repository Overview & Lab Evidence
+## 📁 Overview & Lab Evidence
 
 ### 1. `hello-world.py`
 * **Concepts:** Basic syntax, standard output, and script execution.
