@@ -1,7 +1,7 @@
-# AWS re/Start Python & Developer Fundamentals
+# Python & Developer Fundamentals
 
-This repository contains hands-on Python scripts, data processing workflows, and version control configurations completed as part of the AWS re/Start program. The labs cover foundational programming concepts, composite data structures, flow control, file handling, string slicing, biological sequence analysis, and GitHub workflow management.
-
+## 🎯 Project Goal
+The goal of this project was to establish core software development competencies using Python and modern cloud development environments. I practiced writing clean, modular Python scripts, handling structured data, implementing complex control flow and sequence algorithms, and configuring version control workflows to manage code artifacts securely in remote GitHub repositories.
 ---
 
 ## 🛠️ Environment & Prerequisites
