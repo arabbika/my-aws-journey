@@ -1,7 +1,8 @@
 # Python & Developer Fundamentals
 
-## 🎯 Project Goal
+## 🎯 Lab Goal
 The goal of this project was to establish core software development competencies using Python and modern cloud development environments. I practiced writing clean, modular Python scripts, handling structured data, implementing complex control flow and sequence algorithms, and configuring version control workflows to manage code artifacts securely in remote GitHub repositories.
+
 ---
 
 ## 🛠️ Environment & Prerequisites
