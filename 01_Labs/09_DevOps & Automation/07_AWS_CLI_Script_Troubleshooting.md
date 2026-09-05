@@ -20,9 +20,9 @@ The goal of this project was to diagnose, debug, and correct a broken AWS CLI Ba
 
 | Task | Delivery Check | Evidence |
 | :---: | :--- | :--- |
-| **1** | Environment Setup & AWS CLI Configuration | ![AWS CLI Host Login](images/01_cli_host_login.png) <br><br> ![AWS CLI Credentials Configuration](images/02_aws_configure.png) |
-| **2** | Script Execution & EC2 Launch Success | ![Create Instance Script Output](images/03_script_execution_success.png) <br><br> ![Initial Server Response Test](images/04_web_server_hello.png) |
-| **3** | User Data Initialization & Application Verification | ![Cloud-Init Log Output](images/05_cloud_init_verification.png) <br><br> ![Fully Deployed Cafe Web Application](images/06_cafe_app_order_history.png) |
+| **1** | Environment Setup & AWS CLI Configuration | ![AWS CLI Host Login](images/01-cli-host-connected.png) <br><br> ![AWS CLI Credentials Configuration](images/02-aws-cli-configured.png) |
+| **2** | Script Execution & EC2 Launch Success | ![Create Instance Script Output](images/03-issue1-resolved-instance-created.png) <br><br> ![Initial Server Response Test](images/04-issue2-resolved-web-server-landing.png) |
+| **3** | User Data Initialization & Application Verification | ![Cloud-Init Log Output](images/05-cloud-init-log-success.png) <br><br> ![Fully Deployed Cafe Web Application](images/06-cafe-order-history-verification.png) |
 
 ---
 
