@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Lab Goal
+## 🎯 Project Goal
 The goal of this project was to gain hands-on experience troubleshooting failed Infrastructure as Code (IaC) deployments, diagnosing runtime boot errors, and detecting configuration drift using AWS CloudFormation. I practiced writing modular YAML templates, debugging system startup failures via CloudWatch and SSH, managing stack lifecycle rollback options, and auditing out-of-band infrastructure changes.
 
 ---
@@ -20,9 +20,11 @@ The goal of this project was to gain hands-on experience troubleshooting failed 
 
 | Task | Delivery Check | Evidence |
 | :---: | :--- | :--- |
-| **1** | CloudFormation Stack Failure Analysis | ![Stack Creation Failure](images/01-cfn-initial-create-failed-event.png) <br><br> ![Web Server Cloud-Init Log Error](images/02-webserver-cloud-init-error-log.png) |
-| **2** | Stack Re-Deployment & Web Verification | ![CFN Create Complete Status](images/03-cfn-create-complete-status.png) |
+| **1** | CloudFormation Stack Failure Analysis | ![Stack Creation Event Failure](images/01-cfn-initial-create-failed-event.png) <br><br> ![Web Server Cloud-Init Log Error](images/02-webserver-cloud-init-error-log.png) |
+| **2** | Stack Re-Deployment & Verification | ![CFN Create Complete Status](images/03-cfn-create-complete-status.png) |
 | **3** | Drift Detection & Out-of-Band Auditing | ![CFN Drift Detected](images/04-cfn-drift-detected.png) |
+| **4** | Retained Resource Verification | ![S3 Retained Bucket Verification](images/05-cfn-retain-resources-s3-success.png) |
+
 ---
 
 ## 💡 Lessons Learned & Optimization
