@@ -23,8 +23,6 @@ The goal of this project was to gain hands-on experience troubleshooting failed 
 | **1** | CloudFormation Stack Failure Analysis | ![Stack Creation Failure](images/01-cfn-create-failed.png) <br><br> ![Web Server Cloud-Init Log Error](images/02-webserver-cloud-init-error-log.png) |
 | **2** | Stack Re-Deployment & Web Verification | ![CFN Create Complete Status](images/03-cfn-create-complete-status.png) |
 | **3** | Drift Detection & Out-of-Band Auditing | ![CFN Drift Detected](images/04-cfn-drift-detected.png) |
-| **4** | Retained Resource Verification & Teardown | ![S3 Retained Bucket Cleanup](images/05-s3-retained-bucket-cleanup.png) |
-
 ---
 
 ## 💡 Lessons Learned & Optimization
