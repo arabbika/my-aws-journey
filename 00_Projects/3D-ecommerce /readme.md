@@ -1,4 +1,4 @@
-# ☁️ Global 3D E-Commerce Platform — AWS Production Design ☁️
+# ☁️ Global 3D E-Commerce Platform Architecture — AWS Production Design ☁️
 
 <div align="center">
 
@@ -13,8 +13,8 @@
 </div>
 
 > [!NOTE]
-> **📋 Project:** AWS Global Web Application Production Design  
-> **👨‍💻 Prepared By:** AWS Cloud Architecture Team  
+> **📋 Project:** AWS Global 3D E-Commerce Platform Architecture  
+> **👨‍💻 Prepared By:** AWS Cloud Architecture Mini Team  
 > **🏁 Status:** Production-Ready / Architecture Handover  
 
 ---
