@@ -1,4 +1,4 @@
-# ☁️ Global 3D E-Commerce Platform Architecture — AWS Production Design ☁️
+# ☁️ Global 3D E-Commerce Platform Architecture ☁️
 
 <div align="center">
 
