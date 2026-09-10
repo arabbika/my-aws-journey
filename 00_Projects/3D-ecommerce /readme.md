@@ -14,7 +14,7 @@
 
 > [!NOTE]
 > **📋 Project:** AWS Global 3D E-Commerce Platform Architecture  
-> **👨‍💻 Prepared By:** AWS Cloud Architecture Mini Team  
+> **👨‍💻 Prepared By:** AWS re/Start Cloud Architecture Mini Team  
 > **🏁 Status:** Production-Ready / Architecture Handover  
 
 ---
