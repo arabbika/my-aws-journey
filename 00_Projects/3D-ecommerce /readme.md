@@ -6,8 +6,9 @@
 [![Architecture Diagram](https://img.shields.io/badge/Architecture-Diagram-black?style=for-the-badge&logo=amazonaws)](#architecture-diagram)
 [![Network & Services](https://img.shields.io/badge/Network-Service_Breakdown-orange?style=for-the-badge)](#network-services)
 [![Security](https://img.shields.io/badge/Security-Multi_Layer-red?style=for-the-badge)](#security)
+[![Cost Benefits](https://img.shields.io/badge/Financials-Cost_Benefits-green?style=for-the-badge)](#cost-benefits)
 [![Trade-Offs](https://img.shields.io/badge/Trade_Offs-Design_Decisions-purple?style=for-the-badge)](#trade-offs)
-[![Well-Architected](https://img.shields.io/badge/Framework-Well_Architected-green?style=for-the-badge)](#well-architected)
+[![Well-Architected](https://img.shields.io/badge/Framework-Well_Architected-2ea44f?style=for-the-badge)](#well-architected)
 
 </div>
 
@@ -46,10 +47,19 @@
 
 ---
 
+<a name="cost-benefits"></a>
+## 💰 5. Cost-Benefit & Financial Optimization Analysis
+
+### 💸 CapEx vs. OpEx Transformation
+
+### 📉 Cost Efficiency Pillars
+
+---
+
 <a name="trade-offs"></a>
-## ⚖️ 5. Architectural Trade-Offs & Decisions
+## ⚖️ 6. Architectural Trade-Offs & Decisions
 
 ---
 
 <a name="well-architected"></a>
-## 🏛️ 6. AWS Well-Architected Framework Alignment
+## 🏛️ 7. AWS Well-Architected Framework Alignment
