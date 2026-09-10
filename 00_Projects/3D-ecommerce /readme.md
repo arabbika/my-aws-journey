@@ -52,7 +52,7 @@
 
 ### 💸 CapEx vs. OpEx Transformation
 
-### 📉 Cost Efficiency Pillars
+### 📉 Cost Efficiency Drivers
 
 ---
 
