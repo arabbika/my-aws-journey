@@ -40,6 +40,24 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 <a name="certifications"></a>
 ## 📜 Certifications
 
+
+##### Official Certifications
+##### Click badge to verify on Credly
+
+<table>
+  <tr>
+    <td align="center" width="170" valign="middle">
+      <a href="https://www.credly.com/badges/04e4b5a6-37fc-450c-86fa-c010f89fd9b4" target="_blank" rel="noopener noreferrer">
+        <img src="./Certifications/AWS%20Certified%20AI%20Practitioner%20Badge.png" width="150" alt="AWS Certified AI Practitioner Badge" style="transform: scale(1.15); margin: 10px 0;" />
+      </a>
+      <br /><br />
+      <sub><b>AWS Certified AI Practitioner</b></sub>
+    </td>
+  </tr>
+</table>
+
+---
+
 ##### AWS MicroCredentials
 ##### Click badges to verify on Credly
 
