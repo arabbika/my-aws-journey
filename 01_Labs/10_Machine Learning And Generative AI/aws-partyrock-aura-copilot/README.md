@@ -67,24 +67,25 @@ Aura avoids generic chatbot responses by utilizing role-agnostic behavioral fram
 
 Aura was architected and deployed natively within **AWS PartyRock**, leveraging Amazon Bedrock foundational models underneath a managed serverless graph environment.
 
+```text
 User Input (Web / Mobile)
-│
-▼
-AWS PartyRock Frontend
-│
-▼
-Managed Application Graph
-│
-┌──────────┴──────────┐
-▼                     ▼
+            │
+            ▼
+   AWS PartyRock Frontend
+            │
+            ▼
+    Managed Application Graph
+            │
+ ┌──────────┴──────────┐
+ ▼                     ▼
 Upstream Widget    Downstream Variable Pipelining
 (Brain Dump)       (Role & Friction Detector)
-│
-▼
-Amazon Bedrock Model Foundation
-│
-▼
-Structured Markdown Output (Zero-Stress Execution Plan)
+            │
+            ▼
+    Amazon Bedrock Model Foundation
+            │
+            ▼
+   Structured Markdown Output (Zero-Stress Execution Plan)
 
 
 ### Key Components
