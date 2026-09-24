@@ -18,15 +18,16 @@ To solve this, I designed **Aura**, an interactive generative AI application bui
 
 ### Core Pipeline Flow
 
+```text
 [ Brain Dump Input ]
-│
-▼
+        │
+        ▼
 [ Role & Friction Detector ] (Analyzes underlying domain & emotional drag)
-│
-▼
+        │
+        ▼
 [ Zero-Stress Execution Game Plan ] (Sequences reality map & 3-phase execution loop)
-│
-▼
+        │
+        ▼
 [ Somatic Reset Protocol ] (Physiological grounding & nervous system down-regulation)
 
 ### The Universal Execution Loop
