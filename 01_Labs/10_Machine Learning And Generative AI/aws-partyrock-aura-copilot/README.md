@@ -116,7 +116,7 @@ Want to test-drive Aura yourself?
 
 ### Flow Overview & Widget Configurations
 *Configuring the sequential blocks and markdown prompt structures in PartyRock.*
-![Welcome Widget](images/welcome.png)
+![Welcome Widget](./images/welcome.png)
 ![Role & Friction Detector](images/friction.png)
 ![Zero-Stress Execution Game Plan Widget](images/gameplan.png)
 ![Safe Harbor Privacy Ethos Widget](images/privacy.png)
