@@ -117,8 +117,10 @@ Want to test-drive Aura yourself?
 ### Flow Overview & Widget Configurations
 *Configuring the sequential blocks and markdown prompt structures in PartyRock.*
 ![Welcome Widget](./images/welcome.png)
+![Brain Dump Widget](./images/dump.png)
 ![Role & Friction Detector](images/friction.png)
 ![Zero-Stress Execution Game Plan Widget](images/gameplan.png)
+![Somatic Reset Protocol Widget](images/somatic.png)
 ![Safe Harbor Privacy Ethos Widget](images/privacy.png)
 
 ### Live App Execution & Outputs
@@ -133,7 +135,7 @@ Want to test-drive Aura yourself?
 ![Game Plan Part 2](images/gp2.png)
 ![Game Plan Part 3](images/gp3.png)
 
-![Somatic Reset Protocol Output](images/somatic.png)
+![Somatic Reset Protocol Output](images/somaticlive.png)
 ---
 
 ## Final Reflection
