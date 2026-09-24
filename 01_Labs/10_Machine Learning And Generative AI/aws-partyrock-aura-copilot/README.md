@@ -51,7 +51,7 @@ Building a deterministic workflow inside a generative playground requires strict
 ### Responsible AI Principles
 * **Burnout Protection:** Built-in hard boundaries that explicitly tell users when to stop working, archive automated noise, and close the laptop.
 * **Context Agnosticism:** Stripped out generic advice to ensure the AI adapts to the user's actual physical constraints (e.g., deadline physics vs. perceived urgency).
-~~~
+
 ---
 
 ## 4. Generative AI Approach & Prompt Engineering
@@ -95,6 +95,7 @@ Upstream Widget    Downstream Variable Pipelining
 * **Amazon Bedrock Foundation Models:** Powers contextual understanding, multi-domain reasoning, and structured markdown generation.
 * **Widget-to-Widget Data Pipelining:** Connects distinct text blocks securely using UI variable pickers.
 
+```
 ---
 
 ## 6. Live App & Demonstration
