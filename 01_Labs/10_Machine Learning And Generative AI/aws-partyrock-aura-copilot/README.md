@@ -171,7 +171,6 @@ Want to test-drive Aura yourself?
 <br>
 <p><b>Live Prompt - Zero-stress Execution Game Plan 3</b></p>
 <img src="https://raw.githubusercontent.com/arabbika/my-aws-journey/main/01_Labs/10_Machine%20Learning%20And%20Generative%20AI/aws-partyrock-aura-copilot/images/Live%20Prompt%20-%20Zero-stress%20Execution%20Game%20Plan3.PNG" alt="Live Prompt - Zero-stress Execution Game Plan 3" width="100%">
-
 ---
 
 ## Final Reflection
