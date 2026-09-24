@@ -112,7 +112,7 @@ Want to test-drive Aura yourself?
 
 ### Flow Architecture Canvas
 *A clean visual representation of the multi-block pipeline connecting input to execution.*
-![Flow Architecture Canvas](./images/Flow.png)
+![Flow Architecture Canvas](01_Labs/10_Machine Learning And Generative AI/aws-partyrock-aura-copilot/images/Flow.png)
 
 ### Flow Overview & Widget Configurations
 *Configuring the sequential blocks and markdown prompt structures in PartyRock.*
