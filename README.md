@@ -139,16 +139,6 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 
 ---
 
-<a name="program-validation"></a>
-## 🛡️ AWS re/Start Program Validation
-
-Professional-in-training in the AWS re/Start program, this repository contains the validated technical evidence of my core competencies.
-
-* **Total Knowledge Check Score:** 6,860.00 / 6,900.00 (99.42%)
-* **Lab Completion Rate:** 100%
-* **Core Competency Domains:** Cloud Economics, Linux Administration, Security Governance, Storage Architecture, and DevOps Automation.
-
----
 
 <a name="repository-structure"></a>
 ## 🗂️ Repository Architecture
