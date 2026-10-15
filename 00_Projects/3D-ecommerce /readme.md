@@ -25,7 +25,7 @@
 ## 📋 1. Executive Summary
 
 ### 🎯 Architecture Core Goals & Business Case
-Our team is launching a next-generation 3D e-commerce platform specializing in **EcoFlow Portable Power & Solar Systems**. We chose this product line because severe weather and power grid instability are global phenomena (hurricanes in the US, typhoons in Asia, load-shedding in Africa, winter storms in Europe). 
+Our team is launching a next-generation 3D e-commerce platform specializing in **EcoFlow Portable Power & Solar Systems**. We chose this product line because severe weather and power grid instability are global phenomena intensified by the **2026 El Niño** (hurricanes in the US, typhoons in Asia, load-shedding in Africa, winter storms in Europe). 
 
 When outages hit, they trigger sudden, unpredictable traffic surges from panicked buyers. Furthermore, high-ticket battery spec sheets and heavy solar manuals require real bandwidth. This business case perfectly justifies our need for AWS Auto Scaling, heavy S3/CloudFront asset caching, and AWS WAF bot defense for high-value orders. 
 
@@ -43,6 +43,7 @@ Our architecture meets five core requirements:
 
 ![EcoFlow Global Architecture Diagram](path-to-your-diagram.png)
 
+**Diagram Summary:**
 The architecture features a global edge layer (Route 53, CloudFront, S3) routing users to two active AWS Regions: **Region A (US-East-1 Primary)** and **Region B (EU-West-1 Secondary)**. Both regions contain identical, highly available VPC setups across two Availability Zones, protected by AWS WAF & Shield and fronted by Application Load Balancers. Data is replicated globally across Aurora, DynamoDB, and ElastiCache. An event-driven layer (**EventBridge + Lambda**) manages pre-warming based on external triggers like **Storm/Weather alerts**.
 
 ---
@@ -147,17 +148,8 @@ Our team's design is optimally prepared for this scenario:
 | **Sustainability** | Auto-scaling reduces idle resources, and managed services optimize energy efficiency in AWS data centers. |
 
 ---
-*End of Document*
+
 
 ---
 
-### 📝 Appendix: Diagram Edit Suggestions (For your team's final image)
-To make your diagram 100% aligned with this document, update the text labels in your image as follows:
-1. **Title:** Add "EcoFlow 3D E-Commerce Platform" at the top.
-2. **S3 Box:** Change to "3D Models, Solar Manuals & Spec Sheets".
-3. **CloudFront Box:** Change to "Global Edge Caching (3D Assets & Heavy Manuals)".
-4. **WAF & Shield Box:** Add "Bot Defense for Scalper Bots".
-5. **Lambda Box (Event-Driven):** Change to "Triggers ASG Pre-warming & Cache Warming".
-6. **Aurora (Secondary Region):** Change "(Read/Write)" to "(Read-Only / Failover)" for technical accuracy.
-7. **EventBridge Box:** Add "El Niño 2026 Triggers" below "Storm/Weather alerts".
-8. **Management Layer:** Draw a dotted box around CloudWatch, Trusted Advisor, IAM, and MFA labeled "Management & Governance (Applies to All Regions)".
+All Regions)".
