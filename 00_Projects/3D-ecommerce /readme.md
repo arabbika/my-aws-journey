@@ -149,6 +149,4 @@ Our team's design is optimally prepared for this scenario:
 ---
 
 
----
 
-All Regions)".
