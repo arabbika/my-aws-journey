@@ -42,9 +42,7 @@ Our architecture meets five core requirements:
 ## ⚡ 2. High-Level Architecture Diagram
 
 ![EcoFlow Global Architecture Diagram](path-to-your-diagram.png)
-*(Note: Insert your team's diagram `99fcdf71-f550-41c7-8467-901215cbf675` here)*
 
-**Diagram Summary:**
 The architecture features a global edge layer (Route 53, CloudFront, S3) routing users to two active AWS Regions: **Region A (US-East-1 Primary)** and **Region B (EU-West-1 Secondary)**. Both regions contain identical, highly available VPC setups across two Availability Zones, protected by AWS WAF & Shield and fronted by Application Load Balancers. Data is replicated globally across Aurora, DynamoDB, and ElastiCache. An event-driven layer (**EventBridge + Lambda**) manages pre-warming based on external triggers like **Storm/Weather alerts**.
 
 ---
