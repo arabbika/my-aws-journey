@@ -16,8 +16,7 @@
 
 > [!NOTE]
 > **📋 Project:** AWS Global 3D E-Commerce Platform Architecture (EcoFlow Power & Solar)  
-> **👨‍💻 Prepared By:** AWS re/Start Cloud Architecture Mini Team  
-> **🏁 Status:** Production-Ready / Architecture Handover  
+> **👨‍💻 Prepared By:** AWS re/Start Cloud Architecture Mini Team   
 
 ---
 
