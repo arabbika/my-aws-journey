@@ -6,7 +6,6 @@
 [![Leadership](https://img.shields.io/badge/LEADERSHIP-EXCELLENCE-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](#operational-excellence)
 [![Certifications](https://img.shields.io/badge/AWS-CERTIFICATIONS-E50914?style=for-the-badge&logo=awslambda&logoColor=white)](#certifications)
 [![Technical Labs](https://img.shields.io/badge/LABS-SIMULATIONS-2EA44F?style=for-the-badge&logo=github&logoColor=white)](#technical-simulations)
-[![Validation](https://img.shields.io/badge/RE/START-VALIDATION-70B500?style=for-the-badge&logo=securityscorecard&logoColor=white)](#program-validation)
 [![Architecture](https://img.shields.io/badge/REPO-STRUCTURE-8A2BE2?style=for-the-badge&logo=files&logoColor=white)](#repository-structure)
 
 </div>
@@ -21,7 +20,7 @@ Welcome to my Cloud Engineering Portfolio! This repository showcases my technica
 I am a technical builder, analytics specialist, and data architect with a proven track record of engineering impact:
 
 * **Enterprise Operations SME:** Top Performer at Amazon Virtual Customer Service (VCS), maintaining elite delivery metrics in high-volume environments. Engineered automated team performance dashboards widely adopted across VCS teams.
-* **AI & Product Founder:** Lead Engineer of live, self-funded AI ventures including **HiRiseAboveBot** (a production WhatsApp-native, AI tutoring platform built using Flask and custom Python environments).
+* **AI & Product Founder:** Lead Engineer of live, self-funded AI ventures including **CV Architect™** and **HiRiseAboveBot** (a production WhatsApp-native, AI tutoring platform built using Flask and custom Python environments).
 * **Cloud Strategy:** AWS-focused professional in-training specializing in robust cloud infrastructure, containerized ecosystems, and automated systems architecture.
 
 ---
@@ -136,9 +135,9 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 | :--- | :--- | :--- |
 | ☁️ **[AWS Cloud Migration Proposal](./00_Projects/Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits)** | `S3` `Cognito` `DynamoDB` `Lambda` `SNS` | Serverless transformation of manual operational workflows. Delivered static hosting, Cognito auth, and a **30% reduction** in operational costs. |
 | 🤖 **[HiRiseAboveBot — AI Engine](./00_Projects/HiRiseAboveBot)** | `Python` `Flask` `xAI Grok-4` `Tesseract OCR` `Twilio` | Live, production WhatsApp-native AI tutor for CAPS/IEB students. Features multi-modal OCR image processing, dynamic LaTeX rendering, and gTTS audio lesson generation. |
+| 🧠 **[Aura AI — Life & Task Co-Pilot](https://github.com/arabbika/my-aws-journey/tree/21bc4bd30e348944001e9e0927b3b76245527dfc/01_Labs/10_Machine%20Learning%20And%20Generative%20AI/aws-partyrock-aura-copilot)** | `AWS PartyRock` `Amazon Bedrock` `Claude Sonnet` | Multi-block generative AI application designed to neutralize cognitive gridlock. Features prompt-chained sequential blocks for role analysis, zero-stress game planning, and somatic grounding. |
 
 ---
-
 
 <a name="repository-structure"></a>
 ## 🗂️ Repository Architecture
