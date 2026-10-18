@@ -6,6 +6,7 @@
 [![Leadership](https://img.shields.io/badge/LEADERSHIP-EXCELLENCE-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](#operational-excellence)
 [![Certifications](https://img.shields.io/badge/AWS-CERTIFICATIONS-E50914?style=for-the-badge&logo=awslambda&logoColor=white)](#certifications)
 [![Technical Labs](https://img.shields.io/badge/LABS-SIMULATIONS-2EA44F?style=for-the-badge&logo=github&logoColor=white)](#technical-simulations)
+[![Featured Projects](https://img.shields.io/badge/FEATURED-PROJECTS-FF5733?style=for-the-badge&logo=github&logoColor=white)](#featured-projects)
 [![Architecture](https://img.shields.io/badge/REPO-STRUCTURE-8A2BE2?style=for-the-badge&logo=files&logoColor=white)](#repository-structure)
 
 </div>
@@ -133,6 +134,7 @@ I integrate AWS Leadership Principles and professional methodologies into my tec
 
 | Project | Core Stack | Key Outcomes & Architecture |
 | :--- | :--- | :--- |
+| ⚡ **[Global 3D E-Commerce Platform](https://github.com/arabbika/my-aws-journey/blob/2020bfe4d0730c78df148460c4d08112a5959737/00_Projects/3D-ecommerce%20/readme.md)** | `Route 53` `CloudFront` `Aurora Global` `DynamoDB` `Lambda` | Multi-region resilient e-commerce architecture specialized for EcoFlow solar systems, featuring event-driven storm pre-warming and bot defense for extreme weather surges. |
 | ☁️ **[AWS Cloud Migration Proposal](./00_Projects/Project_1_Building_a_Static_Website_and_Presenting_AWS_Migration_Benefits)** | `S3` `Cognito` `DynamoDB` `Lambda` `SNS` | Serverless transformation of manual operational workflows. Delivered static hosting, Cognito auth, and a **30% reduction** in operational costs. |
 | 🤖 **[HiRiseAboveBot — AI Engine](./00_Projects/HiRiseAboveBot)** | `Python` `Flask` `xAI Grok-4` `Tesseract OCR` `Twilio` | Live, production WhatsApp-native AI tutor for CAPS/IEB students. Features multi-modal OCR image processing, dynamic LaTeX rendering, and gTTS audio lesson generation. |
 | 🧠 **[Aura AI — Life & Task Co-Pilot](https://github.com/arabbika/my-aws-journey/tree/21bc4bd30e348944001e9e0927b3b76245527dfc/01_Labs/10_Machine%20Learning%20And%20Generative%20AI/aws-partyrock-aura-copilot)** | `AWS PartyRock` `Amazon Bedrock` `Claude Sonnet` | Multi-block generative AI application designed to neutralize cognitive gridlock. Features prompt-chained sequential blocks for role analysis, zero-stress game planning, and somatic grounding. |
