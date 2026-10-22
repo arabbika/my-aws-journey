@@ -1,4 +1,5 @@
-# Ashana R | Data, Business Analysis & AI
+# <h1 align="center"> Ashana R | Data, Business Analysis & AI</h1>
+
 
 <div align="center">
 
