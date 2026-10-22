@@ -155,12 +155,11 @@ Serverless architecture proposal to transform manual operational workflows — d
 
 ### AWS Microcredentials
 *Click badges to verify*
-
 <table>
   <tr>
     <td align="center" width="200">
       <a href="https://www.credly.com/badges/e9eef2ce-df12-41ef-abce-202dec02ffab" target="_blank">
-        <img src="./Certifications/Cloud%20Practitioner%20-%20Microcredential%20Training%20Badge.png" width="130" alt="AWS Cloud Quest Training" />
+        <img src="./Certifications/Cloud%20Practitioner%20-%20Microcredential%20Training%20Badge.png" height="130" alt="AWS Cloud Quest Training" />
       </a>
       <br /><br />
       <b>Cloud Practitioner</b>
@@ -169,7 +168,7 @@ Serverless architecture proposal to transform manual operational workflows — d
     </td>
     <td align="center" width="200">
       <a href="https://www.credly.com/badges/bc7e00b8-6752-4c2a-aaf7-3bc0b1f48e71/public_url" target="_blank">
-        <img src="./Certifications/AI%20Practitioner%20-%20Microcredential%20Training%20Badge.png" width="130" alt="AWS SimuLearn AI Practitioner" />
+        <img src="./Certifications/AI%20Practitioner%20-%20Microcredential%20Training%20Badge.png" height="130" alt="AWS SimuLearn AI Practitioner" />
       </a>
       <br /><br />
       <b>AI Practitioner</b>
@@ -179,12 +178,7 @@ Serverless architecture proposal to transform manual operational workflows — d
   </tr>
 </table>
 
-### Additional Training
-| Certificate | Provider |
-|-------------|----------|
-| Statistical Thinking for Data Science | ColumbiaX (edX) |
-| Leadership: Foundational Principles | HarvardX (edX) |
-| Diploma in Programming | Damelin Computer School |
+
 
 ---
 
