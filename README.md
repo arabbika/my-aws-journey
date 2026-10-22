@@ -1,16 +1,15 @@
-# ☁️Ashana Rabbikanth | AWS Cloud & AI Portfolio☁️
+# 📊 Ashana Rabbikanth | Data, Business Analysis & AI
 
 <div align="center">
 
-**Business Systems Analyst → Cloud Engineer**  
-*Bridging enterprise operations expertise with cloud-native architecture*
+**Business Systems Analyst | Data Analytics | AI Solutions**  
+*Turning operational complexity into clear data, automated workflows, and practical AI tools.*
 
-[![AWS Certified](https://img.shields.io/badge/AWS-Certified%20AI%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://www.credly.com/badges/04e4b5a6-37fc-450c-86fa-c010f89fd9b4)
-[![AWS re/Start](https://img.shields.io/badge/AWS-re%2FStart%20Cloud%20Practitioner-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)]()
-[![Location](https://img.shields.io/badge/📍-Durban%2C%20South%20Africa-0078D4?style=for-the-badge)]()
-[![Open to Work](https://img.shields.io/badge/💼-Open%20to%20Cloud%20Roles-2EA44F?style=for-the-badge)]()
+[![AWS Certified AI Practitioner](https://img.shields.io/badge/AWS-Certified%20AI%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](https://www.credly.com/badges/04e4b5a6-37fc-450c-86fa-c010f89fd9b4)
+[![Open to Work](https://img.shields.io/badge/💼-Open%20to%20Data%20%26%20BA%20Roles-2EA44F?style=for-the-badge)]()
+[![Location](https://img.shields.io/badge/📍-Durban%2C%20South%20Africa%20%7C%20Remote-0078D4?style=for-the-badge)]()
 
-[About](#-about-me) • [Certifications](#-certifications) • [Projects](#-featured-projects) • [Labs](#-hands-on-labs) • [Connect](#-connect-with-me)
+[About](#-about-me) • [Skills](#-core-skills) • [Projects](#-featured-projects) • [Certifications](#-certifications) • [Labs](#-learning-lab-aws-restart) • [Connect](#-connect-with-me)
 
 </div>
 
@@ -18,21 +17,91 @@
 
 ## 👤 About Me
 
-I'm a **technical builder and systems thinker** transitioning from enterprise operations into cloud engineering. Currently completing the **AWS re/Start Cloud Practitioner program** (expected 2026), I combine real-world business systems experience with hands-on AWS skills to design practical, scalable cloud solutions.
+I'm a **Business Systems Analyst and Data Specialist** with a proven record of turning messy operational data into dashboards, models, and automations that people actually use. My background spans banking systems, customer analytics, and enterprise operations — and I'm now extending that foundation with hands-on **AI and cloud data tooling** through AWS re/Start and AWS AI Practitioner certification.
 
 ### What I Bring
 
-| Domain | Experience |
-|--------|------------|
-| **Enterprise Operations** | Top 5% performer at Amazon VCS (60 months). Built performance dashboards adopted by 200+ agents across 10 teams. |
-| **Data & Analytics** | Former Data Analyst at Liberty Group. Built customer segmentation models on 50K+ records. Delivered 150+ freelance automation projects. |
-| **AI Development** | Lead Engineer of live AI products including **HiRiseAboveBot** (WhatsApp AI tutor, 200+ users) and **CV Architect™**. |
-| **Cloud Engineering** | AWS Certified AI Practitioner. Building proficiency in serverless architecture, VPC networking, IAM security, and infrastructure automation. |
+| Domain | Experience & Impact |
+|--------|---------------------|
+| **Business Analysis** | Requirements gathering, process improvement, stakeholder management, and KPI reporting across banking and enterprise operations. |
+| **Data Analytics** | Built customer segmentation and cross-sell models at Liberty Group on a 50K-record base. Delivered 150+ freelance data, reporting, and automation projects across 4 countries. |
+| **Operations & Reporting** | Designed a 4-week rolling **Performance Scorecard** adopted by 200+ agents across 10 Amazon VCS teams. Top 5% network performer for FCR, ACHT, and Quality across 60 months. |
+| **Automation** | Built Python and Excel automation tools that cut clients' manual reporting time by an average of **60%**. |
+| **AI Solutions** | Lead developer of live AI products including **HiRiseAboveBot** (WhatsApp AI tutor, 200+ users) and **CV Architect™**. AWS Certified AI Practitioner. |
 
 ### Currently Learning
-- 🔄 **AWS re/Start** – Cloud Practitioner certification track
-- 🔄 **Amazon Bedrock** – Generative AI application development
-- 🔄 **Infrastructure as Code** – CloudFormation and Terraform fundamentals
+- 🔄 **AWS re/Start** – Cloud Practitioner track (expected 2026) — building data-relevant cloud skills: S3, DynamoDB, Lambda, IAM, and serverless data pipelines
+- 🔄 **Amazon Bedrock & Generative AI** – Prompt engineering, guardrails, and LLM-backed assistants
+- 🔄 **SQL & Python for Analytics** – Continuing applied practice through hands-on labs
+
+---
+
+## 🧩 Core Skills
+
+**Data & Analytics**  
+`SQL` `Python` `Data Mining` `Custom Reporting` `Customer Segmentation` `Cross-Sell Modelling`
+
+**Business Analysis**  
+`Requirements Gathering` `Process Improvement` `Stakeholder Management` `KPI Reporting` `User Training & Onboarding`
+
+**Excel & Data Modelling**  
+`Power Query (ETL)` `Power Pivot` `DAX` `Dynamic Arrays` `XLOOKUP` `Slicer Dashboards`
+
+**AI & Automation**  
+`Generative AI` `LLM APIs (xAI Grok, Bedrock/Claude)` `Prompt Engineering` `Tesseract OCR` `Twilio API` `Flask`
+
+**Cloud & Systems (supporting)**  
+`AWS S3` `DynamoDB` `Lambda` `Cognito` `SNS` `SAP Bank Analyzer` `Core Banking Configuration`
+
+**Compliance & Domain Knowledge**  
+`Basel II` `NCA` `IAS` `Banking Systems` `Escalation Management` `FCR & ACHT Optimisation`
+
+---
+
+## 🚀 Featured Projects
+
+> 📁 **[Browse Full Projects Directory →](./00_Projects)**
+
+### 📊 Performance Scorecard — Amazon VCS
+**Stack:** `Excel` `Power Query` `DAX` `Data Modelling`
+
+Designed and built a 4-week rolling performance dashboard that consolidated key operational metrics into a single self-coaching view for agents. Rolled out to **200+ agents across 10 VCS teams**.
+
+**Impact:**
+- Enabled agent self-coaching and reduced manager reporting overhead
+- Contributed to top 5% network ranking for FCR, ACHT, and Quality across 60 months
+- Adopted as a standard reporting tool across multiple teams
+
+---
+
+### 🤖 HiRiseAboveBot — WhatsApp AI Tutor
+**Stack:** `Python` `Flask` `xAI Grok-4` `Tesseract OCR` `Twilio API` `gTTS`
+
+Live production AI tutoring platform serving CAPS/IEB students in low-bandwidth communities. No app needed — works entirely through WhatsApp.
+
+**Features:**
+- 📸 OCR processing for photographed questions
+- 📐 Dynamic LaTeX math rendering
+- 🔊 Generated audio lessons via gTTS
+- 📱 200+ students on free trial
+
+**Impact:** Digital inclusion for students with limited data access.
+
+---
+
+### 🧠 Aura AI — Life & Task Co-Pilot
+**Stack:** `AWS PartyRock` `Amazon Bedrock` `Claude Sonnet`
+
+Multi-block generative AI application designed to neutralize cognitive gridlock through prompt-chained sequential blocks: role analysis, zero-stress game planning, and somatic grounding.
+
+[🔗 View Live App](https://github.com/arabbika/my-aws-journey/tree/21bc4bd30e348944001e9e0927b3b76245527dfc/01_Labs/10_Machine%20Learning%20And%20Generative%20AI/aws-partyrock-aura-copilot)
+
+---
+
+### ☁️ AWS Cloud Migration Proposal
+**Stack:** `S3` `Cognito` `DynamoDB` `Lambda` `SNS`
+
+Serverless architecture proposal to transform manual operational workflows — delivered static hosting, authentication, and event-driven notifications. Demonstrated a **30% potential reduction** in operational costs through automation.
 
 ---
 
@@ -90,70 +159,11 @@ I'm a **technical builder and systems thinker** transitioning from enterprise op
 
 ---
 
-## 🚀 Featured Projects
-
-> 📁 **[Browse Full Projects Directory →](./00_Projects)**
-
-### ☁️ AWS Cloud Migration Proposal
-**Stack:** `S3` `Cognito` `DynamoDB` `Lambda` `SNS`
-
-Designed a serverless architecture to transform manual operational workflows. Delivered static website hosting with authentication and notification systems, demonstrating a **30% potential reduction** in operational costs through automation.
-
-**Key Deliverables:**
-- Static site hosting with S3 + CloudFront
-- User authentication via Cognito
-- Serverless backend with Lambda + DynamoDB
-- Event-driven notifications with SNS
-
----
-
-### 🤖 HiRiseAboveBot — WhatsApp AI Tutor
-**Stack:** `Python` `Flask` `xAI Grok-4` `Tesseract OCR` `Twilio API` `gTTS`
-
-Live production AI tutoring platform serving CAPS/IEB students in low-bandwidth communities. No app required — works entirely through WhatsApp.
-
-**Features:**
-- 📸 OCR processing for photographed questions
-- 📐 Dynamic LaTeX math rendering
-- 🔊 Generated audio lessons via gTTS
-- 📱 200+ students on free trial
-
-**Impact:** Digital inclusion for students with limited data access.
-
----
-
-### 🧠 Aura AI — Life & Task Co-Pilot
-**Stack:** `AWS PartyRock` `Amazon Bedrock` `Claude Sonnet`
-
-Multi-block generative AI application designed to neutralize cognitive gridlock through prompt-chained sequential blocks.
-
-**Blocks:**
-1. Role analysis and priority mapping
-2. Zero-stress game planning
-3. Somatic grounding techniques
-
-[🔗 View Live App](https://github.com/arabbika/my-aws-journey/tree/21bc4bd30e348944001e9e0927b3b76245527dfc/01_Labs/10_Machine%20Learning%20And%20Generative%20AI/aws-partyrock-aura-copilot)
-
----
-
-## ⚙️ Hands-On Labs
+## 🧪 Learning Lab (AWS re/Start)
 
 > 📁 **[Explore All Lab Directories →](./01_Labs)**
 
-Curated lab work organized by AWS Well-Architected Framework domains:
-
-| Domain | Topics Covered |
-|--------|----------------|
-| **Compute** | EC2 provisioning, sizing, auto-scaling |
-| **Networking** | VPC design, subnets, routing, security groups |
-| **Security** | IAM policies, least privilege, data protection |
-| **Databases** | RDS, Aurora, DynamoDB operations |
-| **Storage** | S3 lifecycle, EBS, EFS management |
-| **Serverless** | Lambda functions, API Gateway, containers |
-| **DevOps** | CloudFormation, automation scripts |
-| **Linux** | OS administration, shell scripting |
-| **Monitoring** | CloudWatch metrics, logging, alerting |
-| **AI/ML** | Bedrock, SageMaker, generative AI applications |
+Hands-on labs completed as part of my **AWS re/Start Cloud Practitioner track** (expected 2026). These labs build the cloud data and AI skills that support my analytics and business analysis work — covering storage, databases, security, and generative AI tooling.
 
 ### AWS Cloud Practitioner SimuLearn
 | Module | Module |
@@ -173,6 +183,16 @@ Curated lab work organized by AWS Well-Architected Framework domains:
 | [Generate Code for a Webpage](./Certifications/Generate%20Code%20for%20a%20Webpage.png) | [Get Started with Generative AI](./Certifications/Get%20Started%20with%20Generative%20AI.png) |
 | [Secure Conversational AI with Guardrails](./Certifications/Secure%20Conversational%20AI%20with%20Guardrails.png) | [Use AI services with SageMaker](./Certifications/Use%20AI%20services%20with%20Amazon%20SageMaker.png) |
 
+### Lab Domains Covered
+| Domain | Relevance |
+|--------|-----------|
+| **Databases** | RDS, Aurora, DynamoDB — query and model data in cloud environments |
+| **Storage** | S3, EBS, EFS — structuring and managing data at scale |
+| **Security** | IAM, least privilege, data protection — governance for sensitive data |
+| **AI/ML** | Bedrock, SageMaker — building AI data applications |
+| **Compute & Serverless** | Lambda — automating data workflows |
+| **Networking & Monitoring** | VPC, CloudWatch — observability for data pipelines |
+
 ---
 
 ## 🗂️ Repository Structure
@@ -181,7 +201,7 @@ Curated lab work organized by AWS Well-Architected Framework domains:
 📂 my-aws-journey/
 │
 ├── 📁 Certifications/     # Verified badges and certificates
-├── 📁 01_Labs/            # Hands-on labs by AWS domain
+├── 📁 01_Labs/            # Hands-on labs (AWS re/Start track)
 │   ├── 02_Networking/
 │   ├── 03_Security/
 │   ├── 04_Compute/
@@ -189,7 +209,7 @@ Curated lab work organized by AWS Well-Architected Framework domains:
 │   ├── 06_Databases/
 │   ├── 10_Machine Learning And Generative AI/
 │   └── ...
-├── 📁 00_Projects/        # Full project implementations
+├── 📁 00_Projects/        # Portfolio projects
 │   ├── Project_1_Building_a_Static_Website/
 │   └── HiRiseAboveBot/
 └── 📄 README.md           # Portfolio overview
