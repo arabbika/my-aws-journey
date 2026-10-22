@@ -32,7 +32,7 @@ I'm a **Business Systems Analyst and Data Specialist** with a proven record of t
 | **Data Analytics** | Built customer segmentation and cross-sell models at Liberty Group on a 50K-record base. Delivered 150+ freelance data, reporting, and automation projects across 4 countries. |
 | **Operations & Reporting** | Designed a 4-week rolling **Performance Scorecard** adopted by 200+ agents across 10 Amazon VCS teams. Top 5% network performer for FCR, ACHT, and Quality across 60 months. |
 | **Automation** | Built Python and Excel automation tools that cut clients' manual reporting time by an average of **60%**. |
-| **AI Solutions** | Lead developer of live AI products including **HiRiseAboveBot** (WhatsApp AI tutor, 200+ users) and **CV Architect™**. AWS Certified AI Practitioner. |
+| **AI Solutions** | Lead developer of live AI products including **HiRiseAboveBot** (WhatsApp AI tutor, 200+ users) |
 
 ### Currently Learning
 - 🔄 **AWS re/Start** – Cloud Practitioner track (expected 2026) — building data-relevant cloud skills: S3, DynamoDB, Lambda, IAM, and serverless data pipelines
