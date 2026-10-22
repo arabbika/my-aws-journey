@@ -80,7 +80,7 @@ Designed and built a 4-week rolling performance dashboard that consolidated key 
 
 ---
 
-### 🤖 HiRiseAboveBot — WhatsApp AI Tutor
+### 🤖 HiRiseAboveBot — WhatsApp AI Tutor - Community Impact | Digital Inclusion
 **Stack:** `Python` `Flask` `xAI Grok-4` `Tesseract OCR` `Twilio API` `gTTS`
 
 Live production AI tutoring platform serving CAPS/IEB students in low-bandwidth communities. No app needed — works entirely through WhatsApp.
