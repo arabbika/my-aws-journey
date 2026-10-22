@@ -60,8 +60,6 @@ I'm a **Business Systems Analyst and Data Specialist** with a proven record of t
 **Cloud & Systems (supporting)**  
 `AWS S3` `DynamoDB` `Lambda` `Cognito` `SNS` `SAP Bank Analyzer` `Core Banking Configuration`
 
-**Compliance & Domain Knowledge**  
-`Basel II` `NCA` `IAS` `Banking Systems` `Escalation Management` `FCR & ACHT Optimisation`
 
 ---
 
