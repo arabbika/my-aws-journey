@@ -1,4 +1,4 @@
-# 📊 Ashana Rabbikanth | Data, Business Analysis & AI
+# Ashana Rabbikanth | Data, Business Analysis & AI
 
 <div align="center">
 
