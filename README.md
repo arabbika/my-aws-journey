@@ -63,7 +63,7 @@ I'm a **Business Systems Analyst and Data Specialist** with a proven record of t
 
 ---
 
-## 🚀 Featured Projects
+## 🔬 Featured Projects
 
 > 📁 **[Browse Full Projects Directory →](./00_Projects)**
 
@@ -133,7 +133,7 @@ Serverless architecture proposal to transform manual operational workflows — d
 
 ---
 
-## 🏆 Certifications
+## 🎓 Certifications
 
 ### Official AWS Certifications
 *Click badge to verify on Credly*
