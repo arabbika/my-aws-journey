@@ -9,7 +9,12 @@
 [![Open to Work](https://img.shields.io/badge/💼-Open%20to%20Data%20%26%20BA%20Roles-2EA44F?style=for-the-badge)]()
 [![Location](https://img.shields.io/badge/📍-Durban%2C%20South%20Africa%20%7C%20Remote-0078D4?style=for-the-badge)]()
 
-[About](#-about-me) • [Skills](#-core-skills) • [Projects](#-featured-projects) • [Certifications](#-certifications) • [Labs](#-learning-lab-aws-restart) • [Connect](#-connect-with-me)
+[![About](https://img.shields.io/badge/About-0078D4?style=for-the-badge)](#-about-me)
+[![Skills](https://img.shields.io/badge/Skills-2EA44F?style=for-the-badge)](#-core-skills)
+[![Projects](https://img.shields.io/badge/Projects-FF9900?style=for-the-badge)](#-featured-projects)
+[![Certifications](https://img.shields.io/badge/Certifications-E50914?style=for-the-badge)](#-certifications)
+[![Labs](https://img.shields.io/badge/Labs-8A2BE2?style=for-the-badge)](#-learning-lab-aws-restart)
+[![Connect](https://img.shields.io/badge/Connect-0077B5?style=for-the-badge)](#-connect-with-me)
 
 </div>
 
