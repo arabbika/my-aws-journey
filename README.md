@@ -155,12 +155,6 @@ Serverless architecture proposal to transform manual operational workflows — d
   </tr>
 </table>
 
-### Additional Training
-| Certificate | Provider |
-|-------------|----------|
-| Statistical Thinking for Data Science | ColumbiaX (edX) |
-| Leadership: Foundational Principles | HarvardX (edX) |
-| Diploma in Programming | Damelin Computer School |
 
 ---
 
